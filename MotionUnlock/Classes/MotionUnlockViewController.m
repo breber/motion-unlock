@@ -75,6 +75,12 @@
 }
 
 
+- (void) testMethod:(id)sender
+{
+	[x setText:@"Hello"];
+}
+
+
 - (void)dealloc {
     [super dealloc];
 }
