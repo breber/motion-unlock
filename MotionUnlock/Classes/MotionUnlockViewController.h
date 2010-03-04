@@ -8,13 +8,21 @@
 
 #import <UIKit/UIKit.h>
 
-@interface MotionUnlockViewController : UIViewController <UIAccelerometerDelegate> {
+@interface MotionUnlockViewController : UIViewController <UIAccelerometerDelegate>{
 
 	UIAccelerometer *accelerometer;
+	
+	IBOutlet UIButton *toggle;
+	
+	IBOutlet UITextField *x;
+	IBOutlet UITextField *y;
+	IBOutlet UITextField *z;
 	
 }
 
 @property (nonatomic, retain) UIAccelerometer *accelerometer;
+
+- (void) testMethod:(id)sender;
 
 
 @end
