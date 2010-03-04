@@ -59,9 +59,13 @@
  */
 -(void)accelerometer:(UIAccelerometer *)accelerometer didAccelerate:(UIAcceleration *)acceleration
 {
-	[x setText:@"%f", acceleration.x];
-	[y setText:@"%f", acceleration.y];
-	[z setText:@"%f", acceleration.z];
+	NSString *xVal = [NSString stringWithFormat:@"%f", acceleration.x];
+	NSString *yVal = [NSString stringWithFormat:@"%f", acceleration.y];
+	NSString *zVal = [NSString stringWithFormat:@"%f", acceleration.z];
+
+	[x setText: xVal];
+	[y setText: yVal];
+	[z setText: zVal];
 	
 	NSLog(@"%f, %f, %f", acceleration.x,acceleration.y,acceleration.z);
 }
