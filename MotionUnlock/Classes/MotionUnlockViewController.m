@@ -86,6 +86,10 @@
 - (void) testMethod:(id)sender
 {
 	[x setText:@"Hello"];
+	
+	[y setText:@"World"];
+	
+	[z setText:@"What's Up?"];
 }
 
 
