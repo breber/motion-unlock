@@ -2,16 +2,16 @@
 {
 	1D3623240D0F684500981E51 /* MotionUnlockAppDelegate.h */ = {
 		uiCtxt = {
-			sepNavIntBoundsRect = "{{0, 0}, {1011, 341}}";
-			sepNavSelRange = "{509, 0}";
-			sepNavVisRange = "{0, 516}";
+			sepNavIntBoundsRect = "{{0, 0}, {1011, 387}}";
+			sepNavSelRange = "{365, 0}";
+			sepNavVisRange = "{0, 518}";
 		};
 	};
 	1D3623250D0F684500981E51 /* MotionUnlockAppDelegate.m */ = {
 		uiCtxt = {
 			sepNavIntBoundsRect = "{{0, 0}, {1011, 442}}";
 			sepNavSelRange = "{545, 0}";
-			sepNavVisRange = "{162, 488}";
+			sepNavVisRange = "{53, 597}";
 		};
 	};
 	1D6058900D05DD3D006BFB54 /* MotionUnlock */ = {
@@ -22,22 +22,23 @@
 	};
 	28D7ACF60DDB3853001CB0EB /* MotionUnlockViewController.h */ = {
 		uiCtxt = {
-			sepNavIntBoundsRect = "{{0, 0}, {1011, 364}}";
-			sepNavSelRange = "{309, 0}";
-			sepNavVisRange = "{0, 385}";
+			sepNavIntBoundsRect = "{{0, 0}, {1011, 390}}";
+			sepNavSelRange = "{420, 0}";
+			sepNavVisRange = "{0, 527}";
 		};
 	};
 	28D7ACF70DDB3853001CB0EB /* MotionUnlockViewController.m */ = {
 		uiCtxt = {
-			sepNavIntBoundsRect = "{{0, 0}, {663, 1183}}";
-			sepNavSelRange = "{1142, 0}";
-			sepNavVisRange = "{1005, 439}";
+			sepNavIntBoundsRect = "{{0, 0}, {1011, 1313}}";
+			sepNavSelRange = "{2629, 0}";
+			sepNavVisRange = "{0, 720}";
 			sepNavWindowFrame = "{{15, 4}, {1043, 774}}";
 		};
 	};
 	29B97313FDCFA39411CA2CEA /* Project object */ = {
-		activeBuildConfigurationName = Debug;
+		activeBuildConfigurationName = Release;
 		activeExecutable = DECEAA2E1135F93800F80C09 /* MotionUnlock */;
+		activeSDKPreference = iphoneos3.1.2;
 		activeTarget = 1D6058900D05DD3D006BFB54 /* MotionUnlock */;
 		codeSenseManager = DECEAA421135F95400F80C09 /* Code sense */;
 		executables = (
@@ -80,40 +81,40 @@
 					PBXFileDataSource_Target_ColumnID,
 				);
 			};
-			PBXPerProjectTemplateStateSaveDate = 288750138;
-			PBXWorkspaceStateSaveDate = 288750138;
+			PBXConfiguration.PBXTargetDataSource.PBXTargetDataSource = {
+				PBXFileTableDataSourceColumnSortingDirectionKey = "-1";
+				PBXFileTableDataSourceColumnSortingKey = PBXFileDataSource_Filename_ColumnID;
+				PBXFileTableDataSourceColumnWidthsKey = (
+					20,
+					793,
+					60,
+					20,
+					48,
+					43,
+					43,
+				);
+				PBXFileTableDataSourceColumnsKey = (
+					PBXFileDataSource_FiletypeID,
+					PBXFileDataSource_Filename_ColumnID,
+					PBXTargetDataSource_PrimaryAttribute,
+					PBXFileDataSource_Built_ColumnID,
+					PBXFileDataSource_ObjectSize_ColumnID,
+					PBXFileDataSource_Errors_ColumnID,
+					PBXFileDataSource_Warnings_ColumnID,
+				);
+			};
+			PBXPerProjectTemplateStateSaveDate = 289490254;
+			PBXWorkspaceStateSaveDate = 289490254;
 		};
 		perUserProjectItems = {
-			DECEAA741135FEBB00F80C09 /* XCBuildMessageTextBookmark */ = DECEAA741135FEBB00F80C09 /* XCBuildMessageTextBookmark */;
-			DECEAA751135FEBB00F80C09 /* PBXTextBookmark */ = DECEAA751135FEBB00F80C09 /* PBXTextBookmark */;
+			DE28EAB31140D3A900B63065 /* PBXTextBookmark */ = DE28EAB31140D3A900B63065 /* PBXTextBookmark */;
+			DE69E1871140DE6600F2E435 /* PlistBookmark */ = DE69E1871140DE6600F2E435 /* PlistBookmark */;
 			DECEAA7D1135FEBC00F80C09 /* PBXTextBookmark */ = DECEAA7D1135FEBC00F80C09 /* PBXTextBookmark */;
-			DECEAA7E1135FEBC00F80C09 /* PlistBookmark */ = DECEAA7E1135FEBC00F80C09 /* PlistBookmark */;
 			DECEAA7F1135FEBC00F80C09 /* PBXTextBookmark */ = DECEAA7F1135FEBC00F80C09 /* PBXTextBookmark */;
-			DECEAA801135FEBC00F80C09 /* PBXTextBookmark */ = DECEAA801135FEBC00F80C09 /* PBXTextBookmark */;
-			DECEAA811135FEBC00F80C09 /* PBXTextBookmark */ = DECEAA811135FEBC00F80C09 /* PBXTextBookmark */;
-			DECEAA821135FEBC00F80C09 /* PBXTextBookmark */ = DECEAA821135FEBC00F80C09 /* PBXTextBookmark */;
-			DECEAA831135FEBC00F80C09 /* PBXTextBookmark */ = DECEAA831135FEBC00F80C09 /* PBXTextBookmark */;
-			DECEAA841135FEBC00F80C09 /* PBXTextBookmark */ = DECEAA841135FEBC00F80C09 /* PBXTextBookmark */;
-			DECEAA851135FEE100F80C09 /* XCBuildMessageTextBookmark */ = DECEAA851135FEE100F80C09 /* XCBuildMessageTextBookmark */;
-			DECEAA861135FEE100F80C09 /* PBXTextBookmark */ = DECEAA861135FEE100F80C09 /* PBXTextBookmark */;
-			DECEAA871135FEE100F80C09 /* XCBuildMessageTextBookmark */ = DECEAA871135FEE100F80C09 /* XCBuildMessageTextBookmark */;
-			DECEAA881135FEE100F80C09 /* PBXTextBookmark */ = DECEAA881135FEE100F80C09 /* PBXTextBookmark */;
-			DECEAA8D1135FF3800F80C09 /* XCBuildMessageTextBookmark */ = DECEAA8D1135FF3800F80C09 /* XCBuildMessageTextBookmark */;
-			DECEAA8E1135FF3800F80C09 /* PBXTextBookmark */ = DECEAA8E1135FF3800F80C09 /* PBXTextBookmark */;
-			DECEAA971135FFA900F80C09 /* PBXTextBookmark */ = DECEAA971135FFA900F80C09 /* PBXTextBookmark */;
-			DECEAA9E1136003900F80C09 /* PBXTextBookmark */ = DECEAA9E1136003900F80C09 /* PBXTextBookmark */;
-			DECEAA9F1136003900F80C09 /* PBXTextBookmark */ = DECEAA9F1136003900F80C09 /* PBXTextBookmark */;
-			DECEAAA01136003900F80C09 /* PBXTextBookmark */ = DECEAAA01136003900F80C09 /* PBXTextBookmark */;
-			DECEAAA11136003F00F80C09 /* XCBuildMessageTextBookmark */ = DECEAAA11136003F00F80C09 /* XCBuildMessageTextBookmark */;
-			DECEAAA21136003F00F80C09 /* PBXTextBookmark */ = DECEAAA21136003F00F80C09 /* PBXTextBookmark */;
-			DECEAAA31136003F00F80C09 /* PBXTextBookmark */ = DECEAAA31136003F00F80C09 /* PBXTextBookmark */;
-			DECEAAA81136007300F80C09 /* PBXTextBookmark */ = DECEAAA81136007300F80C09 /* PBXTextBookmark */;
-			DECEAAAB113600BD00F80C09 /* PBXTextBookmark */ = DECEAAAB113600BD00F80C09 /* PBXTextBookmark */;
-			DECEAAAC1136017A00F80C09 /* PBXTextBookmark */ = DECEAAAC1136017A00F80C09 /* PBXTextBookmark */;
-			DECEAAAD1136017A00F80C09 /* PBXTextBookmark */ = DECEAAAD1136017A00F80C09 /* PBXTextBookmark */;
-			DECEAAAE1136017A00F80C09 /* PBXTextBookmark */ = DECEAAAE1136017A00F80C09 /* PBXTextBookmark */;
-			DECEAAB21136018700F80C09 /* PBXTextBookmark */ = DECEAAB21136018700F80C09 /* PBXTextBookmark */;
-			DECEAAB31136018800F80C09 /* PBXTextBookmark */ = DECEAAB31136018800F80C09 /* PBXTextBookmark */;
+			DEF8E2FA1140C0D300E1F1AF /* PBXTextBookmark */ = DEF8E2FA1140C0D300E1F1AF /* PBXTextBookmark */;
+			DEF8E2FC1140C0D300E1F1AF /* PBXTextBookmark */ = DEF8E2FC1140C0D300E1F1AF /* PBXTextBookmark */;
+			DEF8E2FD1140C0D300E1F1AF /* PBXTextBookmark */ = DEF8E2FD1140C0D300E1F1AF /* PBXTextBookmark */;
+			DEFE55151141485C00CC81E2 /* PlistBookmark */ = DEFE55151141485C00CC81E2 /* PlistBookmark */;
 		};
 		sourceControlManager = DECEAA411135F95400F80C09 /* Source Control */;
 		userBuildSettings = {
@@ -132,6 +133,32 @@
 			sepNavSelRange = "{0, 0}";
 			sepNavVisRange = "{0, 193}";
 		};
+	};
+	8D1107310486CEB800E47090 /* MotionUnlock-Info.plist */ = {
+		uiCtxt = {
+			sepNavWindowFrame = "{{15, 4}, {1043, 774}}";
+		};
+	};
+	DE28EAB31140D3A900B63065 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 28D7ACF60DDB3853001CB0EB /* MotionUnlockViewController.h */;
+		name = "MotionUnlockViewController.h: 20";
+		rLen = 0;
+		rLoc = 420;
+		rType = 0;
+		vrLen = 527;
+		vrLoc = 0;
+	};
+	DE69E1871140DE6600F2E435 /* PlistBookmark */ = {
+		isa = PlistBookmark;
+		fRef = 8D1107310486CEB800E47090 /* MotionUnlock-Info.plist */;
+		fallbackIsa = PBXBookmark;
+		isK = 0;
+		kPath = (
+		);
+		name = "/Users/brianreber/Documents/CprE186/MotionUnlock/MotionUnlock-Info.plist";
+		rLen = 0;
+		rLoc = 9223372036854775808;
 	};
 	DECEAA2E1135F93800F80C09 /* MotionUnlock */ = {
 		isa = PBXExecutable;
@@ -157,6 +184,8 @@
 		executableUserSymbolLevel = 0;
 		libgmallocEnabled = 0;
 		name = MotionUnlock;
+		savedGlobals = {
+		};
 		showTypeColumn = 0;
 		sourceDirectories = (
 		);
@@ -175,25 +204,6 @@
 		isa = PBXCodeSenseManager;
 		indexTemplatePath = "";
 	};
-	DECEAA741135FEBB00F80C09 /* XCBuildMessageTextBookmark */ = {
-		isa = PBXTextBookmark;
-		comments = "Property 'accelerometer' requires method '-accelerometer' to be defined - use @synthesize, @dynamic or provide a method implementation";
-		fRef = 28D7ACF70DDB3853001CB0EB /* MotionUnlockViewController.m */;
-		fallbackIsa = XCBuildMessageTextBookmark;
-		rLen = 1;
-		rLoc = 81;
-		rType = 1;
-	};
-	DECEAA751135FEBB00F80C09 /* PBXTextBookmark */ = {
-		isa = PBXTextBookmark;
-		fRef = 28D7ACF70DDB3853001CB0EB /* MotionUnlockViewController.m */;
-		name = "MotionUnlockViewController.m: 81";
-		rLen = 0;
-		rLoc = 2239;
-		rType = 0;
-		vrLen = 160;
-		vrLoc = 1744;
-	};
 	DECEAA7D1135FEBC00F80C09 /* PBXTextBookmark */ = {
 		isa = PBXTextBookmark;
 		fRef = 32CA4F630368D1EE00C91783 /* MotionUnlock_Prefix.pch */;
@@ -203,17 +213,6 @@
 		rType = 0;
 		vrLen = 193;
 		vrLoc = 0;
-	};
-	DECEAA7E1135FEBC00F80C09 /* PlistBookmark */ = {
-		isa = PlistBookmark;
-		fRef = 8D1107310486CEB800E47090 /* MotionUnlock-Info.plist */;
-		fallbackIsa = PBXBookmark;
-		isK = 0;
-		kPath = (
-		);
-		name = "/Users/brianreber/Documents/CprE186/MotionUnlock/MotionUnlock-Info.plist";
-		rLen = 0;
-		rLoc = 9223372036854775807;
 	};
 	DECEAA7F1135FEBC00F80C09 /* PBXTextBookmark */ = {
 		isa = PBXTextBookmark;
@@ -225,250 +224,45 @@
 		vrLen = 373;
 		vrLoc = 0;
 	};
-	DECEAA801135FEBC00F80C09 /* PBXTextBookmark */ = {
+	DEF8E2FA1140C0D300E1F1AF /* PBXTextBookmark */ = {
 		isa = PBXTextBookmark;
-		fRef = 1D3623240D0F684500981E51 /* MotionUnlockAppDelegate.h */;
-		name = "MotionUnlockAppDelegate.h: 20";
+		fRef = 28D7ACF70DDB3853001CB0EB /* MotionUnlockViewController.m */;
+		name = "MotionUnlockViewController.m: 101";
 		rLen = 0;
-		rLoc = 509;
+		rLoc = 2629;
 		rType = 0;
-		vrLen = 516;
+		vrLen = 720;
 		vrLoc = 0;
 	};
-	DECEAA811135FEBC00F80C09 /* PBXTextBookmark */ = {
+	DEF8E2FC1140C0D300E1F1AF /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 1D3623240D0F684500981E51 /* MotionUnlockAppDelegate.h */;
+		name = "MotionUnlockAppDelegate.h: 15";
+		rLen = 0;
+		rLoc = 365;
+		rType = 0;
+		vrLen = 518;
+		vrLoc = 0;
+	};
+	DEF8E2FD1140C0D300E1F1AF /* PBXTextBookmark */ = {
 		isa = PBXTextBookmark;
 		fRef = 1D3623250D0F684500981E51 /* MotionUnlockAppDelegate.m */;
 		name = "MotionUnlockAppDelegate.m: 22";
 		rLen = 0;
 		rLoc = 545;
 		rType = 0;
-		vrLen = 488;
-		vrLoc = 162;
+		vrLen = 597;
+		vrLoc = 53;
 	};
-	DECEAA821135FEBC00F80C09 /* PBXTextBookmark */ = {
-		isa = PBXTextBookmark;
-		fRef = 28D7ACF60DDB3853001CB0EB /* MotionUnlockViewController.h */;
-		name = "MotionUnlockViewController.h: 18";
+	DEFE55151141485C00CC81E2 /* PlistBookmark */ = {
+		isa = PlistBookmark;
+		fRef = 8D1107310486CEB800E47090 /* MotionUnlock-Info.plist */;
+		fallbackIsa = PBXBookmark;
+		isK = 0;
+		kPath = (
+		);
+		name = "/Users/brianreber/Documents/CprE186/MotionUnlock/MotionUnlock-Info.plist";
 		rLen = 0;
-		rLoc = 315;
-		rType = 0;
-		vrLen = 360;
-		vrLoc = 0;
-	};
-	DECEAA831135FEBC00F80C09 /* PBXTextBookmark */ = {
-		isa = PBXTextBookmark;
-		fRef = 28D7ACF70DDB3853001CB0EB /* MotionUnlockViewController.m */;
-		name = "MotionUnlockViewController.m: 13";
-		rLen = 0;
-		rLoc = 276;
-		rType = 0;
-		vrLen = 690;
-		vrLoc = 0;
-	};
-	DECEAA841135FEBC00F80C09 /* PBXTextBookmark */ = {
-		isa = PBXTextBookmark;
-		fRef = 28D7ACF70DDB3853001CB0EB /* MotionUnlockViewController.m */;
-		name = "MotionUnlockViewController.m: 53";
-		rLen = 0;
-		rLoc = 1823;
-		rType = 0;
-		vrLen = 789;
-		vrLoc = 982;
-	};
-	DECEAA851135FEE100F80C09 /* XCBuildMessageTextBookmark */ = {
-		isa = PBXTextBookmark;
-		comments = "Class 'MotionUnlockViewController' does not implement the 'UIAccelerometerDelegate' protocol";
-		fRef = 28D7ACF70DDB3853001CB0EB /* MotionUnlockViewController.m */;
-		fallbackIsa = XCBuildMessageTextBookmark;
-		rLen = 1;
-		rLoc = 40;
-		rType = 1;
-	};
-	DECEAA861135FEE100F80C09 /* PBXTextBookmark */ = {
-		isa = PBXTextBookmark;
-		fRef = 28D7ACF70DDB3853001CB0EB /* MotionUnlockViewController.m */;
-		name = "MotionUnlockViewController.m: 39";
-		rLen = 0;
-		rLoc = 966;
-		rType = 0;
-		vrLen = 464;
-		vrLoc = 695;
-	};
-	DECEAA871135FEE100F80C09 /* XCBuildMessageTextBookmark */ = {
-		isa = PBXTextBookmark;
-		comments = "Class 'MotionUnlockViewController' does not implement the 'UIAccelerometerDelegate' protocol";
-		fRef = 28D7ACF70DDB3853001CB0EB /* MotionUnlockViewController.m */;
-		fallbackIsa = XCBuildMessageTextBookmark;
-		rLen = 1;
-		rLoc = 40;
-		rType = 1;
-	};
-	DECEAA881135FEE100F80C09 /* PBXTextBookmark */ = {
-		isa = PBXTextBookmark;
-		fRef = 28D7ACF70DDB3853001CB0EB /* MotionUnlockViewController.m */;
-		name = "MotionUnlockViewController.m: 39";
-		rLen = 0;
-		rLoc = 966;
-		rType = 0;
-		vrLen = 744;
-		vrLoc = 812;
-	};
-	DECEAA8D1135FF3800F80C09 /* XCBuildMessageTextBookmark */ = {
-		isa = PBXTextBookmark;
-		comments = "'kUpdateFrequency' undeclared (first use in this function)";
-		fRef = 28D7ACF70DDB3853001CB0EB /* MotionUnlockViewController.m */;
-		fallbackIsa = XCBuildMessageTextBookmark;
-		rLen = 1;
-		rLoc = 39;
-		rType = 1;
-	};
-	DECEAA8E1135FF3800F80C09 /* PBXTextBookmark */ = {
-		isa = PBXTextBookmark;
-		fRef = 28D7ACF70DDB3853001CB0EB /* MotionUnlockViewController.m */;
-		name = "MotionUnlockViewController.m: 41";
-		rLen = 0;
-		rLoc = 1004;
-		rType = 0;
-		vrLen = 861;
-		vrLoc = 812;
-	};
-	DECEAA971135FFA900F80C09 /* PBXTextBookmark */ = {
-		isa = PBXTextBookmark;
-		fRef = 28D7ACF70DDB3853001CB0EB /* MotionUnlockViewController.m */;
-		name = "MotionUnlockViewController.m: 13";
-		rLen = 0;
-		rLoc = 276;
-		rType = 0;
-		vrLen = 716;
-		vrLoc = 0;
-	};
-	DECEAA9E1136003900F80C09 /* PBXTextBookmark */ = {
-		isa = PBXTextBookmark;
-		fRef = 28D7ACF60DDB3853001CB0EB /* MotionUnlockViewController.h */;
-		name = "MotionUnlockViewController.h: 11";
-		rLen = 0;
-		rLoc = 274;
-		rType = 0;
-		vrLen = 386;
-		vrLoc = 0;
-	};
-	DECEAA9F1136003900F80C09 /* PBXTextBookmark */ = {
-		isa = PBXTextBookmark;
-		fRef = 28D7ACF70DDB3853001CB0EB /* MotionUnlockViewController.m */;
-		name = "MotionUnlockViewController.m: 13";
-		rLen = 0;
-		rLoc = 276;
-		rType = 0;
-		vrLen = 837;
-		vrLoc = 603;
-	};
-	DECEAAA01136003900F80C09 /* PBXTextBookmark */ = {
-		isa = PBXTextBookmark;
-		fRef = 28D7ACF70DDB3853001CB0EB /* MotionUnlockViewController.m */;
-		name = "MotionUnlockViewController.m: 42";
-		rLen = 0;
-		rLoc = 1115;
-		rType = 0;
-		vrLen = 820;
-		vrLoc = 865;
-	};
-	DECEAAA11136003F00F80C09 /* XCBuildMessageTextBookmark */ = {
-		isa = PBXTextBookmark;
-		comments = "'kUpdateFrequency' undeclared (first use in this function)";
-		fRef = 28D7ACF70DDB3853001CB0EB /* MotionUnlockViewController.m */;
-		fallbackIsa = XCBuildMessageTextBookmark;
-		rLen = 1;
-		rLoc = 39;
-		rType = 1;
-	};
-	DECEAAA21136003F00F80C09 /* PBXTextBookmark */ = {
-		isa = PBXTextBookmark;
-		fRef = 28D7ACF70DDB3853001CB0EB /* MotionUnlockViewController.m */;
-		name = "MotionUnlockViewController.m: 42";
-		rLen = 0;
-		rLoc = 1141;
-		rType = 0;
-		vrLen = 160;
-		vrLoc = 1909;
-	};
-	DECEAAA31136003F00F80C09 /* PBXTextBookmark */ = {
-		isa = PBXTextBookmark;
-		fRef = 28D7ACF70DDB3853001CB0EB /* MotionUnlockViewController.m */;
-		name = "MotionUnlockViewController.m: 42";
-		rLen = 0;
-		rLoc = 1115;
-		rType = 0;
-		vrLen = 820;
-		vrLoc = 865;
-	};
-	DECEAAA81136007300F80C09 /* PBXTextBookmark */ = {
-		isa = PBXTextBookmark;
-		fRef = 28D7ACF70DDB3853001CB0EB /* MotionUnlockViewController.m */;
-		name = "MotionUnlockViewController.m: 57";
-		rLen = 0;
-		rLoc = 1842;
-		rType = 0;
-		vrLen = 814;
-		vrLoc = 865;
-	};
-	DECEAAAB113600BD00F80C09 /* PBXTextBookmark */ = {
-		isa = PBXTextBookmark;
-		fRef = 28D7ACF70DDB3853001CB0EB /* MotionUnlockViewController.m */;
-		name = "MotionUnlockViewController.m: 41";
-		rLen = 62;
-		rLoc = 1080;
-		rType = 0;
-		vrLen = 897;
-		vrLoc = 720;
-	};
-	DECEAAAC1136017A00F80C09 /* PBXTextBookmark */ = {
-		isa = PBXTextBookmark;
-		fRef = 28D7ACF70DDB3853001CB0EB /* MotionUnlockViewController.m */;
-		name = "MotionUnlockViewController.m: 30";
-		rLen = 0;
-		rLoc = 719;
-		rType = 0;
-		vrLen = 714;
-		vrLoc = 0;
-	};
-	DECEAAAD1136017A00F80C09 /* PBXTextBookmark */ = {
-		isa = PBXTextBookmark;
-		fRef = 28D7ACF60DDB3853001CB0EB /* MotionUnlockViewController.h */;
-		name = "MotionUnlockViewController.h: 11";
-		rLen = 0;
-		rLoc = 274;
-		rType = 0;
-		vrLen = 386;
-		vrLoc = 0;
-	};
-	DECEAAAE1136017A00F80C09 /* PBXTextBookmark */ = {
-		isa = PBXTextBookmark;
-		fRef = 28D7ACF60DDB3853001CB0EB /* MotionUnlockViewController.h */;
-		name = "MotionUnlockViewController.h: 13";
-		rLen = 0;
-		rLoc = 309;
-		rType = 0;
-		vrLen = 385;
-		vrLoc = 0;
-	};
-	DECEAAB21136018700F80C09 /* PBXTextBookmark */ = {
-		isa = PBXTextBookmark;
-		fRef = 28D7ACF70DDB3853001CB0EB /* MotionUnlockViewController.m */;
-		name = "MotionUnlockViewController.m: 42";
-		rLen = 0;
-		rLoc = 1142;
-		rType = 0;
-		vrLen = 439;
-		vrLoc = 1005;
-	};
-	DECEAAB31136018800F80C09 /* PBXTextBookmark */ = {
-		isa = PBXTextBookmark;
-		fRef = 28D7ACF60DDB3853001CB0EB /* MotionUnlockViewController.h */;
-		name = "MotionUnlockViewController.h: 13";
-		rLen = 0;
-		rLoc = 309;
-		rType = 0;
-		vrLen = 385;
-		vrLoc = 0;
+		rLoc = 9223372036854775807;
 	};
 }
