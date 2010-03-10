@@ -192,6 +192,113 @@ t1267057513
 s373
 i<UIKit/UIKit.h>
 
+N/Users/brianreber/MotionUnlock/MotionUnlock/Classes/MotionUnlockAppDelegate.h
+c000000004B97E72E0000000000000204
+t1268246318
+s516
+i<UIKit/UIKit.h>
+
+N/Users/brianreber/MotionUnlock/MotionUnlock/Classes/MotionUnlockAppDelegate.m
+c000000004B97E72E000000000000028A
+t1268246318
+s650
+i"MotionUnlockAppDelegate.h"
+i"MotionUnlockViewController.h"
+
+N/Users/brianreber/MotionUnlock/MotionUnlock/Classes/MotionUnlockViewController.h
+c000000004B97E72E000000000000020F
+t1268246318
+s527
+i<UIKit/UIKit.h>
+
+N/Users/brianreber/MotionUnlock/MotionUnlock/Classes/MotionUnlockViewController.m
+c000000004B97E72E0000000000000A45
+t1268246318
+s2629
+i"MotionUnlockViewController.h"
+
+N/Users/brianreber/MotionUnlock/MotionUnlock/MainWindow.xib
+c000000004B97E7320000000000007DF9
+t1268246322
+s32249
+
+N/Users/brianreber/MotionUnlock/MotionUnlock/MotionUnlockViewController.xib
+c000000004B97E7320000000000006DA9
+t1268246322
+s28073
+
+N/Users/brianreber/MotionUnlock/MotionUnlock/MotionUnlock_Prefix.pch
+c000000004B97E73200000000000000C1
+t1268246322
+s193
+i<Foundation/Foundation.h>
+i<UIKit/UIKit.h>
+
+N/Users/brianreber/MotionUnlock/MotionUnlock/build/MotionUnlock.build/Release-iphoneos/MotionUnlock.build/Objects-normal/armv6/MotionUnlock.LinkFileList
+c000000004B97E72400000000000001C7
+t1268246308
+s455
+
+N/Users/brianreber/MotionUnlock/MotionUnlock/build/MotionUnlock.build/Release-iphoneos/MotionUnlock.build/Objects-normal/armv6/MotionUnlockAppDelegate.o
+t2
+s0
+
+N/Users/brianreber/MotionUnlock/MotionUnlock/build/MotionUnlock.build/Release-iphoneos/MotionUnlock.build/Objects-normal/armv6/MotionUnlockViewController.o
+t2
+s0
+
+N/Users/brianreber/MotionUnlock/MotionUnlock/build/MotionUnlock.build/Release-iphoneos/MotionUnlock.build/Objects-normal/armv6/main.o
+t2
+s0
+
+N/Users/brianreber/MotionUnlock/MotionUnlock/build/MotionUnlock.build/Release-iphoneos/MotionUnlock.build/Script-DE28EAA31140C3AA00B63065.sh
+c000000004B97E725000000000000022C
+t1268246309
+s556
+
+N/Users/brianreber/MotionUnlock/MotionUnlock/build/Release-iphoneos/MotionUnlock.app
+t2
+s0
+
+N/Users/brianreber/MotionUnlock/MotionUnlock/build/Release-iphoneos/MotionUnlock.app.dSYM
+t2
+s0
+
+N/Users/brianreber/MotionUnlock/MotionUnlock/build/Release-iphoneos/MotionUnlock.app/Info.plist
+t2
+s0
+
+N/Users/brianreber/MotionUnlock/MotionUnlock/build/Release-iphoneos/MotionUnlock.app/MainWindow.nib
+t2
+s0
+
+N/Users/brianreber/MotionUnlock/MotionUnlock/build/Release-iphoneos/MotionUnlock.app/MotionUnlock
+t2
+s0
+
+N/Users/brianreber/MotionUnlock/MotionUnlock/build/Release-iphoneos/MotionUnlock.app/MotionUnlockViewController.nib
+t2
+s0
+
+N/Users/brianreber/MotionUnlock/MotionUnlock/build/Release-iphoneos/MotionUnlock.app/PkgInfo
+t2
+s0
+
+N/Users/brianreber/MotionUnlock/MotionUnlock/build/Release-iphoneos/MotionUnlock.app/icon.png
+t2
+s0
+
+N/Users/brianreber/MotionUnlock/MotionUnlock/icon.png
+c000000004B97E7320000000000001CA1
+t1268246322
+s7329
+
+N/Users/brianreber/MotionUnlock/MotionUnlock/main.m
+c000000004B97E7320000000000000175
+t1268246322
+s373
+i<UIKit/UIKit.h>
+
 N/var/folders/nN/nNj0Zm4OEdG+Xrr8YY1BWk+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/MotionUnlock_Prefix-arehegcudnnlqyagbikyeqwxazcv/MotionUnlock_Prefix.pch.gch
 t1267764171
 s7700664
@@ -200,9 +307,13 @@ N/var/folders/nN/nNj0Zm4OEdG+Xrr8YY1BWk+++TI/-Caches-/com.apple.Xcode.501/Shared
 t1267768363
 s7700664
 
+N/var/folders/nN/nNj0Zm4OEdG+Xrr8YY1BWk+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/MotionUnlock_Prefix-hjqrkryjqxmacrfcthnrcdirmhen/MotionUnlock_Prefix.pch.gch
+t2
+s0
+
 NMotionUnlock-Info.plist
-c000000004B85C2B8000000000000038D
-t1267057336
+c000000004B97E732000000000000038D
+t1268246322
 s909
 
 CCheck dependencies
@@ -222,6 +333,9 @@ xobjective-c
 xcom.apple.compilers.gcc.4_2
 lSLF07#2@90"Compile /Users/brianreber/Documents/CprE186/MotionUnlock/Classes/MotionUnlockAppDelegate.m289461163#289461164#0(0"0(0#0#82"/Users/brianreber/Documents/CprE186/MotionUnlock/Classes/MotionUnlockAppDelegate.m4300885448#2081"    cd /Users/brianreber/Documents/CprE186/MotionUnlock    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/usr/X11/bin:/opt/local/bin:/usr/local/git/bin"    /Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch armv6 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -Os -mdynamic-no-pic -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS3.1.3.sdk -fvisibility=hidden -gdwarf-2 -mthumb -miphoneos-version-min=3.1.3 -iquote /Users/brianreber/Documents/CprE186/MotionUnlock/build/MotionUnlock.build/Release-iphoneos/MotionUnlock.build/MotionUnlock-generated-files.hmap -I/Users/brianreber/Documents/CprE186/MotionUnlock/build/MotionUnlock.build/Release-iphoneos/MotionUnlock.build/MotionUnlock-own-target-headers.hmap -I/Users/brianreber/Documents/CprE186/MotionUnlock/build/MotionUnlock.build/Release-iphoneos/MotionUnlock.build/MotionUnlock-all-target-headers.hmap -iquote /Users/brianreber/Documents/CprE186/MotionUnlock/build/MotionUnlock.build/Release-iphoneos/MotionUnlock.build/MotionUnlock-project-headers.hmap -F/Users/brianreber/Documents/CprE186/MotionUnlock/build/Release-iphoneos -I/Users/brianreber/Documents/CprE186/MotionUnlock/build/Release-iphoneos/include -I/Users/brianreber/Documents/CprE186/MotionUnlock/build/MotionUnlock.build/Release-iphoneos/MotionUnlock.build/DerivedSources/armv6 -I/Users/brianreber/Documents/CprE186/MotionUnlock/build/MotionUnlock.build/Release-iphoneos/MotionUnlock.build/DerivedSources -include /var/folders/nN/nNj0Zm4OEdG+Xrr8YY1BWk+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/MotionUnlock_Prefix-fznypkekbnhjllcrkoisygxcbnsp/MotionUnlock_Prefix.pch -c /Users/brianreber/Documents/CprE186/MotionUnlock/Classes/MotionUnlockAppDelegate.m -o /Users/brianreber/Documents/CprE186/MotionUnlock/build/MotionUnlock.build/Release-iphoneos/MotionUnlock.build/Objects-normal/armv6/MotionUnlockAppDelegate.o0#
 
+CCompileC build/MotionUnlock.build/Release-iphoneos/MotionUnlock.build/Objects-normal/armv6/MotionUnlockAppDelegate.o /Users/brianreber/MotionUnlock/MotionUnlock/Classes/MotionUnlockAppDelegate.m normal armv6 objective-c com.apple.compilers.gcc.4_2
+r0
+
 CCompileC build/MotionUnlock.build/Release-iphoneos/MotionUnlock.build/Objects-normal/armv6/MotionUnlockViewController.o /Users/brianreber/Documents/CprE186/MotionUnlock/Classes/MotionUnlockViewController.m normal armv6 objective-c com.apple.compilers.gcc.4_2
 s289461163.955863
 e289461164.123651
@@ -235,6 +349,9 @@ xobjective-c
 xcom.apple.compilers.gcc.4_2
 lSLF07#2@93"Compile /Users/brianreber/Documents/CprE186/MotionUnlock/Classes/MotionUnlockViewController.m289461163#289461164#0(0"0(0#0#85"/Users/brianreber/Documents/CprE186/MotionUnlock/Classes/MotionUnlockViewController.m4300885448#2087"    cd /Users/brianreber/Documents/CprE186/MotionUnlock    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/usr/X11/bin:/opt/local/bin:/usr/local/git/bin"    /Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch armv6 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -Os -mdynamic-no-pic -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS3.1.3.sdk -fvisibility=hidden -gdwarf-2 -mthumb -miphoneos-version-min=3.1.3 -iquote /Users/brianreber/Documents/CprE186/MotionUnlock/build/MotionUnlock.build/Release-iphoneos/MotionUnlock.build/MotionUnlock-generated-files.hmap -I/Users/brianreber/Documents/CprE186/MotionUnlock/build/MotionUnlock.build/Release-iphoneos/MotionUnlock.build/MotionUnlock-own-target-headers.hmap -I/Users/brianreber/Documents/CprE186/MotionUnlock/build/MotionUnlock.build/Release-iphoneos/MotionUnlock.build/MotionUnlock-all-target-headers.hmap -iquote /Users/brianreber/Documents/CprE186/MotionUnlock/build/MotionUnlock.build/Release-iphoneos/MotionUnlock.build/MotionUnlock-project-headers.hmap -F/Users/brianreber/Documents/CprE186/MotionUnlock/build/Release-iphoneos -I/Users/brianreber/Documents/CprE186/MotionUnlock/build/Release-iphoneos/include -I/Users/brianreber/Documents/CprE186/MotionUnlock/build/MotionUnlock.build/Release-iphoneos/MotionUnlock.build/DerivedSources/armv6 -I/Users/brianreber/Documents/CprE186/MotionUnlock/build/MotionUnlock.build/Release-iphoneos/MotionUnlock.build/DerivedSources -include /var/folders/nN/nNj0Zm4OEdG+Xrr8YY1BWk+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/MotionUnlock_Prefix-fznypkekbnhjllcrkoisygxcbnsp/MotionUnlock_Prefix.pch -c /Users/brianreber/Documents/CprE186/MotionUnlock/Classes/MotionUnlockViewController.m -o /Users/brianreber/Documents/CprE186/MotionUnlock/build/MotionUnlock.build/Release-iphoneos/MotionUnlock.build/Objects-normal/armv6/MotionUnlockViewController.o0#
 
+CCompileC build/MotionUnlock.build/Release-iphoneos/MotionUnlock.build/Objects-normal/armv6/MotionUnlockViewController.o /Users/brianreber/MotionUnlock/MotionUnlock/Classes/MotionUnlockViewController.m normal armv6 objective-c com.apple.compilers.gcc.4_2
+r0
+
 CCompileC build/MotionUnlock.build/Release-iphoneos/MotionUnlock.build/Objects-normal/armv6/main.o /Users/brianreber/Documents/CprE186/MotionUnlock/main.m normal armv6 objective-c com.apple.compilers.gcc.4_2
 s289461163.815174
 e289461163.955754
@@ -247,6 +364,9 @@ xarmv6
 xobjective-c
 xcom.apple.compilers.gcc.4_2
 lSLF07#2@63"Compile /Users/brianreber/Documents/CprE186/MotionUnlock/main.m289461163#289461163#0(0"0(0#0#55"/Users/brianreber/Documents/CprE186/MotionUnlock/main.m4300885448#2035"    cd /Users/brianreber/Documents/CprE186/MotionUnlock    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/usr/X11/bin:/opt/local/bin:/usr/local/git/bin"    /Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch armv6 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -Os -mdynamic-no-pic -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS3.1.3.sdk -fvisibility=hidden -gdwarf-2 -mthumb -miphoneos-version-min=3.1.3 -iquote /Users/brianreber/Documents/CprE186/MotionUnlock/build/MotionUnlock.build/Release-iphoneos/MotionUnlock.build/MotionUnlock-generated-files.hmap -I/Users/brianreber/Documents/CprE186/MotionUnlock/build/MotionUnlock.build/Release-iphoneos/MotionUnlock.build/MotionUnlock-own-target-headers.hmap -I/Users/brianreber/Documents/CprE186/MotionUnlock/build/MotionUnlock.build/Release-iphoneos/MotionUnlock.build/MotionUnlock-all-target-headers.hmap -iquote /Users/brianreber/Documents/CprE186/MotionUnlock/build/MotionUnlock.build/Release-iphoneos/MotionUnlock.build/MotionUnlock-project-headers.hmap -F/Users/brianreber/Documents/CprE186/MotionUnlock/build/Release-iphoneos -I/Users/brianreber/Documents/CprE186/MotionUnlock/build/Release-iphoneos/include -I/Users/brianreber/Documents/CprE186/MotionUnlock/build/MotionUnlock.build/Release-iphoneos/MotionUnlock.build/DerivedSources/armv6 -I/Users/brianreber/Documents/CprE186/MotionUnlock/build/MotionUnlock.build/Release-iphoneos/MotionUnlock.build/DerivedSources -include /var/folders/nN/nNj0Zm4OEdG+Xrr8YY1BWk+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/MotionUnlock_Prefix-fznypkekbnhjllcrkoisygxcbnsp/MotionUnlock_Prefix.pch -c /Users/brianreber/Documents/CprE186/MotionUnlock/main.m -o /Users/brianreber/Documents/CprE186/MotionUnlock/build/MotionUnlock.build/Release-iphoneos/MotionUnlock.build/Objects-normal/armv6/main.o0#
+
+CCompileC build/MotionUnlock.build/Release-iphoneos/MotionUnlock.build/Objects-normal/armv6/main.o /Users/brianreber/MotionUnlock/MotionUnlock/main.m normal armv6 objective-c com.apple.compilers.gcc.4_2
+r0
 
 CCompileXIB /Users/brianreber/Documents/CprE186/MotionUnlock/MainWindow.xib
 s289461152.475463
@@ -267,6 +387,15 @@ xCompileXIB
 x/Users/brianreber/Documents/CprE186/MotionUnlock/MotionUnlockViewController.xib
 lSLF07#2@41"CompileXIB MotionUnlockViewController.xib289461152#289461161#0(0"0(0#0#79"/Users/brianreber/Documents/CprE186/MotionUnlock/MotionUnlockViewController.xib4300885448#599"    cd /Users/brianreber/Documents/CprE186/MotionUnlock    setenv IBC_MINIMUM_COMPATIBILITY_VERSION 3.1.3    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/usr/X11/bin:/opt/local/bin:/usr/local/git/bin"    /Developer/usr/bin/ibtool --errors --warnings --notices --output-format human-readable-text --compile /Users/brianreber/Documents/CprE186/MotionUnlock/build/Release-iphoneos/MotionUnlock.app/MotionUnlockViewController.nib /Users/brianreber/Documents/CprE186/MotionUnlock/MotionUnlockViewController.xib0#
 
+CCompileXIB /Users/brianreber/MotionUnlock/MotionUnlock/MainWindow.xib
+r0
+
+CCompileXIB /Users/brianreber/MotionUnlock/MotionUnlock/MotionUnlockViewController.xib
+r0
+
+CCopyPNGFile /Users/brianreber/MotionUnlock/MotionUnlock/build/Release-iphoneos/MotionUnlock.app/icon.png icon.png
+r0
+
 CCpResource build/Release-iphoneos/MotionUnlock.app/ResourceRules.plist /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS3.1.2.sdk/ResourceRules.plist
 r0
 
@@ -279,6 +408,9 @@ x/Users/brianreber/Documents/CprE186/MotionUnlock/build/Release-iphoneos/MotionU
 x/Users/brianreber/Documents/CprE186/MotionUnlock/build/Release-iphoneos/MotionUnlock.app/MotionUnlock
 lSLF07#2@114"GenerateDSYMFile build/Release-iphoneos/MotionUnlock.app.dSYM build/Release-iphoneos/MotionUnlock.app/MotionUnlock289461164#289461164#0(0"0(0#0#101"/Users/brianreber/Documents/CprE186/MotionUnlock/build/Release-iphoneos/MotionUnlock.app/MotionUnlock4300885448#473"    cd /Users/brianreber/Documents/CprE186/MotionUnlock    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/usr/X11/bin:/opt/local/bin:/usr/local/git/bin"    /Developer/usr/bin/dsymutil /Users/brianreber/Documents/CprE186/MotionUnlock/build/Release-iphoneos/MotionUnlock.app/MotionUnlock -o /Users/brianreber/Documents/CprE186/MotionUnlock/build/Release-iphoneos/MotionUnlock.app.dSYM0#
 
+CGenerateDSYMFile /Users/brianreber/MotionUnlock/MotionUnlock/build/Release-iphoneos/MotionUnlock.app.dSYM /Users/brianreber/MotionUnlock/MotionUnlock/build/Release-iphoneos/MotionUnlock.app/MotionUnlock
+r0
+
 CLd /Users/brianreber/Documents/CprE186/MotionUnlock/build/Release-iphoneos/MotionUnlock.app/MotionUnlock normal armv6
 s289461164.123746
 e289461164.492027
@@ -288,6 +420,9 @@ x/Users/brianreber/Documents/CprE186/MotionUnlock/build/Release-iphoneos/MotionU
 xnormal
 xarmv6
 lSLF07#2@106"Link /Users/brianreber/Documents/CprE186/MotionUnlock/build/Release-iphoneos/MotionUnlock.app/MotionUnlock289461164#289461164#0(0"0(0#0#0"4300885448#1040"    cd /Users/brianreber/Documents/CprE186/MotionUnlock    setenv IPHONEOS_DEPLOYMENT_TARGET 3.1.3    setenv MACOSX_DEPLOYMENT_TARGET 10.5    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/usr/X11/bin:/opt/local/bin:/usr/local/git/bin"    /Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/gcc-4.2 -arch armv6 -isysroot /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS3.1.3.sdk -L/Users/brianreber/Documents/CprE186/MotionUnlock/build/Release-iphoneos -F/Users/brianreber/Documents/CprE186/MotionUnlock/build/Release-iphoneos -filelist /Users/brianreber/Documents/CprE186/MotionUnlock/build/MotionUnlock.build/Release-iphoneos/MotionUnlock.build/Objects-normal/armv6/MotionUnlock.LinkFileList -mmacosx-version-min=10.5 -dead_strip -miphoneos-version-min=3.1.3 -framework Foundation -framework UIKit -framework CoreGraphics -o /Users/brianreber/Documents/CprE186/MotionUnlock/build/Release-iphoneos/MotionUnlock.app/MotionUnlock0#
+
+CLd /Users/brianreber/MotionUnlock/MotionUnlock/build/Release-iphoneos/MotionUnlock.app/MotionUnlock normal armv6
+r0
 
 CPhaseScriptExecution "Run Script" /Users/brianreber/Documents/CprE186/MotionUnlock/build/MotionUnlock.build/Release-iphoneos/MotionUnlock.build/Script-DE28EAA31140C3AA00B63065.sh
 s289461164.701527
@@ -312,6 +447,9 @@ lSLF07#2@36"Run custom shell script 'Run Script'289456972#289456973#0(349"/Users
 CPhaseScriptExecution "Run Script" /Users/brianreber/Documents/CprE186/MotionUnlock/build/MotionUnlock.build/Release-iphoneos/MotionUnlock.build/Script-DEF8E2D91140BDD900E1F1AF.sh
 r0
 
+CPhaseScriptExecution "Run Script" /Users/brianreber/MotionUnlock/MotionUnlock/build/MotionUnlock.build/Release-iphoneos/MotionUnlock.build/Script-DE28EAA31140C3AA00B63065.sh
+r0
+
 CProcessInfoPlistFile /Users/brianreber/Documents/CprE186/MotionUnlock/build/Release-iphoneos/MotionUnlock.app/Info.plist MotionUnlock-Info.plist
 s289456970.475115
 e289456970.489785
@@ -320,6 +458,9 @@ xProcessInfoPlistFile
 x/Users/brianreber/Documents/CprE186/MotionUnlock/build/Release-iphoneos/MotionUnlock.app/Info.plist
 xMotionUnlock-Info.plist
 lSLF07#2@31"Process MotionUnlock-Info.plist289456970#289456970#0(0"0(0#0#72"/Users/brianreber/Documents/CprE186/MotionUnlock/MotionUnlock-Info.plist27866499442802800#562"    cd /Users/brianreber/Documents/CprE186/MotionUnlock    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/usr/X11/bin:/opt/local/bin:/usr/local/git/bin"    builtin-infoPlistUtility MotionUnlock-Info.plist -genpkginfo /Users/brianreber/Documents/CprE186/MotionUnlock/build/Release-iphoneos/MotionUnlock.app/PkgInfo -expandbuildsettings -format binary -platform iphoneos -o /Users/brianreber/Documents/CprE186/MotionUnlock/build/Release-iphoneos/MotionUnlock.app/Info.plist0#
+
+CProcessInfoPlistFile /Users/brianreber/MotionUnlock/MotionUnlock/build/Release-iphoneos/MotionUnlock.app/Info.plist MotionUnlock-Info.plist
+r0
 
 CProcessPCH /var/folders/nN/nNj0Zm4OEdG+Xrr8YY1BWk+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/MotionUnlock_Prefix-arehegcudnnlqyagbikyeqwxazcv/MotionUnlock_Prefix.pch.gch MotionUnlock_Prefix.pch normal armv6 objective-c com.apple.compilers.gcc.4_2
 s289456971.065942
@@ -347,6 +488,9 @@ xobjective-c
 xcom.apple.compilers.gcc.4_2
 lSLF07#2@34"Precompile MotionUnlock_Prefix.pch289461161#289461163#0(0"0(0#0#72"/Users/brianreber/Documents/CprE186/MotionUnlock/MotionUnlock_Prefix.pch4300885448#1916"    cd /Users/brianreber/Documents/CprE186/MotionUnlock    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/usr/X11/bin:/opt/local/bin:/usr/local/git/bin"    /Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/gcc-4.2 -x objective-c-header -arch armv6 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -Os -mdynamic-no-pic -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS3.1.3.sdk -fvisibility=hidden -gdwarf-2 -mthumb -miphoneos-version-min=3.1.3 -iquote /Users/brianreber/Documents/CprE186/MotionUnlock/build/MotionUnlock.build/Release-iphoneos/MotionUnlock.build/MotionUnlock-generated-files.hmap -I/Users/brianreber/Documents/CprE186/MotionUnlock/build/MotionUnlock.build/Release-iphoneos/MotionUnlock.build/MotionUnlock-own-target-headers.hmap -I/Users/brianreber/Documents/CprE186/MotionUnlock/build/MotionUnlock.build/Release-iphoneos/MotionUnlock.build/MotionUnlock-all-target-headers.hmap -iquote /Users/brianreber/Documents/CprE186/MotionUnlock/build/MotionUnlock.build/Release-iphoneos/MotionUnlock.build/MotionUnlock-project-headers.hmap -F/Users/brianreber/Documents/CprE186/MotionUnlock/build/Release-iphoneos -I/Users/brianreber/Documents/CprE186/MotionUnlock/build/Release-iphoneos/include -I/Users/brianreber/Documents/CprE186/MotionUnlock/build/MotionUnlock.build/Release-iphoneos/MotionUnlock.build/DerivedSources/armv6 -I/Users/brianreber/Documents/CprE186/MotionUnlock/build/MotionUnlock.build/Release-iphoneos/MotionUnlock.build/DerivedSources -c /Users/brianreber/Documents/CprE186/MotionUnlock/MotionUnlock_Prefix.pch -o /var/folders/nN/nNj0Zm4OEdG+Xrr8YY1BWk+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/MotionUnlock_Prefix-fznypkekbnhjllcrkoisygxcbnsp/MotionUnlock_Prefix.pch.gch0#
 
+CProcessPCH /var/folders/nN/nNj0Zm4OEdG+Xrr8YY1BWk+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/MotionUnlock_Prefix-hjqrkryjqxmacrfcthnrcdirmhen/MotionUnlock_Prefix.pch.gch MotionUnlock_Prefix.pch normal armv6 objective-c com.apple.compilers.gcc.4_2
+r0
+
 CTouch /Users/brianreber/Documents/CprE186/MotionUnlock/build/Release-iphoneos/MotionUnlock.app
 s289461166.003642
 e289461166.006579
@@ -354,4 +498,7 @@ r1
 xTouch
 x/Users/brianreber/Documents/CprE186/MotionUnlock/build/Release-iphoneos/MotionUnlock.app
 lSLF07#2@94"Touch /Users/brianreber/Documents/CprE186/MotionUnlock/build/Release-iphoneos/MotionUnlock.app289461166#289461166#0(0"0(0#0#0"4300885448#353"    cd /Users/brianreber/Documents/CprE186/MotionUnlock    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/usr/X11/bin:/opt/local/bin:/usr/local/git/bin"    /usr/bin/touch -c /Users/brianreber/Documents/CprE186/MotionUnlock/build/Release-iphoneos/MotionUnlock.app0#
+
+CTouch /Users/brianreber/MotionUnlock/MotionUnlock/build/Release-iphoneos/MotionUnlock.app
+r0
 
