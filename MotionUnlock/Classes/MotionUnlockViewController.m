@@ -12,62 +12,54 @@
 
 @synthesize accelerometer;
 
-/*
-// The designated initializer. Override to perform setup that is required before the view is loaded.
-- (id)initWithNibName:(NSString *)nibNameOrNil bundle:(NSBundle *)nibBundleOrNil {
-    if (self = [super initWithNibName:nibNameOrNil bundle:nibBundleOrNil]) {
-        // Custom initialization
-    }
-    return self;
-}
-*/
 
 /*
-// Implement loadView to create a view hierarchy programmatically, without using a nib.
-- (void)loadView {
-}
-*/
+ // Implement loadView to create a view hierarchy programmatically, without using a nib.
+ - (void)loadView {
+ }
+ */
 
 
 // Implement viewDidLoad to do additional setup after loading the view, typically from a nib.
 - (void)viewDidLoad {
     [super viewDidLoad];
 	
+	output.text = @"Temporary to test output in form of \"x,y,z\"";
+	
+	collectData = NO;
+	
+	//Set up the accelerometer
 	self.accelerometer = [UIAccelerometer sharedAccelerometer];
 	self.accelerometer.updateInterval = .1;
 	self.accelerometer.delegate = self;
 	
-//	[[UIAccelerometer sharedAccelerometer] setUpdateInterval:1.0 / 60.0];
-//    [[UIAccelerometer sharedAccelerometer] setDelegate:self];
 }
-
-
-
-/*
-// Override to allow orientations other than the default portrait orientation.
-- (BOOL)shouldAutorotateToInterfaceOrientation:(UIInterfaceOrientation)interfaceOrientation {
-    // Return YES for supported orientations
-    return (interfaceOrientation == UIInterfaceOrientationPortrait);
-}
-*/
 
 
 /**
- This is a method I found online.  We will need to figure out what to do to get it to work.
- I think we will need to actually put the app on a device to test accelerometer data.
- I will check into that.  I am pretty sure the department has devices that are registered...
+ Overridden to allow us to read the accelerometer data.
+ This method gets automatically called when the accelerometer updates.  It will print out 
+ the acceleration data into our text fields right now.
  */
 -(void)accelerometer:(UIAccelerometer *)accelerometer didAccelerate:(UIAcceleration *)acceleration
 {
 	NSString *xVal = [NSString stringWithFormat:@"%f", acceleration.x];
 	NSString *yVal = [NSString stringWithFormat:@"%f", acceleration.y];
 	NSString *zVal = [NSString stringWithFormat:@"%f", acceleration.z];
-
+	
+	[xVal retain];
+	[yVal retain];
+	[zVal retain];
+	
 	[x setText: xVal];
 	[y setText: yVal];
 	[z setText: zVal];
 	
-	NSLog(@"%f, %f, %f", acceleration.x,acceleration.y,acceleration.z);
+	//This doesn't really do anything right now for some reason...
+	if (collectData)
+	{
+		output.text = [[NSString alloc] stringByAppendingFormat:@"%@\n%@, %@, %@", [output text], xVal, yVal, zVal];
+	}
 }
 
 - (void)didReceiveMemoryWarning {
@@ -83,13 +75,16 @@
 }
 
 
-- (void) testMethod:(id)sender
+//TODO: The start button doesn't do anything right now. I tried a couple things, but the app froze, so I commented it out.
+- (void) startStop:(id)sender
 {
-	[x setText:@"Hello"];
+	//	if (collectData)
+	//		accelerometer.delegate = nil;
+	//	else accelerometer.delegate = self;
 	
-	[y setText:@"World"];
-	
-	[z setText:@"What's Up?"];
+	if (collectData)
+		collectData = NO;
+	else collectData = YES;
 }
 
 
