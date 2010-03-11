@@ -18,11 +18,15 @@
 	IBOutlet UITextField *y;
 	IBOutlet UITextField *z;
 	
+	IBOutlet UITextView *output;
+	
+	bool collectData;
+	
 }
 
 @property (nonatomic, retain) UIAccelerometer *accelerometer;
 
-- (void) testMethod:(id)sender;
+- (void) startStop:(id)sender;
 
 
 @end
