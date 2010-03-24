@@ -56,6 +56,10 @@ int main(){
 		avg(buffery, inputy);
 		avg(bufferz, inputz);
 		
+		for (int i = 0; i < MAX_SIZE - MOVING_AVG; i++) {
+			printf("%lf, %lf, %lf", bufferx[i], buffery[i], bufferz[i]);
+		}
+		
 	}
 	
 	
