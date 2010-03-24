@@ -273,8 +273,8 @@
 							<key>PBXSmartGroupTreeModuleOutlineStateSelectionKey</key>
 							<array>
 								<array>
-									<integer>6</integer>
-									<integer>1</integer>
+									<integer>10</integer>
+									<integer>8</integer>
 									<integer>0</integer>
 								</array>
 							</array>
@@ -316,7 +316,7 @@
 								<key>PBXProjectModuleGUID</key>
 								<string>1CE0B20306471E060097A5F4</string>
 								<key>PBXProjectModuleLabel</key>
-								<string>MotionUnlockViewController.m</string>
+								<string>MotionUnlockViewController.h</string>
 								<key>PBXSplitModuleInNavigatorKey</key>
 								<dict>
 									<key>Split0</key>
@@ -324,11 +324,11 @@
 										<key>PBXProjectModuleGUID</key>
 										<string>1CE0B20406471E060097A5F4</string>
 										<key>PBXProjectModuleLabel</key>
-										<string>MotionUnlockViewController.m</string>
+										<string>MotionUnlockViewController.h</string>
 										<key>_historyCapacity</key>
 										<integer>0</integer>
 										<key>bookmark</key>
-										<string>DED4DC84115A997C00FD0DAE</string>
+										<string>DE3E387E115ABDB200A0611B</string>
 										<key>history</key>
 										<array>
 											<string>DECEAA7D1135FEBC00F80C09</string>
@@ -338,8 +338,8 @@
 											<string>DE9B226711489FE5006F4CCC</string>
 											<string>DE856A59115A84E7006BB26C</string>
 											<string>DED4DBBE115A863300FD0DAE</string>
-											<string>DED4DC7A115A988F00FD0DAE</string>
-											<string>DED4DC7B115A988F00FD0DAE</string>
+											<string>DE055199115AA10E00991B8B</string>
+											<string>DE05519B115AA10E00991B8B</string>
 										</array>
 									</dict>
 									<key>SplitCount</key>
@@ -351,14 +351,14 @@
 							<key>GeometryConfiguration</key>
 							<dict>
 								<key>Frame</key>
-								<string>{{0, 0}, {1072, 452}}</string>
+								<string>{{0, 0}, {1072, 438}}</string>
 								<key>RubberWindowFrame</key>
 								<string>0 59 1280 719 0 0 1280 778 </string>
 							</dict>
 							<key>Module</key>
 							<string>PBXNavigatorGroup</string>
 							<key>Proportion</key>
-							<string>452pt</string>
+							<string>438pt</string>
 						</dict>
 						<dict>
 							<key>ContentConfiguration</key>
@@ -371,14 +371,14 @@
 							<key>GeometryConfiguration</key>
 							<dict>
 								<key>Frame</key>
-								<string>{{0, 457}, {1072, 221}}</string>
+								<string>{{0, 443}, {1072, 235}}</string>
 								<key>RubberWindowFrame</key>
 								<string>0 59 1280 719 0 0 1280 778 </string>
 							</dict>
 							<key>Module</key>
 							<string>XCDetailModule</string>
 							<key>Proportion</key>
-							<string>221pt</string>
+							<string>235pt</string>
 						</dict>
 					</array>
 					<key>Proportion</key>
@@ -397,9 +397,9 @@
 			</array>
 			<key>TableOfContents</key>
 			<array>
-				<string>DED4DBA2115A853800FD0DAE</string>
+				<string>DE3E387F115ABDB200A0611B</string>
 				<string>1CE0B1FE06471DED0097A5F4</string>
-				<string>DED4DBA3115A853800FD0DAE</string>
+				<string>DE3E3880115ABDB200A0611B</string>
 				<string>1CE0B20306471E060097A5F4</string>
 				<string>1CE0B20506471E060097A5F4</string>
 			</array>
@@ -537,10 +537,6 @@
 	<integer>5</integer>
 	<key>WindowOrderList</key>
 	<array>
-		<string>DED4DBDA115A86F300FD0DAE</string>
-		<string>DED4DBDB115A86F300FD0DAE</string>
-		<string>1C78EAAD065D492600B07095</string>
-		<string>1CD10A99069EF8BA00B06720</string>
 		<string>DECEAA3F1135F95400F80C09</string>
 		<string>/Users/brianreber/MotionUnlock/MotionUnlock/MotionUnlock.xcodeproj</string>
 	</array>
@@ -566,7 +562,7 @@
 								<key>PBXProjectModuleGUID</key>
 								<string>1CD0528F0623707200166675</string>
 								<key>PBXProjectModuleLabel</key>
-								<string>MotionUnlockViewController.h</string>
+								<string></string>
 								<key>StatusBarVisibility</key>
 								<true/>
 							</dict>
@@ -583,8 +579,6 @@
 							<string>209pt</string>
 						</dict>
 						<dict>
-							<key>BecomeActive</key>
-							<true/>
 							<key>ContentConfiguration</key>
 							<dict>
 								<key>PBXProjectModuleGUID</key>
@@ -624,7 +618,7 @@
 			<key>TableOfContents</key>
 			<array>
 				<string>DECEAA3F1135F95400F80C09</string>
-				<string>DED4DBA4115A853800FD0DAE</string>
+				<string>DE3E3881115ABDB200A0611B</string>
 				<string>1CD0528F0623707200166675</string>
 				<string>XCMainBuildResultsModuleGUID</string>
 			</array>
@@ -746,13 +740,13 @@
 			<key>TableOfContents</key>
 			<array>
 				<string>1CD10A99069EF8BA00B06720</string>
-				<string>DED4DBD2115A86F300FD0DAE</string>
+				<string>DE05519F115AA10E00991B8B</string>
 				<string>1C162984064C10D400B95A72</string>
-				<string>DED4DBD3115A86F300FD0DAE</string>
-				<string>DED4DBD4115A86F300FD0DAE</string>
-				<string>DED4DBD5115A86F300FD0DAE</string>
-				<string>DED4DBD6115A86F300FD0DAE</string>
-				<string>DED4DBD7115A86F300FD0DAE</string>
+				<string>DE0551A0115AA10E00991B8B</string>
+				<string>DE0551A1115AA10E00991B8B</string>
+				<string>DE0551A2115AA10E00991B8B</string>
+				<string>DE0551A3115AA10E00991B8B</string>
+				<string>DE0551A4115AA10E00991B8B</string>
 			</array>
 			<key>ToolbarConfiguration</key>
 			<string>xcode.toolbar.config.debugV3</string>
@@ -914,7 +908,7 @@
 			<key>TableOfContents</key>
 			<array>
 				<string>1C78EAAD065D492600B07095</string>
-				<string>DED4DBD8115A86F300FD0DAE</string>
+				<string>DE0551A5115AA10E00991B8B</string>
 				<string>1C78EAAC065D492600B07095</string>
 			</array>
 			<key>ToolbarConfiguration</key>

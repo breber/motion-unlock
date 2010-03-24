@@ -28,7 +28,7 @@
 	collectData = NO;
 	
 	index = 0;
-	data = [[NSMutableArray alloc] initWithCapacity:500];
+	data = [[NSMutableArray alloc] initWithCapacity:1000];
 	
 	//Set up the accelerometer
 	self.accelerometer = [UIAccelerometer sharedAccelerometer];
@@ -87,15 +87,19 @@
 		[status setText:@"Stopped"];
 		[toggle setTitle:@"Collect Data" forState:UIControlStateNormal];
 		
-		NSArray *arr = [[NSArray alloc] initWithArray:data];
-		[self mailTo:@"reber.brian@gmail.com" withBody:[arr componentsJoinedByString:@"\n"]];
-		
 		//Clear the output text fields
 		[x setText: @""];
 		[y setText: @""];
 		[z setText: @""];
 	} else {
 		collectData = YES;
+		
+		//Reset the array
+		//We may change this when we start comparing data
+		data = nil;
+		data = [[NSMutableArray alloc] initWithCapacity:1000];
+		index = 0;
+		
 		[status setText:@"Collecting Data"];
 		[toggle setTitle:@"Stop" forState:UIControlStateNormal];
 	}
@@ -106,9 +110,22 @@
     [super dealloc];
 }
 
+/*
+ Called when you click on the "email" button
+ */
+-(void) emailData:(id)sender
+{
+	NSArray *arr = [[NSArray alloc] initWithArray:data];
+	if ([arr count] != 0)
+		[self mailTo:@"reber.brian@gmail.com" withBody:[arr componentsJoinedByString:@"\n"]];
+}
+
+/*
+ Formulates an email with the given address and body
+ */
 - (void)mailTo:(NSString *)to withBody:(NSString *)body
 {
-	NSString *message = [NSString stringWithFormat:@"mailto:?to=%@&subject=OutputData&body=%@",
+	NSString *message = [NSString stringWithFormat:@"mailto:?to=%@&subject=MotionUnlockOutputData&body=%@",
 						 [to stringByAddingPercentEscapesUsingEncoding:NSASCIIStringEncoding],
 						 [body stringByAddingPercentEscapesUsingEncoding:NSASCIIStringEncoding]];
 	
