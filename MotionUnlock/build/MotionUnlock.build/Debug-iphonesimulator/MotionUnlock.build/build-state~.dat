@@ -1,286 +1,0 @@
-TMotionUnlock
-v7
-r0
-t289941881.106431
-cCheck dependencies
-cProcessInfoPlistFile /Users/brianreber/MotionUnlock/MotionUnlock/build/Debug-iphonesimulator/MotionUnlock.app/Info.plist MotionUnlock-Info.plist
-cCompileXIB /Users/brianreber/MotionUnlock/MotionUnlock/MainWindow.xib
-cCompileXIB /Users/brianreber/MotionUnlock/MotionUnlock/MotionUnlockViewController.xib
-cCpResource build/Debug-iphonesimulator/MotionUnlock.app/icon.png icon.png
-cProcessPCH /var/folders/nN/nNj0Zm4OEdG+Xrr8YY1BWk+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/MotionUnlock_Prefix-fbifxdanniikkfghhfkhtdrnfriz/MotionUnlock_Prefix.pch.gch MotionUnlock_Prefix.pch normal i386 objective-c com.apple.compilers.gcc.4_2
-cCompileC build/MotionUnlock.build/Debug-iphonesimulator/MotionUnlock.build/Objects-normal/i386/main.o /Users/brianreber/MotionUnlock/MotionUnlock/main.m normal i386 objective-c com.apple.compilers.gcc.4_2
-cCompileC build/MotionUnlock.build/Debug-iphonesimulator/MotionUnlock.build/Objects-normal/i386/MotionUnlockAppDelegate.o /Users/brianreber/MotionUnlock/MotionUnlock/Classes/MotionUnlockAppDelegate.m normal i386 objective-c com.apple.compilers.gcc.4_2
-cCompileC build/MotionUnlock.build/Debug-iphonesimulator/MotionUnlock.build/Objects-normal/i386/MotionUnlockViewController.o /Users/brianreber/MotionUnlock/MotionUnlock/Classes/MotionUnlockViewController.m normal i386 objective-c com.apple.compilers.gcc.4_2
-cLd /Users/brianreber/MotionUnlock/MotionUnlock/build/Debug-iphonesimulator/MotionUnlock.app/MotionUnlock normal i386
-cGenerateDSYMFile /Users/brianreber/MotionUnlock/MotionUnlock/build/Debug-iphonesimulator/MotionUnlock.app.dSYM /Users/brianreber/MotionUnlock/MotionUnlock/build/Debug-iphonesimulator/MotionUnlock.app/MotionUnlock
-cPhaseScriptExecution "Run Script" /Users/brianreber/MotionUnlock/MotionUnlock/build/MotionUnlock.build/Debug-iphonesimulator/MotionUnlock.build/Script-DE28EAA31140C3AA00B63065.sh
-cTouch /Users/brianreber/MotionUnlock/MotionUnlock/build/Debug-iphonesimulator/MotionUnlock.app
-
-N/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator3.1.2.sdk
-c000000004B2B86DD00000000000000EE
-t1261143773
-s238
-
-N/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator3.1.2.sdk/System/Library/Frameworks/CoreGraphics.framework/CoreGraphics
-c000000004ABDC853000000000026DAB0
-t1253951571
-s2546352
-
-N/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator3.1.2.sdk/System/Library/Frameworks/Foundation.framework/Foundation
-c000000004ABDC952000000000027D510
-t1253951826
-s2610448
-
-N/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator3.1.2.sdk/System/Library/Frameworks/Foundation.framework/Headers/Foundation.h
-c000000004ABDC93F0000000000001355
-t1253951807
-s4949
-
-N/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator3.1.2.sdk/System/Library/Frameworks/UIKit.framework/Headers/UIKit.h
-c000000004ABDEE1D0000000000000788
-t1253961245
-s1928
-
-N/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator3.1.2.sdk/System/Library/Frameworks/UIKit.framework/UIKit
-c000000004ABDEEE20000000001670E70
-t1253961442
-s23531120
-
-N/Users/brianreber/MotionUnlock/MotionUnlock/Classes/MotionUnlockAppDelegate.h
-c000000004B97E72E0000000000000204
-t1268246318
-s516
-i<UIKit/UIKit.h>
-
-N/Users/brianreber/MotionUnlock/MotionUnlock/Classes/MotionUnlockAppDelegate.m
-c000000004B97E72E000000000000028A
-t1268246318
-s650
-i"MotionUnlockAppDelegate.h"
-i"MotionUnlockViewController.h"
-
-N/Users/brianreber/MotionUnlock/MotionUnlock/Classes/MotionUnlockViewController.h
-c000000004B97E72E000000000000020F
-t1268246318
-s527
-i<UIKit/UIKit.h>
-
-N/Users/brianreber/MotionUnlock/MotionUnlock/Classes/MotionUnlockViewController.m
-c000000004B97E72E0000000000000A45
-t1268246318
-s2629
-i"MotionUnlockViewController.h"
-
-N/Users/brianreber/MotionUnlock/MotionUnlock/MainWindow.xib
-c000000004B97E7320000000000007DF9
-t1268246322
-s32249
-
-N/Users/brianreber/MotionUnlock/MotionUnlock/MotionUnlockViewController.xib
-c000000004B97E7320000000000006DA9
-t1268246322
-s28073
-
-N/Users/brianreber/MotionUnlock/MotionUnlock/MotionUnlock_Prefix.pch
-c000000004B97E73200000000000000C1
-t1268246322
-s193
-i<Foundation/Foundation.h>
-i<UIKit/UIKit.h>
-
-N/Users/brianreber/MotionUnlock/MotionUnlock/build/Debug-iphonesimulator/MotionUnlock.app
-t1268249081
-s306
-
-N/Users/brianreber/MotionUnlock/MotionUnlock/build/Debug-iphonesimulator/MotionUnlock.app.dSYM
-t1268249080
-s136
-
-N/Users/brianreber/MotionUnlock/MotionUnlock/build/Debug-iphonesimulator/MotionUnlock.app/Info.plist
-t1268249073
-s584
-
-N/Users/brianreber/MotionUnlock/MotionUnlock/build/Debug-iphonesimulator/MotionUnlock.app/MainWindow.nib
-t1268249076
-s4532
-
-N/Users/brianreber/MotionUnlock/MotionUnlock/build/Debug-iphonesimulator/MotionUnlock.app/MotionUnlock
-t1268249080
-s20668
-
-N/Users/brianreber/MotionUnlock/MotionUnlock/build/Debug-iphonesimulator/MotionUnlock.app/MotionUnlockViewController.nib
-t1268249076
-s4184
-
-N/Users/brianreber/MotionUnlock/MotionUnlock/build/Debug-iphonesimulator/MotionUnlock.app/PkgInfo
-t1268249073
-s8
-
-N/Users/brianreber/MotionUnlock/MotionUnlock/build/Debug-iphonesimulator/MotionUnlock.app/icon.png
-t1268247009
-s7329
-
-N/Users/brianreber/MotionUnlock/MotionUnlock/build/MotionUnlock.build/Debug-iphonesimulator/MotionUnlock.build/Objects-normal/i386/MotionUnlock.LinkFileList
-c000000004B97F1F100000000000001C4
-t1268249073
-s452
-
-N/Users/brianreber/MotionUnlock/MotionUnlock/build/MotionUnlock.build/Debug-iphonesimulator/MotionUnlock.build/Objects-normal/i386/MotionUnlockAppDelegate.o
-t1268249080
-s38536
-
-N/Users/brianreber/MotionUnlock/MotionUnlock/build/MotionUnlock.build/Debug-iphonesimulator/MotionUnlock.build/Objects-normal/i386/MotionUnlockViewController.o
-t1268249080
-s36588
-
-N/Users/brianreber/MotionUnlock/MotionUnlock/build/MotionUnlock.build/Debug-iphonesimulator/MotionUnlock.build/Objects-normal/i386/main.o
-t1268249080
-s5968
-
-N/Users/brianreber/MotionUnlock/MotionUnlock/build/MotionUnlock.build/Debug-iphonesimulator/MotionUnlock.build/Script-DE28EAA31140C3AA00B63065.sh
-c000000004B97F1F1000000000000022C
-t1268249073
-s556
-
-N/Users/brianreber/MotionUnlock/MotionUnlock/icon.png
-c000000004B97E7320000000000001CA1
-t1268246322
-s7329
-
-N/Users/brianreber/MotionUnlock/MotionUnlock/main.m
-c000000004B97E7320000000000000175
-t1268246322
-s373
-i<UIKit/UIKit.h>
-
-N/var/folders/nN/nNj0Zm4OEdG+Xrr8YY1BWk+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/MotionUnlock_Prefix-fbifxdanniikkfghhfkhtdrnfriz/MotionUnlock_Prefix.pch.gch
-t1268249078
-s13034960
-
-NMotionUnlock-Info.plist
-c000000004B97E732000000000000038D
-t1268246322
-s909
-
-CCheck dependencies
-r0
-lSLF07#2@18"Check dependencies289941873#289941873#0(0"0(0#1#0"32088628383449192#0"0#
-
-CCompileC build/MotionUnlock.build/Debug-iphonesimulator/MotionUnlock.build/Objects-normal/i386/MotionUnlockAppDelegate.o /Users/brianreber/MotionUnlock/MotionUnlock/Classes/MotionUnlockAppDelegate.m normal i386 objective-c com.apple.compilers.gcc.4_2
-s289941879.708728
-e289941880.124537
-r1
-xCompileC
-xbuild/MotionUnlock.build/Debug-iphonesimulator/MotionUnlock.build/Objects-normal/i386/MotionUnlockAppDelegate.o
-x/Users/brianreber/MotionUnlock/MotionUnlock/Classes/MotionUnlockAppDelegate.m
-xnormal
-xi386
-xobjective-c
-xcom.apple.compilers.gcc.4_2
-lSLF07#2@85"Compile /Users/brianreber/MotionUnlock/MotionUnlock/Classes/MotionUnlockAppDelegate.m289941879#289941880#0(0"0(0#0#77"/Users/brianreber/MotionUnlock/MotionUnlock/Classes/MotionUnlockAppDelegate.m4300885448#2122"    cd /Users/brianreber/MotionUnlock/MotionUnlock    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/usr/X11/bin:/opt/local/bin:/usr/local/git/bin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -D__IPHONE_OS_VERSION_MIN_REQUIRED=30000 -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator3.1.2.sdk -fvisibility=hidden -mmacosx-version-min=10.5 -gdwarf-2 -iquote /Users/brianreber/MotionUnlock/MotionUnlock/build/MotionUnlock.build/Debug-iphonesimulator/MotionUnlock.build/MotionUnlock-generated-files.hmap -I/Users/brianreber/MotionUnlock/MotionUnlock/build/MotionUnlock.build/Debug-iphonesimulator/MotionUnlock.build/MotionUnlock-own-target-headers.hmap -I/Users/brianreber/MotionUnlock/MotionUnlock/build/MotionUnlock.build/Debug-iphonesimulator/MotionUnlock.build/MotionUnlock-all-target-headers.hmap -iquote /Users/brianreber/MotionUnlock/MotionUnlock/build/MotionUnlock.build/Debug-iphonesimulator/MotionUnlock.build/MotionUnlock-project-headers.hmap -F/Users/brianreber/MotionUnlock/MotionUnlock/build/Debug-iphonesimulator -I/Users/brianreber/MotionUnlock/MotionUnlock/build/Debug-iphonesimulator/include -I/Users/brianreber/MotionUnlock/MotionUnlock/build/MotionUnlock.build/Debug-iphonesimulator/MotionUnlock.build/DerivedSources/i386 -I/Users/brianreber/MotionUnlock/MotionUnlock/build/MotionUnlock.build/Debug-iphonesimulator/MotionUnlock.build/DerivedSources -include /var/folders/nN/nNj0Zm4OEdG+Xrr8YY1BWk+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/MotionUnlock_Prefix-fbifxdanniikkfghhfkhtdrnfriz/MotionUnlock_Prefix.pch -c /Users/brianreber/MotionUnlock/MotionUnlock/Classes/MotionUnlockAppDelegate.m -o /Users/brianreber/MotionUnlock/MotionUnlock/build/MotionUnlock.build/Debug-iphonesimulator/MotionUnlock.build/Objects-normal/i386/MotionUnlockAppDelegate.o0#
-
-CCompileC build/MotionUnlock.build/Debug-iphonesimulator/MotionUnlock.build/Objects-normal/i386/MotionUnlockViewController.o /Users/brianreber/MotionUnlock/MotionUnlock/Classes/MotionUnlockViewController.m normal i386 objective-c com.apple.compilers.gcc.4_2
-s289941880.092528
-e289941880.195122
-r1
-xCompileC
-xbuild/MotionUnlock.build/Debug-iphonesimulator/MotionUnlock.build/Objects-normal/i386/MotionUnlockViewController.o
-x/Users/brianreber/MotionUnlock/MotionUnlock/Classes/MotionUnlockViewController.m
-xnormal
-xi386
-xobjective-c
-xcom.apple.compilers.gcc.4_2
-lSLF07#2@88"Compile /Users/brianreber/MotionUnlock/MotionUnlock/Classes/MotionUnlockViewController.m289941880#289941880#0(0"0(0#0#80"/Users/brianreber/MotionUnlock/MotionUnlock/Classes/MotionUnlockViewController.m4300885448#2128"    cd /Users/brianreber/MotionUnlock/MotionUnlock    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/usr/X11/bin:/opt/local/bin:/usr/local/git/bin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -D__IPHONE_OS_VERSION_MIN_REQUIRED=30000 -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator3.1.2.sdk -fvisibility=hidden -mmacosx-version-min=10.5 -gdwarf-2 -iquote /Users/brianreber/MotionUnlock/MotionUnlock/build/MotionUnlock.build/Debug-iphonesimulator/MotionUnlock.build/MotionUnlock-generated-files.hmap -I/Users/brianreber/MotionUnlock/MotionUnlock/build/MotionUnlock.build/Debug-iphonesimulator/MotionUnlock.build/MotionUnlock-own-target-headers.hmap -I/Users/brianreber/MotionUnlock/MotionUnlock/build/MotionUnlock.build/Debug-iphonesimulator/MotionUnlock.build/MotionUnlock-all-target-headers.hmap -iquote /Users/brianreber/MotionUnlock/MotionUnlock/build/MotionUnlock.build/Debug-iphonesimulator/MotionUnlock.build/MotionUnlock-project-headers.hmap -F/Users/brianreber/MotionUnlock/MotionUnlock/build/Debug-iphonesimulator -I/Users/brianreber/MotionUnlock/MotionUnlock/build/Debug-iphonesimulator/include -I/Users/brianreber/MotionUnlock/MotionUnlock/build/MotionUnlock.build/Debug-iphonesimulator/MotionUnlock.build/DerivedSources/i386 -I/Users/brianreber/MotionUnlock/MotionUnlock/build/MotionUnlock.build/Debug-iphonesimulator/MotionUnlock.build/DerivedSources -include /var/folders/nN/nNj0Zm4OEdG+Xrr8YY1BWk+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/MotionUnlock_Prefix-fbifxdanniikkfghhfkhtdrnfriz/MotionUnlock_Prefix.pch -c /Users/brianreber/MotionUnlock/MotionUnlock/Classes/MotionUnlockViewController.m -o /Users/brianreber/MotionUnlock/MotionUnlock/build/MotionUnlock.build/Debug-iphonesimulator/MotionUnlock.build/Objects-normal/i386/MotionUnlockViewController.o0#
-
-CCompileC build/MotionUnlock.build/Debug-iphonesimulator/MotionUnlock.build/Objects-normal/i386/main.o /Users/brianreber/MotionUnlock/MotionUnlock/main.m normal i386 objective-c com.apple.compilers.gcc.4_2
-s289941879.707544
-e289941880.092420
-r1
-xCompileC
-xbuild/MotionUnlock.build/Debug-iphonesimulator/MotionUnlock.build/Objects-normal/i386/main.o
-x/Users/brianreber/MotionUnlock/MotionUnlock/main.m
-xnormal
-xi386
-xobjective-c
-xcom.apple.compilers.gcc.4_2
-lSLF07#2@58"Compile /Users/brianreber/MotionUnlock/MotionUnlock/main.m289941879#289941880#0(0"0(0#0#50"/Users/brianreber/MotionUnlock/MotionUnlock/main.m6155980239377746944#2076"    cd /Users/brianreber/MotionUnlock/MotionUnlock    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/usr/X11/bin:/opt/local/bin:/usr/local/git/bin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -D__IPHONE_OS_VERSION_MIN_REQUIRED=30000 -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator3.1.2.sdk -fvisibility=hidden -mmacosx-version-min=10.5 -gdwarf-2 -iquote /Users/brianreber/MotionUnlock/MotionUnlock/build/MotionUnlock.build/Debug-iphonesimulator/MotionUnlock.build/MotionUnlock-generated-files.hmap -I/Users/brianreber/MotionUnlock/MotionUnlock/build/MotionUnlock.build/Debug-iphonesimulator/MotionUnlock.build/MotionUnlock-own-target-headers.hmap -I/Users/brianreber/MotionUnlock/MotionUnlock/build/MotionUnlock.build/Debug-iphonesimulator/MotionUnlock.build/MotionUnlock-all-target-headers.hmap -iquote /Users/brianreber/MotionUnlock/MotionUnlock/build/MotionUnlock.build/Debug-iphonesimulator/MotionUnlock.build/MotionUnlock-project-headers.hmap -F/Users/brianreber/MotionUnlock/MotionUnlock/build/Debug-iphonesimulator -I/Users/brianreber/MotionUnlock/MotionUnlock/build/Debug-iphonesimulator/include -I/Users/brianreber/MotionUnlock/MotionUnlock/build/MotionUnlock.build/Debug-iphonesimulator/MotionUnlock.build/DerivedSources/i386 -I/Users/brianreber/MotionUnlock/MotionUnlock/build/MotionUnlock.build/Debug-iphonesimulator/MotionUnlock.build/DerivedSources -include /var/folders/nN/nNj0Zm4OEdG+Xrr8YY1BWk+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/MotionUnlock_Prefix-fbifxdanniikkfghhfkhtdrnfriz/MotionUnlock_Prefix.pch -c /Users/brianreber/MotionUnlock/MotionUnlock/main.m -o /Users/brianreber/MotionUnlock/MotionUnlock/build/MotionUnlock.build/Debug-iphonesimulator/MotionUnlock.build/Objects-normal/i386/main.o0#
-
-CCompileXIB /Users/brianreber/MotionUnlock/MotionUnlock/MainWindow.xib
-s289941873.833164
-e289941876.628605
-r1
-xCompileXIB
-x/Users/brianreber/MotionUnlock/MotionUnlock/MainWindow.xib
-o/* com.apple.ibtool.document.warnings */
-o/Users/brianreber/MotionUnlock/MotionUnlock/MainWindow.xib:10: warning: 'Motion Unlock View Controller' has both its 'View' and 'NIB Name' properties set. This configuration is not supported.
-lSLF07#2@25"CompileXIB MainWindow.xib289941873#289941876#0(233"/* com.apple.ibtool.document.warnings *//Users/brianreber/MotionUnlock/MotionUnlock/MainWindow.xib:10: warning: 'Motion Unlock View Controller' has both its 'View' and 'NIB Name' properties set. This configuration is not supported.1(22@119"'Motion Unlock View Controller' has both its 'View' and 'NIB Name' properties set. This configuration is not supported.289941876#18446744073709551615#0#0(6@58"/Users/brianreber/MotionUnlock/MotionUnlock/MainWindow.xib289939122#10#0#10#0#0"0(0#0#58"/Users/brianreber/MotionUnlock/MotionUnlock/MainWindow.xib4300885448#564"    cd /Users/brianreber/MotionUnlock/MotionUnlock    setenv IBC_MINIMUM_COMPATIBILITY_VERSION 3.1.2    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/usr/X11/bin:/opt/local/bin:/usr/local/git/bin"    /Developer/usr/bin/ibtool --errors --warnings --notices --output-format human-readable-text --compile /Users/brianreber/MotionUnlock/MotionUnlock/build/Debug-iphonesimulator/MotionUnlock.app/MainWindow.nib /Users/brianreber/MotionUnlock/MotionUnlock/MainWindow.xib0#
-
-CCompileXIB /Users/brianreber/MotionUnlock/MotionUnlock/MotionUnlockViewController.xib
-s289941873.891554
-e289941876.637386
-r1
-xCompileXIB
-x/Users/brianreber/MotionUnlock/MotionUnlock/MotionUnlockViewController.xib
-lSLF07#2@41"CompileXIB MotionUnlockViewController.xib289941873#289941876#0(0"0(0#0#74"/Users/brianreber/MotionUnlock/MotionUnlock/MotionUnlockViewController.xib4300885448#596"    cd /Users/brianreber/MotionUnlock/MotionUnlock    setenv IBC_MINIMUM_COMPATIBILITY_VERSION 3.1.2    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/usr/X11/bin:/opt/local/bin:/usr/local/git/bin"    /Developer/usr/bin/ibtool --errors --warnings --notices --output-format human-readable-text --compile /Users/brianreber/MotionUnlock/MotionUnlock/build/Debug-iphonesimulator/MotionUnlock.app/MotionUnlockViewController.nib /Users/brianreber/MotionUnlock/MotionUnlock/MotionUnlockViewController.xib0#
-
-CCpResource build/Debug-iphonesimulator/MotionUnlock.app/icon.png icon.png
-r0
-
-CGenerateDSYMFile /Users/brianreber/MotionUnlock/MotionUnlock/build/Debug-iphonesimulator/MotionUnlock.app.dSYM /Users/brianreber/MotionUnlock/MotionUnlock/build/Debug-iphonesimulator/MotionUnlock.app/MotionUnlock
-s289941880.914892
-e289941881.090026
-r1
-xGenerateDSYMFile
-x/Users/brianreber/MotionUnlock/MotionUnlock/build/Debug-iphonesimulator/MotionUnlock.app.dSYM
-x/Users/brianreber/MotionUnlock/MotionUnlock/build/Debug-iphonesimulator/MotionUnlock.app/MotionUnlock
-lSLF07#2@124"GenerateDSYMFile build/Debug-iphonesimulator/MotionUnlock.app.dSYM build/Debug-iphonesimulator/MotionUnlock.app/MotionUnlock289941880#289941881#0(0"0(0#0#101"/Users/brianreber/MotionUnlock/MotionUnlock/build/Debug-iphonesimulator/MotionUnlock.app/MotionUnlock4300885448#475"    cd /Users/brianreber/MotionUnlock/MotionUnlock    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/usr/X11/bin:/opt/local/bin:/usr/local/git/bin"    /Developer/usr/bin/dsymutil /Users/brianreber/MotionUnlock/MotionUnlock/build/Debug-iphonesimulator/MotionUnlock.app/MotionUnlock -o /Users/brianreber/MotionUnlock/MotionUnlock/build/Debug-iphonesimulator/MotionUnlock.app.dSYM0#
-
-CLd /Users/brianreber/MotionUnlock/MotionUnlock/build/Debug-iphonesimulator/MotionUnlock.app/MotionUnlock normal i386
-s289941880.195229
-e289941880.914780
-r1
-xLd
-x/Users/brianreber/MotionUnlock/MotionUnlock/build/Debug-iphonesimulator/MotionUnlock.app/MotionUnlock
-xnormal
-xi386
-lSLF07#2@106"Link /Users/brianreber/MotionUnlock/MotionUnlock/build/Debug-iphonesimulator/MotionUnlock.app/MotionUnlock289941880#289941880#0(0"0(0#0#0"4300885448#976"    cd /Users/brianreber/MotionUnlock/MotionUnlock    setenv MACOSX_DEPLOYMENT_TARGET 10.5    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/usr/X11/bin:/opt/local/bin:/usr/local/git/bin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -arch i386 -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator3.1.2.sdk -L/Users/brianreber/MotionUnlock/MotionUnlock/build/Debug-iphonesimulator -F/Users/brianreber/MotionUnlock/MotionUnlock/build/Debug-iphonesimulator -filelist /Users/brianreber/MotionUnlock/MotionUnlock/build/MotionUnlock.build/Debug-iphonesimulator/MotionUnlock.build/Objects-normal/i386/MotionUnlock.LinkFileList -mmacosx-version-min=10.5 -framework Foundation -framework UIKit -framework CoreGraphics -o /Users/brianreber/MotionUnlock/MotionUnlock/build/Debug-iphonesimulator/MotionUnlock.app/MotionUnlock0#
-
-CPhaseScriptExecution "Run Script" /Users/brianreber/MotionUnlock/MotionUnlock/build/MotionUnlock.build/Debug-iphonesimulator/MotionUnlock.build/Script-DE28EAA31140C3AA00B63065.sh
-s289941881.090128
-e289941881.103296
-r1
-xPhaseScriptExecution
-xRun Script
-x/Users/brianreber/MotionUnlock/MotionUnlock/build/MotionUnlock.build/Debug-iphonesimulator/MotionUnlock.build/Script-DE28EAA31140C3AA00B63065.sh
-lSLF07#2@36"Run custom shell script 'Run Script'289941881#289941881#0(0"0(0#0#0"4300885448#17435"    cd /Users/brianreber/MotionUnlock/MotionUnlock    setenv ACTION build    setenv ALTERNATE_GROUP staff    setenv ALTERNATE_MODE u+w,go-w,a+rX    setenv ALTERNATE_OWNER brianreber    setenv ALWAYS_SEARCH_USER_PATHS NO    setenv APPLE_INTERNAL_DEVELOPER_DIR /AppleInternal/Developer    setenv APPLE_INTERNAL_DIR /AppleInternal    setenv APPLE_INTERNAL_DOCUMENTATION_DIR /AppleInternal/Documentation    setenv APPLE_INTERNAL_LIBRARY_DIR /AppleInternal/Library    setenv APPLE_INTERNAL_TOOLS /AppleInternal/Developer/Tools    setenv APPLY_RULES_IN_COPY_FILES NO    setenv ARCHS i386    setenv ARCHS_STANDARD_32_BIT i386    setenv ARCHS_UNIVERSAL_IPHONE_OS i386    setenv BUILD_COMPONENTS "headers build"    setenv BUILD_DIR /Users/brianreber/MotionUnlock/MotionUnlock/build    setenv BUILD_ROOT /Users/brianreber/MotionUnlock/MotionUnlock/build    setenv BUILD_STYLE Debug    setenv BUILD_VARIANTS normal    setenv BUILT_PRODUCTS_DIR /Users/brianreber/MotionUnlock/MotionUnlock/build/Debug-iphonesimulator    setenv CACHE_ROOT /var/folders/nN/nNj0Zm4OEdG+Xrr8YY1BWk+++TI/-Caches-/com.apple.Xcode.501    setenv CCHROOT /var/folders/nN/nNj0Zm4OEdG+Xrr8YY1BWk+++TI/-Caches-/com.apple.Xcode.501    setenv CHMOD /bin/chmod    setenv CHOWN /usr/sbin/chown    setenv CLASS_FILE_DIR /Users/brianreber/MotionUnlock/MotionUnlock/build/MotionUnlock.build/Debug-iphonesimulator/MotionUnlock.build/JavaClasses    setenv CLEAN_PRECOMPS YES    setenv CLONE_HEADERS NO    setenv CODESIGNING_FOLDER_PATH /Users/brianreber/MotionUnlock/MotionUnlock/build/Debug-iphonesimulator/MotionUnlock.app    setenv CODE_SIGN_CONTEXT_CLASS XCCodeSignContext    setenv COMMAND_MODE legacy    setenv COMPOSITE_SDK_DIRS /var/folders/nN/nNj0Zm4OEdG+Xrr8YY1BWk+++TI/-Caches-/com.apple.Xcode.501/CompositeSDKs    setenv COMPRESS_PNG_FILES YES    setenv CONFIGURATION Debug    setenv CONFIGURATION_BUILD_DIR /Users/brianreber/MotionUnlock/MotionUnlock/build/Debug-iphonesimulator    setenv CONFIGURATION_TEMP_DIR /Users/brianreber/MotionUnlock/MotionUnlock/build/MotionUnlock.build/Debug-iphonesimulator    setenv CONTENTS_FOLDER_PATH MotionUnlock.app    setenv COPYING_PRESERVES_HFS_DATA NO    setenv COPY_PHASE_STRIP NO    setenv COPY_RESOURCES_FROM_STATIC_FRAMEWORKS YES    setenv CP /bin/cp    setenv CURRENT_ARCH i386    setenv CURRENT_VARIANT normal    setenv DEAD_CODE_STRIPPING NO    setenv DEBUGGING_SYMBOLS YES    setenv DEBUG_INFORMATION_FORMAT dwarf-with-dsym    setenv DEPLOYMENT_LOCATION NO    setenv DEPLOYMENT_POSTPROCESSING NO    setenv DERIVED_FILES_DIR /Users/brianreber/MotionUnlock/MotionUnlock/build/MotionUnlock.build/Debug-iphonesimulator/MotionUnlock.build/DerivedSources    setenv DERIVED_FILE_DIR /Users/brianreber/MotionUnlock/MotionUnlock/build/MotionUnlock.build/Debug-iphonesimulator/MotionUnlock.build/DerivedSources    setenv DERIVED_SOURCES_DIR /Users/brianreber/MotionUnlock/MotionUnlock/build/MotionUnlock.build/Debug-iphonesimulator/MotionUnlock.build/DerivedSources    setenv DEVELOPER_APPLICATIONS_DIR /Developer/Applications    setenv DEVELOPER_BIN_DIR /Developer/usr/bin    setenv DEVELOPER_DIR /Developer    setenv DEVELOPER_FRAMEWORKS_DIR /Developer/Library/Frameworks    setenv DEVELOPER_FRAMEWORKS_DIR_QUOTED "\"/Developer/Library/Frameworks\""    setenv DEVELOPER_LIBRARY_DIR /Developer/Library    setenv DEVELOPER_SDK_DIR /Developer/SDKs    setenv DEVELOPER_TOOLS_DIR /Developer/Tools    setenv DEVELOPER_USR_DIR /Developer/usr    setenv DEVELOPMENT_LANGUAGE English    setenv DOCUMENTATION_FOLDER_PATH /Documentation    setenv DO_HEADER_SCANNING_IN_JAM NO    setenv DSTROOT /tmp/MotionUnlock.dst    setenv DWARF_DSYM_FILE_NAME MotionUnlock.app.dSYM    setenv DWARF_DSYM_FOLDER_PATH /Users/brianreber/MotionUnlock/MotionUnlock/build/Debug-iphonesimulator    setenv EFFECTIVE_PLATFORM_NAME -iphonesimulator    setenv ENABLE_HEADER_DEPENDENCIES YES    setenv ENABLE_OPENMP_SUPPORT NO    setenv EXCLUDED_INSTALLSRC_SUBDIRECTORY_PATTERNS ".svn CVS"    setenv EXCLUDED_RECURSIVE_SEARCH_PATH_SUBDIRECTORIES "*.nib *.lproj *.framework *.gch (*) CVS .svn *.xcodeproj *.xcode *.pbproj *.pbxproj"    setenv EXECUTABLES_FOLDER_PATH MotionUnlock.app/Executables    setenv EXECUTABLE_FOLDER_PATH MotionUnlock.app    setenv EXECUTABLE_NAME MotionUnlock    setenv EXECUTABLE_PATH MotionUnlock.app/MotionUnlock    setenv FILE_LIST /Users/brianreber/MotionUnlock/MotionUnlock/build/MotionUnlock.build/Debug-iphonesimulator/MotionUnlock.build/Objects/LinkFileList    setenv FIXED_FILES_DIR /Users/brianreber/MotionUnlock/MotionUnlock/build/MotionUnlock.build/Debug-iphonesimulator/MotionUnlock.build/FixedFiles    setenv FRAMEWORKS_FOLDER_PATH MotionUnlock.app/Frameworks    setenv FRAMEWORK_FLAG_PREFIX -framework    setenv FRAMEWORK_SEARCH_PATHS "\"/Users/brianreber/MotionUnlock/MotionUnlock/build/Debug-iphonesimulator\" "    setenv FRAMEWORK_VERSION A    setenv FULL_PRODUCT_NAME MotionUnlock.app    setenv GCC3_VERSION 3.3    setenv GCC_C_LANGUAGE_STANDARD c99    setenv GCC_DYNAMIC_NO_PIC NO    setenv GCC_INLINES_ARE_PRIVATE_EXTERN YES    setenv GCC_OPTIMIZATION_LEVEL 0    setenv GCC_PFE_FILE_C_DIALECTS "c objective-c c++ objective-c++"    setenv GCC_PRECOMPILE_PREFIX_HEADER YES    setenv GCC_PREFIX_HEADER MotionUnlock_Prefix.pch    setenv GCC_PRODUCT_TYPE_PREPROCESSOR_DEFINITIONS " __IPHONE_OS_VERSION_MIN_REQUIRED=30000"    setenv GCC_SYMBOLS_PRIVATE_EXTERN YES    setenv GCC_TREAT_WARNINGS_AS_ERRORS NO    setenv GCC_VERSION 4.2    setenv GCC_VERSION_IDENTIFIER __2    setenv GCC_WARN_ABOUT_RETURN_TYPE YES    setenv GCC_WARN_UNUSED_VARIABLE YES    setenv GENERATE_MASTER_OBJECT_FILE NO    setenv GENERATE_PKGINFO_FILE YES    setenv GENERATE_PROFILING_CODE NO    setenv GID 20    setenv GROUP staff    setenv HEADERMAP_INCLUDES_FLAT_ENTRIES_FOR_TARGET_BEING_BUILT YES    setenv HEADERMAP_INCLUDES_FRAMEWORK_ENTRIES_FOR_ALL_PRODUCT_TYPES YES    setenv HEADERMAP_INCLUDES_NONPUBLIC_NONPRIVATE_HEADERS YES    setenv HEADERMAP_INCLUDES_PROJECT_HEADERS YES    setenv HEADER_SEARCH_PATHS "\"/Users/brianreber/MotionUnlock/MotionUnlock/build/Debug-iphonesimulator/include\" "    setenv ICONV /usr/bin/iconv    setenv INFOPLIST_EXPAND_BUILD_SETTINGS YES    setenv INFOPLIST_FILE MotionUnlock-Info.plist    setenv INFOPLIST_OUTPUT_FORMAT binary    setenv INFOPLIST_PATH MotionUnlock.app/Info.plist    setenv INFOPLIST_PREPROCESS NO    setenv INFOSTRINGS_PATH /InfoPlist.strings    setenv INSTALL_DIR /tmp/MotionUnlock.dst/Users/brianreber/Applications    setenv INSTALL_GROUP staff    setenv INSTALL_MODE_FLAG u+w,go-w,a+rX    setenv INSTALL_OWNER brianreber    setenv INSTALL_PATH /Users/brianreber/Applications    setenv INSTALL_ROOT /tmp/MotionUnlock.dst    setenv IPHONEOS_DEPLOYMENT_TARGET 3.1.2    setenv JAVAC_DEFAULT_FLAGS "-J-Xms64m -J-XX:NewSize=4M -J-Dfile.encoding=UTF8"    setenv JAVA_APP_STUB /System/Library/Frameworks/JavaVM.framework/Resources/MacOS/JavaApplicationStub    setenv JAVA_ARCHIVE_CLASSES YES    setenv JAVA_ARCHIVE_TYPE JAR    setenv JAVA_COMPILER /usr/bin/javac    setenv JAVA_FOLDER_PATH MotionUnlock.app/Java    setenv JAVA_FRAMEWORK_RESOURCES_DIRS Resources    setenv JAVA_JAR_FLAGS cv    setenv JAVA_SOURCE_SUBDIR .    setenv JAVA_USE_DEPENDENCIES YES    setenv JAVA_ZIP_FLAGS -urg    setenv JIKES_DEFAULT_FLAGS "+E +OLDCSO"    setenv KEEP_PRIVATE_EXTERNS NO    setenv LD_GENERATE_MAP_FILE NO    setenv LD_MAP_FILE_PATH /Users/brianreber/MotionUnlock/MotionUnlock/build/MotionUnlock.build/Debug-iphonesimulator/MotionUnlock.build/MotionUnlock-LinkMap-normal-i386.txt    setenv LD_OPENMP_FLAGS -fopenmp    setenv LEX /Developer/usr/bin/lex    setenv LIBRARY_FLAG_NOSPACE YES    setenv LIBRARY_FLAG_PREFIX -l    setenv LIBRARY_SEARCH_PATHS "\"/Users/brianreber/MotionUnlock/MotionUnlock/build/Debug-iphonesimulator\" "    setenv LINKER_DISPLAYS_MANGLED_NAMES NO    setenv LINK_FILE_LIST_normal_i386 /Users/brianreber/MotionUnlock/MotionUnlock/build/MotionUnlock.build/Debug-iphonesimulator/MotionUnlock.build/Objects-normal/i386/MotionUnlock.LinkFileList    setenv LINK_WITH_STANDARD_LIBRARIES YES    setenv LOCAL_ADMIN_APPS_DIR /Applications/Utilities    setenv LOCAL_APPS_DIR /Applications    setenv LOCAL_DEVELOPER_DIR /Library/Developer    setenv LOCAL_LIBRARY_DIR /Library    setenv MACH_O_TYPE mh_execute    setenv MACOSX_DEPLOYMENT_TARGET 10.5    setenv MAC_OS_X_VERSION_ACTUAL 1062    setenv MAC_OS_X_VERSION_MAJOR 1060    setenv MAC_OS_X_VERSION_MINOR 0602    setenv NATIVE_ARCH i386    setenv NATIVE_ARCH_32_BIT i386    setenv NATIVE_ARCH_64_BIT x86_64    setenv NATIVE_ARCH_ACTUAL x86_64    setenv NO_COMMON YES    setenv OBJECT_FILE_DIR /Users/brianreber/MotionUnlock/MotionUnlock/build/MotionUnlock.build/Debug-iphonesimulator/MotionUnlock.build/Objects    setenv OBJECT_FILE_DIR_normal /Users/brianreber/MotionUnlock/MotionUnlock/build/MotionUnlock.build/Debug-iphonesimulator/MotionUnlock.build/Objects-normal    setenv OBJROOT /Users/brianreber/MotionUnlock/MotionUnlock/build    setenv ONLY_ACTIVE_ARCH NO    setenv OPTIMIZATION_LEVEL 0    setenv OS MACOS    setenv OSAC /usr/bin/osacompile    setenv PACKAGE_TYPE com.apple.package-type.wrapper.application    setenv PASCAL_STRINGS YES    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/usr/X11/bin:/opt/local/bin:/usr/local/git/bin"    setenv PATH_PREFIXES_EXCLUDED_FROM_HEADER_DEPENDENCIES "/usr/include /usr/local/include /System/Library/Frameworks /System/Library/PrivateFrameworks /Developer/Headers /Developer/SDKs /Developer/Platforms"    setenv PBDEVELOPMENTPLIST_PATH MotionUnlock.app/pbdevelopment.plist    setenv PFE_FILE_C_DIALECTS objective-c    setenv PKGINFO_FILE_PATH /Users/brianreber/MotionUnlock/MotionUnlock/build/MotionUnlock.build/Debug-iphonesimulator/MotionUnlock.build/PkgInfo    setenv PKGINFO_PATH MotionUnlock.app/PkgInfo    setenv PLATFORM_DEVELOPER_APPLICATIONS_DIR /Developer/Platforms/iPhoneSimulator.platform/Developer/Applications    setenv PLATFORM_DEVELOPER_BIN_DIR /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin    setenv PLATFORM_DEVELOPER_LIBRARY_DIR /Developer/Platforms/iPhoneSimulator.platform/Developer/Library    setenv PLATFORM_DEVELOPER_SDK_DIR /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs    setenv PLATFORM_DEVELOPER_TOOLS_DIR /Developer/Platforms/iPhoneSimulator.platform/Developer/Tools    setenv PLATFORM_DEVELOPER_USR_DIR /Developer/Platforms/iPhoneSimulator.platform/Developer/usr    setenv PLATFORM_DIR /Developer/Platforms/iPhoneSimulator.platform    setenv PLATFORM_NAME iphonesimulator    setenv PLIST_FILE_OUTPUT_FORMAT binary    setenv PLUGINS_FOLDER_PATH MotionUnlock.app/PlugIns    setenv PREBINDING NO    setenv PRECOMPS_INCLUDE_HEADERS_FROM_BUILT_PRODUCTS_DIR YES    setenv PRECOMP_DESTINATION_DIR /Users/brianreber/MotionUnlock/MotionUnlock/build/MotionUnlock.build/Debug-iphonesimulator/MotionUnlock.build/PrefixHeaders    setenv PRESERVE_DEAD_CODE_INITS_AND_TERMS NO    setenv PRIVATE_HEADERS_FOLDER_PATH MotionUnlock.app/PrivateHeaders    setenv PRODUCT_NAME MotionUnlock    setenv PRODUCT_SETTINGS_PATH /Users/brianreber/MotionUnlock/MotionUnlock/MotionUnlock-Info.plist    setenv PRODUCT_TYPE com.apple.product-type.application    setenv PROFILING_CODE NO    setenv PROJECT MotionUnlock    setenv PROJECT_DERIVED_FILE_DIR /Users/brianreber/MotionUnlock/MotionUnlock/build/MotionUnlock.build/DerivedSources    setenv PROJECT_DIR /Users/brianreber/MotionUnlock/MotionUnlock    setenv PROJECT_FILE_PATH /Users/brianreber/MotionUnlock/MotionUnlock/MotionUnlock.xcodeproj    setenv PROJECT_NAME MotionUnlock    setenv PROJECT_TEMP_DIR /Users/brianreber/MotionUnlock/MotionUnlock/build/MotionUnlock.build    setenv PUBLIC_HEADERS_FOLDER_PATH MotionUnlock.app/Headers    setenv RECURSIVE_SEARCH_PATHS_FOLLOW_SYMLINKS YES    setenv REMOVE_CVS_FROM_RESOURCES YES    setenv REMOVE_SVN_FROM_RESOURCES YES    setenv REZ_COLLECTOR_DIR /Users/brianreber/MotionUnlock/MotionUnlock/build/MotionUnlock.build/Debug-iphonesimulator/MotionUnlock.build/ResourceManagerResources    setenv REZ_OBJECTS_DIR /Users/brianreber/MotionUnlock/MotionUnlock/build/MotionUnlock.build/Debug-iphonesimulator/MotionUnlock.build/ResourceManagerResources/Objects    setenv REZ_SEARCH_PATHS "\"/Users/brianreber/MotionUnlock/MotionUnlock/build/Debug-iphonesimulator\" "    setenv RUN_CLANG_STATIC_ANALYZER NO    setenv SCAN_ALL_SOURCE_FILES_FOR_INCLUDES NO    setenv SCRIPTS_FOLDER_PATH MotionUnlock.app/Scripts    setenv SCRIPT_INPUT_FILE_COUNT 0    setenv SCRIPT_OUTPUT_FILE_COUNT 0    setenv SDKROOT /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator3.1.2.sdk    setenv SDK_DIR /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator3.1.2.sdk    setenv SDK_NAME iphonesimulator3.1.2    setenv SED /usr/bin/sed    setenv SEPARATE_STRIP NO    setenv SEPARATE_SYMBOL_EDIT NO    setenv SET_DIR_MODE_OWNER_GROUP YES    setenv SET_FILE_MODE_OWNER_GROUP NO    setenv SHALLOW_BUNDLE YES    setenv SHARED_DERIVED_FILE_DIR /Users/brianreber/MotionUnlock/MotionUnlock/build/Debug-iphonesimulator/DerivedSources    setenv SHARED_FRAMEWORKS_FOLDER_PATH MotionUnlock.app/SharedFrameworks    setenv SHARED_PRECOMPS_DIR /var/folders/nN/nNj0Zm4OEdG+Xrr8YY1BWk+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders    setenv SHARED_SUPPORT_FOLDER_PATH MotionUnlock.app/SharedSupport    setenv SKIP_INSTALL YES    setenv SOURCE_ROOT /Users/brianreber/MotionUnlock/MotionUnlock    setenv SRCROOT /Users/brianreber/MotionUnlock/MotionUnlock    setenv STANDARD_C_PLUS_PLUS_LIBRARY_TYPE dynamic    setenv STRINGS_FILE_OUTPUT_ENCODING binary    setenv STRIP_INSTALLED_PRODUCT YES    setenv STRIP_STYLE all    setenv SYMBOL_REPOSITORY_DIR /Users/brianreber/MotionUnlock/MotionUnlock/build/MotionUnlock.build/Debug-iphonesimulator/MotionUnlock.build/SymbolRepositories    setenv SYMROOT /Users/brianreber/MotionUnlock/MotionUnlock/build    setenv SYSTEM_ADMIN_APPS_DIR /Applications/Utilities    setenv SYSTEM_APPS_DIR /Applications    setenv SYSTEM_CORE_SERVICES_DIR /System/Library/CoreServices    setenv SYSTEM_DEMOS_DIR /Applications/Extras    setenv SYSTEM_DEVELOPER_APPS_DIR /Developer/Applications    setenv SYSTEM_DEVELOPER_BIN_DIR /Developer/usr/bin    setenv SYSTEM_DEVELOPER_DEMOS_DIR "/Developer/Applications/Utilities/Built Examples"    setenv SYSTEM_DEVELOPER_DIR /Developer    setenv SYSTEM_DEVELOPER_DOC_DIR "/Developer/ADC Reference Library"    setenv SYSTEM_DEVELOPER_GRAPHICS_TOOLS_DIR "/Developer/Applications/Graphics Tools"    setenv SYSTEM_DEVELOPER_JAVA_TOOLS_DIR "/Developer/Applications/Java Tools"    setenv SYSTEM_DEVELOPER_PERFORMANCE_TOOLS_DIR "/Developer/Applications/Performance Tools"    setenv SYSTEM_DEVELOPER_RELEASENOTES_DIR "/Developer/ADC Reference Library/releasenotes"    setenv SYSTEM_DEVELOPER_TOOLS /Developer/Tools    setenv SYSTEM_DEVELOPER_TOOLS_DOC_DIR "/Developer/ADC Reference Library/documentation/DeveloperTools"    setenv SYSTEM_DEVELOPER_TOOLS_RELEASENOTES_DIR "/Developer/ADC Reference Library/releasenotes/DeveloperTools"    setenv SYSTEM_DEVELOPER_USR_DIR /Developer/usr    setenv SYSTEM_DEVELOPER_UTILITIES_DIR /Developer/Applications/Utilities    setenv SYSTEM_DOCUMENTATION_DIR /Library/Documentation    setenv SYSTEM_LIBRARY_DIR /System/Library    setenv TARGETNAME MotionUnlock    setenv TARGET_BUILD_DIR /Users/brianreber/MotionUnlock/MotionUnlock/build/Debug-iphonesimulator    setenv TARGET_NAME MotionUnlock    setenv TARGET_TEMP_DIR /Users/brianreber/MotionUnlock/MotionUnlock/build/MotionUnlock.build/Debug-iphonesimulator/MotionUnlock.build    setenv TEMP_DIR /Users/brianreber/MotionUnlock/MotionUnlock/build/MotionUnlock.build/Debug-iphonesimulator/MotionUnlock.build    setenv TEMP_FILES_DIR /Users/brianreber/MotionUnlock/MotionUnlock/build/MotionUnlock.build/Debug-iphonesimulator/MotionUnlock.build    setenv TEMP_FILE_DIR /Users/brianreber/MotionUnlock/MotionUnlock/build/MotionUnlock.build/Debug-iphonesimulator/MotionUnlock.build    setenv TEMP_ROOT /Users/brianreber/MotionUnlock/MotionUnlock/build    setenv UID 501    setenv UNLOCALIZED_RESOURCES_FOLDER_PATH MotionUnlock.app    setenv UNSTRIPPED_PRODUCT NO    setenv USER brianreber    setenv USER_APPS_DIR /Users/brianreber/Applications    setenv USER_LIBRARY_DIR /Users/brianreber/Library    setenv USE_DYNAMIC_NO_PIC YES    setenv USE_HEADERMAP YES    setenv USE_HEADER_SYMLINKS NO    setenv VALID_ARCHS i386    setenv VERBOSE_PBXCP NO    setenv VERSIONPLIST_PATH MotionUnlock.app/version.plist    setenv VERSION_INFO_BUILDER brianreber    setenv VERSION_INFO_FILE MotionUnlock_vers.c    setenv VERSION_INFO_STRING "\"@(#)PROGRAM:MotionUnlock  PROJECT:MotionUnlock-\""    setenv WRAPPER_EXTENSION app    setenv WRAPPER_NAME MotionUnlock.app    setenv WRAPPER_SUFFIX .app    setenv XCODE_APP_SUPPORT_DIR /Developer/Library/Xcode    setenv XCODE_VERSION_ACTUAL 0321    setenv XCODE_VERSION_MAJOR 0300    setenv XCODE_VERSION_MINOR 0320    setenv YACC /Developer/usr/bin/yacc    /bin/sh -c /Users/brianreber/MotionUnlock/MotionUnlock/build/MotionUnlock.build/Debug-iphonesimulator/MotionUnlock.build/Script-DE28EAA31140C3AA00B63065.sh0#
-
-CProcessInfoPlistFile /Users/brianreber/MotionUnlock/MotionUnlock/build/Debug-iphonesimulator/MotionUnlock.app/Info.plist MotionUnlock-Info.plist
-s289941873.650257
-e289941873.832876
-r1
-xProcessInfoPlistFile
-x/Users/brianreber/MotionUnlock/MotionUnlock/build/Debug-iphonesimulator/MotionUnlock.app/Info.plist
-xMotionUnlock-Info.plist
-lSLF07#2@31"Process MotionUnlock-Info.plist289941873#289941873#0(0"0(0#0#67"/Users/brianreber/MotionUnlock/MotionUnlock/MotionUnlock-Info.plist27866499442802800#571"    cd /Users/brianreber/MotionUnlock/MotionUnlock    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/usr/X11/bin:/opt/local/bin:/usr/local/git/bin"    builtin-infoPlistUtility MotionUnlock-Info.plist -genpkginfo /Users/brianreber/MotionUnlock/MotionUnlock/build/Debug-iphonesimulator/MotionUnlock.app/PkgInfo -expandbuildsettings -format binary -platform iphonesimulator -o /Users/brianreber/MotionUnlock/MotionUnlock/build/Debug-iphonesimulator/MotionUnlock.app/Info.plist0#
-
-CProcessPCH /var/folders/nN/nNj0Zm4OEdG+Xrr8YY1BWk+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/MotionUnlock_Prefix-fbifxdanniikkfghhfkhtdrnfriz/MotionUnlock_Prefix.pch.gch MotionUnlock_Prefix.pch normal i386 objective-c com.apple.compilers.gcc.4_2
-s289941876.637768
-e289941879.707380
-r1
-xProcessPCH
-x/var/folders/nN/nNj0Zm4OEdG+Xrr8YY1BWk+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/MotionUnlock_Prefix-fbifxdanniikkfghhfkhtdrnfriz/MotionUnlock_Prefix.pch.gch
-xMotionUnlock_Prefix.pch
-xnormal
-xi386
-xobjective-c
-xcom.apple.compilers.gcc.4_2
-lSLF07#2@34"Precompile MotionUnlock_Prefix.pch289941876#289941879#0(0"0(0#0#67"/Users/brianreber/MotionUnlock/MotionUnlock/MotionUnlock_Prefix.pch4300885448#1958"    cd /Users/brianreber/MotionUnlock/MotionUnlock    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/usr/X11/bin:/opt/local/bin:/usr/local/git/bin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c-header -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -D__IPHONE_OS_VERSION_MIN_REQUIRED=30000 -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator3.1.2.sdk -fvisibility=hidden -mmacosx-version-min=10.5 -gdwarf-2 -iquote /Users/brianreber/MotionUnlock/MotionUnlock/build/MotionUnlock.build/Debug-iphonesimulator/MotionUnlock.build/MotionUnlock-generated-files.hmap -I/Users/brianreber/MotionUnlock/MotionUnlock/build/MotionUnlock.build/Debug-iphonesimulator/MotionUnlock.build/MotionUnlock-own-target-headers.hmap -I/Users/brianreber/MotionUnlock/MotionUnlock/build/MotionUnlock.build/Debug-iphonesimulator/MotionUnlock.build/MotionUnlock-all-target-headers.hmap -iquote /Users/brianreber/MotionUnlock/MotionUnlock/build/MotionUnlock.build/Debug-iphonesimulator/MotionUnlock.build/MotionUnlock-project-headers.hmap -F/Users/brianreber/MotionUnlock/MotionUnlock/build/Debug-iphonesimulator -I/Users/brianreber/MotionUnlock/MotionUnlock/build/Debug-iphonesimulator/include -I/Users/brianreber/MotionUnlock/MotionUnlock/build/MotionUnlock.build/Debug-iphonesimulator/MotionUnlock.build/DerivedSources/i386 -I/Users/brianreber/MotionUnlock/MotionUnlock/build/MotionUnlock.build/Debug-iphonesimulator/MotionUnlock.build/DerivedSources -c /Users/brianreber/MotionUnlock/MotionUnlock/MotionUnlock_Prefix.pch -o /var/folders/nN/nNj0Zm4OEdG+Xrr8YY1BWk+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/MotionUnlock_Prefix-fbifxdanniikkfghhfkhtdrnfriz/MotionUnlock_Prefix.pch.gch0#
-
-CTouch /Users/brianreber/MotionUnlock/MotionUnlock/build/Debug-iphonesimulator/MotionUnlock.app
-s289941881.103373
-e289941881.106369
-r1
-xTouch
-x/Users/brianreber/MotionUnlock/MotionUnlock/build/Debug-iphonesimulator/MotionUnlock.app
-lSLF07#2@94"Touch /Users/brianreber/MotionUnlock/MotionUnlock/build/Debug-iphonesimulator/MotionUnlock.app289941881#289941881#0(0"0(0#0#0"4300885448#355"    cd /Users/brianreber/MotionUnlock/MotionUnlock    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/usr/X11/bin:/opt/local/bin:/usr/local/git/bin"    /usr/bin/touch -c /Users/brianreber/MotionUnlock/MotionUnlock/build/Debug-iphonesimulator/MotionUnlock.app0#
-
