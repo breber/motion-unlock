@@ -23,6 +23,7 @@
 
 //Prototypes
 void gatherdata(int time[MAX_SIZE], double inputx[MAX_SIZE], double inputy[MAX_SIZE], double inputz[MAX_SIZE]);
+void avg(double buffered[], double incomingData[MAX_SIZE]);
 
 int main(){
 	
@@ -30,6 +31,10 @@ int main(){
 	double inputx[MAX_SIZE];
 	double inputy[MAX_SIZE];
 	double inputz[MAX_SIZE];
+	
+	double bufferx[MAX_SIZE-MOVING_AVG];
+	double buffery[MAX_SIZE-MOVING_AVG];
+	double bufferz[MAX_SIZE-MOVING_AVG];
 	
 	int t, abutton, bbutton, home, minus, plus, one, two, up, down, left, right;
 	double ax, ay, az;
@@ -47,7 +52,9 @@ int main(){
 			
 		//output arrays to file
 		
-		
+		avg(bufferx, inputx);
+		avg(buffery, inputy);
+		avg(bufferz, inputz);
 		
 	}
 	
@@ -82,28 +89,18 @@ void gatherdata(int time[MAX_SIZE], double inputx[MAX_SIZE], double inputy[MAX_S
 
 }
 
-//shift length-1 elements of the buffer to the left and put the 
-//new_item on the right.
-double updatebuffer(double buffer[], int length, double new_item){
-	int i;
-	for (i=1; i<length; i++) {
-		buffer[i-1] = buffer[i];
-	}
-	buffer[length-1] = new_item;
-	return 1;
-}
 
 //Compute avg of first num items
-double avg(double buffer[], int num_items){
+void avg(double buffered[], double incomingData[MAX_SIZE]){
 	float runningtotal = 0;
-	int i;
 	
-	for(i=0; i<num_items; i++){
-		runningtotal = runningtotal + buffer[i];
-		
+	for(int i = 0; i < MAX_SIZE - MOVING_AVG; i++){
+		for(int j = 0; j < MOVING_AVG; j++){
+			runningtotal = runningtotal + incomingData[i+j];
+		}
+		buffered[i] = runningtotal / MOVING_AVG;
 	}
 	
-	return(runningtotal / num_items);
 }
-
+												  
 
