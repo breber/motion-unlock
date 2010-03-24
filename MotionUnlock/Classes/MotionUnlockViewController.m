@@ -24,9 +24,11 @@
 - (void)viewDidLoad {
     [super viewDidLoad];
 	
-	output.text = @"Temporary to test output in form of \"x,y,z\"";
-	
+	//We don't want to collect data right off the bat
 	collectData = NO;
+	
+	index = 0;
+	data = [[NSMutableArray alloc] initWithCapacity:500];
 	
 	//Set up the accelerometer
 	self.accelerometer = [UIAccelerometer sharedAccelerometer];
@@ -47,18 +49,17 @@
 	NSString *yVal = [NSString stringWithFormat:@"%f", acceleration.y];
 	NSString *zVal = [NSString stringWithFormat:@"%f", acceleration.z];
 	
-	[xVal retain];
-	[yVal retain];
-	[zVal retain];
-	
-	[x setText: xVal];
-	[y setText: yVal];
-	[z setText: zVal];
-	
-	//This doesn't really do anything right now for some reason...
-	if (collectData)
-	{
-		output.text = [[NSString alloc] stringByAppendingFormat:@"%@\n%@, %@, %@", [output text], xVal, yVal, zVal];
+	if (collectData){
+		[xVal retain];
+		[yVal retain];
+		[zVal retain];
+		
+		[data insertObject:[NSString stringWithFormat:@"%@,%@,%@", xVal, yVal,zVal] atIndex:index];
+		index++;
+		
+		[x setText: xVal];
+		[y setText: yVal];
+		[z setText: zVal];
 	}
 }
 
@@ -74,22 +75,44 @@
 	// e.g. self.myOutlet = nil;
 }
 
-
-//TODO: The start button doesn't do anything right now. I tried a couple things, but the app froze, so I commented it out.
+/*
+ Called when the user presses the button.  We switch the button label, and set the collectData bool
+ value to the opposite of what it was.
+ */
 - (void) startStop:(id)sender
-{
-	//	if (collectData)
-	//		accelerometer.delegate = nil;
-	//	else accelerometer.delegate = self;
-	
+{	
 	if (collectData)
+	{
 		collectData = NO;
-	else collectData = YES;
+		[status setText:@"Stopped"];
+		[toggle setTitle:@"Collect Data" forState:UIControlStateNormal];
+		
+		NSArray *arr = [[NSArray alloc] initWithArray:data];
+		[self mailTo:@"reber.brian@gmail.com" withBody:[arr componentsJoinedByString:@"\n"]];
+		
+		//Clear the output text fields
+		[x setText: @""];
+		[y setText: @""];
+		[z setText: @""];
+	} else {
+		collectData = YES;
+		[status setText:@"Collecting Data"];
+		[toggle setTitle:@"Stop" forState:UIControlStateNormal];
+	}
 }
 
 
 - (void)dealloc {
     [super dealloc];
+}
+
+- (void)mailTo:(NSString *)to withBody:(NSString *)body
+{
+	NSString *message = [NSString stringWithFormat:@"mailto:?to=%@&subject=OutputData&body=%@",
+						 [to stringByAddingPercentEscapesUsingEncoding:NSASCIIStringEncoding],
+						 [body stringByAddingPercentEscapesUsingEncoding:NSASCIIStringEncoding]];
+	
+	[[UIApplication sharedApplication] openURL:[NSURL URLWithString: message]];
 }
 
 @end

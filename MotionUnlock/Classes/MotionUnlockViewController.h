@@ -18,9 +18,12 @@
 	IBOutlet UITextField *y;
 	IBOutlet UITextField *z;
 	
-	IBOutlet UITextView *output;
+	IBOutlet UILabel *status;
 	
 	bool collectData;
+	
+	int index;
+	NSMutableArray *data;
 	
 }
 
@@ -28,6 +31,7 @@
 
 - (void) startStop:(id)sender;
 
+- (void)mailTo:(NSString *)to withBody:(NSString *)body;
 
 @end
 
