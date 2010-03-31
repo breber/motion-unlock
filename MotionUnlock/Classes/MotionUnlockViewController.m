@@ -58,12 +58,19 @@
 		[data insertObject:[NSString stringWithFormat:@"%@,%@,%@", xVal, yVal,zVal] atIndex:index];
 		index++;
 		
+		//We don't want to overflow the NSArray
 		if (index == 1000)
 			[self startStop:self];
 		
+		//Set the value of the textfields
 		[x setText: xVal];
 		[y setText: yVal];
 		[z setText: zVal];
+		
+		//Set the slider values
+		[xSlide setValue:acceleration.x];
+		[ySlide setValue:acceleration.y];
+		[zSlide setValue:acceleration.z];
 	}
 }
 
@@ -95,6 +102,7 @@
 		[x setText: @""];
 		[y setText: @""];
 		[z setText: @""];
+		[running stopAnimating];
 	} else {
 		collectData = YES;
 		
@@ -106,6 +114,7 @@
 		
 		[status setText:@"Collecting Data"];
 		[toggle setTitle:@"Stop" forState:UIControlStateNormal];
+		[running startAnimating];
 	}
 }
 
