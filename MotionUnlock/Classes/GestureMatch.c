@@ -65,7 +65,37 @@ int main(){
 	
 	//Match Gesture
 	
+	//Store the comparison into array size of COMPARE_SIZE
+	double avgdataset, avgcompare[COMPARE_SIZE], difference[COMPARE_SIZE];
+	for (j=0; j<COMPARE_SIZE; j++) {
+		avgcompare[j] = compare[0]-compare[j+1]/j+1;
+	}
 	
+	//starting at the beginning of data set
+	//for comparison set of COMPARE_SIZE
+	for(i =0; i < MAX_SIZE; i++){
+		for (j=0; j < COMPARE_SIZE; j++) {
+	
+		//find difference between slope intial and increment of comparison window
+	
+		//find difference between slope intial and increment of data
+			avgdataset = (bufferx[i]-bufferx[i+j])/j+1;
+			
+			
+		//find difference between two slopes and store in array of COMPARE_SIZE
+			difference[j] = avgcompare[j]-avgdataset;
+			
+		}
+	
+	// average the differences and check if within the tolerance
+	//if tolerance match return match, else move to next in the data set and try again
+		int totalavg;
+		for (j=0; j<COMPARE_SIZE; j++) {
+			totalavg = total avgdifference[j];
+		}
+		totalavg =totalavg/COMPARE_SIZE;
+		
+	}
 	
 }
 
