@@ -102,6 +102,11 @@
 		[x setText: @""];
 		[y setText: @""];
 		[z setText: @""];
+		
+		[xSlide setValue:0.0];
+		[ySlide setValue:0.0];
+		[zSlide setValue:0.0];
+		
 		[running stopAnimating];
 	} else {
 		collectData = YES;
