@@ -13,10 +13,15 @@
 	UIAccelerometer *accelerometer;
 	
 	IBOutlet UIButton *toggle;
+	IBOutlet UIActivityIndicatorView *running;
 	
 	IBOutlet UITextField *x;
 	IBOutlet UITextField *y;
 	IBOutlet UITextField *z;
+	
+	IBOutlet UISlider *xSlide;
+	IBOutlet UISlider *ySlide;
+	IBOutlet UISlider *zSlide;	
 	
 	IBOutlet UILabel *status;
 	
@@ -30,7 +35,7 @@
 @property (nonatomic, retain) UIAccelerometer *accelerometer;
 
 - (void) startStop:(id)sender;
--(void) emailData:(id)sender;
+- (void) emailData:(id)sender;
 - (void)mailTo:(NSString *)to withBody:(NSString *)body;
 
 @end
