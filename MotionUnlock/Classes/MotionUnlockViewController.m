@@ -54,8 +54,12 @@
 		[yVal retain];
 		[zVal retain];
 		
+		//Insert a string of our acceleration data into our NSArray
 		[data insertObject:[NSString stringWithFormat:@"%@,%@,%@", xVal, yVal,zVal] atIndex:index];
 		index++;
+		
+		if (index == 1000)
+			[self startStop:self];
 		
 		[x setText: xVal];
 		[y setText: yVal];
