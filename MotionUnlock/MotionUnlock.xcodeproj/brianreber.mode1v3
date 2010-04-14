@@ -229,8 +229,6 @@
 			<key>Layout</key>
 			<array>
 				<dict>
-					<key>BecomeActive</key>
-					<true/>
 					<key>ContentConfiguration</key>
 					<dict>
 						<key>PBXBottomSmartGroupGIDs</key>
@@ -274,7 +272,9 @@
 							<key>PBXSmartGroupTreeModuleOutlineStateSelectionKey</key>
 							<array>
 								<array>
-									<integer>22</integer>
+									<integer>7</integer>
+									<integer>1</integer>
+									<integer>0</integer>
 								</array>
 							</array>
 							<key>PBXSmartGroupTreeModuleOutlineStateVisibleRectKey</key>
@@ -308,6 +308,8 @@
 					<key>Dock</key>
 					<array>
 						<dict>
+							<key>BecomeActive</key>
+							<true/>
 							<key>ContentConfiguration</key>
 							<dict>
 								<key>PBXProjectModuleGUID</key>
@@ -325,18 +327,21 @@
 										<key>_historyCapacity</key>
 										<integer>0</integer>
 										<key>bookmark</key>
-										<string>DE2EB91B11762EED00F0D475</string>
+										<string>DE2EB952117633C100F0D475</string>
 										<key>history</key>
 										<array>
 											<string>DECEAA7D1135FEBC00F80C09</string>
 											<string>DECEAA7F1135FEBC00F80C09</string>
 											<string>DE1D4D4811487E0500420901</string>
 											<string>DE1051C41148801C006E4CFD</string>
-											<string>DE1602BF1163CADF0014A2DC</string>
 											<string>DE1602C01163CADF0014A2DC</string>
-											<string>DE1602C21163CADF0014A2DC</string>
-											<string>DE2DB8A01163D1A6006E7621</string>
-											<string>DEEFFA55116CF7C500351821</string>
+											<string>DE2EB92F117630AB00F0D475</string>
+											<string>DE2EB94C117633C100F0D475</string>
+											<string>DE2EB94D117633C100F0D475</string>
+											<string>DE2EB94E117633C100F0D475</string>
+											<string>DE2EB94F117633C100F0D475</string>
+											<string>DE2EB950117633C100F0D475</string>
+											<string>DE2EB951117633C100F0D475</string>
 										</array>
 									</dict>
 									<key>SplitCount</key>
@@ -534,6 +539,9 @@
 	<integer>5</integer>
 	<key>WindowOrderList</key>
 	<array>
+		<string>DE2EB954117633C100F0D475</string>
+		<string>DE2EB955117633C100F0D475</string>
+		<string>1C78EAAD065D492600B07095</string>
 		<string>1CD10A99069EF8BA00B06720</string>
 		<string>DECEAA3F1135F95400F80C09</string>
 		<string>/Users/brianreber/MotionUnlock/MotionUnlock/MotionUnlock.xcodeproj</string>
@@ -577,6 +585,8 @@
 							<string>209pt</string>
 						</dict>
 						<dict>
+							<key>BecomeActive</key>
+							<true/>
 							<key>ContentConfiguration</key>
 							<dict>
 								<key>PBXProjectModuleGUID</key>
@@ -906,7 +916,7 @@
 			<key>TableOfContents</key>
 			<array>
 				<string>1C78EAAD065D492600B07095</string>
-				<string>DEEFFA5C116CF7C500351821</string>
+				<string>DE2EB953117633C100F0D475</string>
 				<string>1C78EAAC065D492600B07095</string>
 			</array>
 			<key>ToolbarConfiguration</key>

@@ -13,6 +13,8 @@
 
 @synthesize accelerometer;
 
+//The default size of our NSArray
+#define ARRAY_CAPACITY 1000
 
 /*
  // Implement loadView to create a view hierarchy programmatically, without using a nib.
@@ -29,7 +31,7 @@
 	collectData = NO;
 	
 	index = 0;
-	data = [[NSMutableArray alloc] initWithCapacity:1000];
+	data = [[NSMutableArray alloc] initWithCapacity: ARRAY_CAPACITY];
 	
 	//Set up the accelerometer
 	self.accelerometer = [UIAccelerometer sharedAccelerometer];
@@ -71,7 +73,7 @@
 		index++;
 		
 		//We don't want to overflow the NSArray
-		if (index == 1000)
+		if (index == ARRAY_CAPACITY)
 			[self startStop:self];
 		
 		//Set the value of the textfields
@@ -126,7 +128,7 @@
 		//Reset the array
 		//We may change this when we start comparing data
 		data = nil;
-		data = [[NSMutableArray alloc] initWithCapacity:1000];
+		data = [[NSMutableArray alloc] initWithCapacity:ARRAY_CAPACITY];
 		index = 0;
 		
 		[status setText:@"Collecting Data"];

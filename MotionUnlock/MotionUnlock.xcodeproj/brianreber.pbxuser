@@ -2,7 +2,7 @@
 {
 	1D3623240D0F684500981E51 /* MotionUnlockAppDelegate.h */ = {
 		uiCtxt = {
-			sepNavIntBoundsRect = "{{0, 0}, {1011, 505}}";
+			sepNavIntBoundsRect = "{{0, 0}, {1011, 478}}";
 			sepNavSelRange = "{365, 0}";
 			sepNavVisRange = "{0, 516}";
 		};
@@ -22,16 +22,16 @@
 	};
 	28D7ACF60DDB3853001CB0EB /* MotionUnlockViewController.h */ = {
 		uiCtxt = {
-			sepNavIntBoundsRect = "{{0, 0}, {1011, 546}}";
+			sepNavIntBoundsRect = "{{0, 0}, {1011, 533}}";
 			sepNavSelRange = "{382, 0}";
-			sepNavVisRange = "{0, 767}";
+			sepNavVisRange = "{0, 736}";
 		};
 	};
 	28D7ACF70DDB3853001CB0EB /* MotionUnlockViewController.m */ = {
 		uiCtxt = {
-			sepNavIntBoundsRect = "{{0, 0}, {1011, 2067}}";
-			sepNavSelRange = "{3225, 0}";
-			sepNavVisRange = "{2831, 1026}";
+			sepNavIntBoundsRect = "{{0, 0}, {1011, 2119}}";
+			sepNavSelRange = "{1014, 0}";
+			sepNavVisRange = "{0, 869}";
 			sepNavWindowFrame = "{{15, 4}, {1043, 774}}";
 		};
 	};
@@ -41,7 +41,6 @@
 		activeSDKPreference = iphoneos3.1.3;
 		activeTarget = 1D6058900D05DD3D006BFB54 /* MotionUnlock */;
 		addToTargets = (
-			1D6058900D05DD3D006BFB54 /* MotionUnlock */,
 		);
 		breakpoints = (
 		);
@@ -183,6 +182,19 @@
 			DE1D4D4811487E0500420901 = DE1D4D4811487E0500420901 /* PBXBookmark */;
 			DE2DB8A01163D1A6006E7621 = DE2DB8A01163D1A6006E7621 /* PBXTextBookmark */;
 			DE2EB91B11762EED00F0D475 /* PBXTextBookmark */ = DE2EB91B11762EED00F0D475 /* PBXTextBookmark */;
+			DE2EB92D117630AB00F0D475 /* PBXTextBookmark */ = DE2EB92D117630AB00F0D475 /* PBXTextBookmark */;
+			DE2EB92E117630AB00F0D475 /* PBXTextBookmark */ = DE2EB92E117630AB00F0D475 /* PBXTextBookmark */;
+			DE2EB92F117630AB00F0D475 /* PBXTextBookmark */ = DE2EB92F117630AB00F0D475 /* PBXTextBookmark */;
+			DE2EB930117630AB00F0D475 /* PBXTextBookmark */ = DE2EB930117630AB00F0D475 /* PBXTextBookmark */;
+			DE2EB931117630AB00F0D475 /* PBXTextBookmark */ = DE2EB931117630AB00F0D475 /* PBXTextBookmark */;
+			DE2EB932117630AB00F0D475 /* PBXTextBookmark */ = DE2EB932117630AB00F0D475 /* PBXTextBookmark */;
+			DE2EB94C117633C100F0D475 /* PBXTextBookmark */ = DE2EB94C117633C100F0D475 /* PBXTextBookmark */;
+			DE2EB94D117633C100F0D475 /* PBXTextBookmark */ = DE2EB94D117633C100F0D475 /* PBXTextBookmark */;
+			DE2EB94E117633C100F0D475 /* PBXTextBookmark */ = DE2EB94E117633C100F0D475 /* PBXTextBookmark */;
+			DE2EB94F117633C100F0D475 /* PBXTextBookmark */ = DE2EB94F117633C100F0D475 /* PBXTextBookmark */;
+			DE2EB950117633C100F0D475 /* PBXTextBookmark */ = DE2EB950117633C100F0D475 /* PBXTextBookmark */;
+			DE2EB951117633C100F0D475 /* PBXTextBookmark */ = DE2EB951117633C100F0D475 /* PBXTextBookmark */;
+			DE2EB952117633C100F0D475 /* PBXTextBookmark */ = DE2EB952117633C100F0D475 /* PBXTextBookmark */;
 			DE44BD131167DCEA00EDD8E4 = DE44BD131167DCEA00EDD8E4 /* PBXTextBookmark */;
 			DECEAA7D1135FEBC00F80C09 = DECEAA7D1135FEBC00F80C09 /* PBXTextBookmark */;
 			DECEAA7F1135FEBC00F80C09 = DECEAA7F1135FEBC00F80C09 /* PBXTextBookmark */;
@@ -208,9 +220,9 @@
 	};
 	34A31E50114866A7005C82BE /* GestureMatch.c */ = {
 		uiCtxt = {
-			sepNavIntBoundsRect = "{{0, 0}, {1011, 1417}}";
-			sepNavSelRange = "{173, 0}";
-			sepNavVisRange = "{0, 977}";
+			sepNavIntBoundsRect = "{{0, 0}, {1011, 1443}}";
+			sepNavSelRange = "{2354, 0}";
+			sepNavVisRange = "{0, 897}";
 		};
 	};
 	8D1107310486CEB800E47090 /* MotionUnlock-Info.plist */ = {
@@ -273,22 +285,173 @@
 		vrLen = 977;
 		vrLoc = 0;
 	};
+	DE2EB91011762ED400F0D475 /* zeprogram.c */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {1405, 1989}}";
+			sepNavSelRange = "{462, 0}";
+			sepNavVisRange = "{2758, 970}";
+		};
+	};
 	DE2EB91B11762EED00F0D475 /* PBXTextBookmark */ = {
 		isa = PBXTextBookmark;
 		fRef = 28D7ACF70DDB3853001CB0EB /* MotionUnlockViewController.m */;
 		name = "MotionUnlockViewController.m: 134";
 		rLen = 0;
-		rLoc = 3225;
+		rLoc = 3751;
 		rType = 0;
 		vrLen = 1026;
 		vrLoc = 2831;
+	};
+	DE2EB92B1176300A00F0D475 /* test.c */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {1011, 478}}";
+			sepNavSelRange = "{253, 0}";
+			sepNavVisRange = "{0, 310}";
+		};
+	};
+	DE2EB92D117630AB00F0D475 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 34A31E50114866A7005C82BE /* GestureMatch.c */;
+		name = "GestureMatch.c: 101";
+		rLen = 0;
+		rLoc = 2354;
+		rType = 0;
+		vrLen = 739;
+		vrLoc = 1801;
+	};
+	DE2EB92E117630AB00F0D475 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = DE2EB91011762ED400F0D475 /* zeprogram.c */;
+		name = "zeprogram.c: 7";
+		rLen = 0;
+		rLoc = 126;
+		rType = 0;
+		vrLen = 1017;
+		vrLoc = 0;
+	};
+	DE2EB92F117630AB00F0D475 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 28D7ACF60DDB3853001CB0EB /* MotionUnlockViewController.h */;
+		name = "MotionUnlockViewController.h: 16";
+		rLen = 0;
+		rLoc = 382;
+		rType = 0;
+		vrLen = 736;
+		vrLoc = 0;
+	};
+	DE2EB930117630AB00F0D475 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = DE2EB92B1176300A00F0D475 /* test.c */;
+		name = "test.c: 14";
+		rLen = 0;
+		rLoc = 307;
+		rType = 0;
+		vrLen = 217;
+		vrLoc = 0;
+	};
+	DE2EB931117630AB00F0D475 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 28D7ACF70DDB3853001CB0EB /* MotionUnlockViewController.m */;
+		name = "MotionUnlockViewController.m: 123";
+		rLen = 0;
+		rLoc = 3624;
+		rType = 0;
+		vrLen = 966;
+		vrLoc = 2897;
+	};
+	DE2EB932117630AB00F0D475 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 28D7ACF70DDB3853001CB0EB /* MotionUnlockViewController.m */;
+		name = "MotionUnlockViewController.m: 38";
+		rLen = 0;
+		rLoc = 1359;
+		rType = 0;
+		vrLen = 964;
+		vrLoc = 222;
+	};
+	DE2EB939117631E300F0D475 /* test.h */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {1011, 478}}";
+			sepNavSelRange = "{45, 0}";
+			sepNavVisRange = "{0, 173}";
+		};
+	};
+	DE2EB94C117633C100F0D475 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 1D3623240D0F684500981E51 /* MotionUnlockAppDelegate.h */;
+		name = "MotionUnlockAppDelegate.h: 15";
+		rLen = 0;
+		rLoc = 365;
+		rType = 0;
+		vrLen = 516;
+		vrLoc = 0;
+	};
+	DE2EB94D117633C100F0D475 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 34A31E50114866A7005C82BE /* GestureMatch.c */;
+		name = "GestureMatch.c: 101";
+		rLen = 0;
+		rLoc = 2354;
+		rType = 0;
+		vrLen = 897;
+		vrLoc = 0;
+	};
+	DE2EB94E117633C100F0D475 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = DE2EB91011762ED400F0D475 /* zeprogram.c */;
+		name = "zeprogram.c: 18";
+		rLen = 0;
+		rLoc = 462;
+		rType = 0;
+		vrLen = 970;
+		vrLoc = 2758;
+	};
+	DE2EB94F117633C100F0D475 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = DE2EB939117631E300F0D475 /* test.h */;
+		name = "test.h: 5";
+		rLen = 0;
+		rLoc = 45;
+		rType = 0;
+		vrLen = 173;
+		vrLoc = 0;
+	};
+	DE2EB950117633C100F0D475 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = DE2EB92B1176300A00F0D475 /* test.c */;
+		name = "test.c: 12";
+		rLen = 0;
+		rLoc = 253;
+		rType = 0;
+		vrLen = 310;
+		vrLoc = 0;
+	};
+	DE2EB951117633C100F0D475 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 28D7ACF70DDB3853001CB0EB /* MotionUnlockViewController.m */;
+		name = "MotionUnlockViewController.m: 43";
+		rLen = 0;
+		rLoc = 1256;
+		rType = 0;
+		vrLen = 869;
+		vrLoc = 0;
+	};
+	DE2EB952117633C100F0D475 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 28D7ACF70DDB3853001CB0EB /* MotionUnlockViewController.m */;
+		name = "MotionUnlockViewController.m: 40";
+		rLen = 0;
+		rLoc = 1087;
+		rType = 0;
+		vrLen = 869;
+		vrLoc = 0;
 	};
 	DE44BD131167DCEA00EDD8E4 /* PBXTextBookmark */ = {
 		isa = PBXTextBookmark;
 		fRef = 28D7ACF70DDB3853001CB0EB /* MotionUnlockViewController.m */;
 		name = "MotionUnlockViewController.m: 79";
 		rLen = 0;
-		rLoc = 2079;
+		rLoc = 2595;
 		rType = 0;
 		vrLen = 1027;
 		vrLoc = 2831;
@@ -364,7 +527,7 @@
 		fRef = 28D7ACF70DDB3853001CB0EB /* MotionUnlockViewController.m */;
 		name = "MotionUnlockViewController.m: 134";
 		rLen = 0;
-		rLoc = 3225;
+		rLoc = 3751;
 		rType = 0;
 		vrLen = 1027;
 		vrLoc = 2831;
