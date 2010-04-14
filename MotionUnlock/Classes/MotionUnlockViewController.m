@@ -7,6 +7,7 @@
 //
 
 #import "MotionUnlockViewController.h"
+#import "test.h"
 
 @implementation MotionUnlockViewController
 
@@ -35,6 +36,17 @@
 	self.accelerometer.updateInterval = .1;
 	self.accelerometer.delegate = self;
 	
+	// We call into our c code for a proof of concept. The test Function returns double the parameter
+	// And then we just show a popup with that.
+	NSString *num = [[NSString alloc] initWithFormat:@"%d", testFunction(5)];
+	UIAlertView *alert = [[UIAlertView alloc]
+						  initWithTitle:@"Test" 
+						  message:num
+						  delegate:self
+						  cancelButtonTitle:@"OK"
+						  otherButtonTitles:nil];
+	
+	[alert show];
 }
 
 
