@@ -21,7 +21,7 @@
 #define ARRAY_TOLERANCE 10
 #define START 10
 
-int main() {
+int compare() {
 	int pre_t[DATA_NUM], post_t[DATA_NUM];
 	double pre_x[DATA_NUM], pre_y[DATA_NUM], pre_z[DATA_NUM], post_x[DATA_NUM], post_y[DATA_NUM], post_z[DATA_NUM], temp[DATA_NUM];
 	FILE *inp;
@@ -122,6 +122,7 @@ int main() {
 	
 	// Compare slopes to see if they are within range
 	
+	/*
 	for(i = 0; i < DATA_NUM - SAMPLE_LENGTH - 1 && pass_z != TRUE && pass_y != TRUE && pass_x != TRUE; i++) {
 		if(abs(post_xSlope[START] - pre_xSlope[i]) <= TOLERANCE) {
 			for(j = i + 1; j < SAMPLE_LENGTH - 1 && difference <= TOLERANCE; j++) {
@@ -154,6 +155,11 @@ int main() {
 				} 
 			}
 		}
+	 */
+	
+	int x_argument = DATA_NUM - SAMPLE_LENGTH - 1
+	pass_x = compare(pre_xSlope, post_xSlope, 0, DATA_NUM - SAMPLE_LENGTH - 1 && 
+	
 	}
 	
 	/*	if(j == SAMPLE_LENGTH - 1) {
@@ -188,17 +194,17 @@ int main() {
 	return 0;
 }
 
-/*int compare(double preSlope[], double postSlope[], int start, int end) {
- 
- int difference = 0;
- 
- for(int i = start; i <= end; i++) {
- if(abs(postSlope[START] - preSlope[i]) <= TOLERANCE) {
- for(int j = i + 1; j < SAMPLE_LENGTH - 1 && difference <= TOLERANCE; j++) {
- difference = abs(postSlope[j] - preSlope[j]);
- }
- }
- }
- 
- if(j == SAMPLE_LENGTH - 1) return 1;
- }*/
+int compare(double preSlope[], double postSlope[], int start, int end) {
+	
+	int difference = 0;
+	
+	for(int i = start; i <= end; i++) {
+		if(abs(postSlope[START] - preSlope[i]) <= TOLERANCE) {
+			for(int j = i + 1; j < SAMPLE_LENGTH - 1 && difference <= TOLERANCE; j++) {
+				difference = abs(postSlope[j] - preSlope[j]);
+			}
+		}
+	}
+	
+	if(j == SAMPLE_LENGTH - 1) return 1;
+}
