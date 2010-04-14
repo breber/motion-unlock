@@ -40,9 +40,11 @@
 	
 	// We call into our c code for a proof of concept. The test Function returns double the parameter
 	// And then we just show a popup with that.
-	NSString *num = [[NSString alloc] initWithFormat:@"%d", testFunction(5)];
+	srand(time(0));
+	int tempNum = rand() % 10;
+	NSString *num = [[NSString alloc] initWithFormat:@"%ld", factorial(tempNum)];
 	UIAlertView *alert = [[UIAlertView alloc]
-						  initWithTitle:@"Test" 
+						  initWithTitle:[[NSString alloc] initWithFormat:@"%d!", tempNum] 
 						  message:num
 						  delegate:self
 						  cancelButtonTitle:@"OK"
