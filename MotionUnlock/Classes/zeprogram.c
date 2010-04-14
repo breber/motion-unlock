@@ -177,6 +177,15 @@ void calculateSlopes(int preValues[], int postValues[], int start, int end){
 	int i;
 	int j = 0;
 	for (i = start; i < end; i++) {
+		//add here
+		
 		postValues[j] = preValues[i];
 	}
 }
+
+int compareSlopes(int data[], int compareSet[]){
+	
+}
+
+
+
