@@ -84,6 +84,8 @@ int main() {
 		fscanf(inp, "%lf", &post_z[i]);
 	} 
 	
+	/*
+	
 	// Fills arrays of slopes from stored movement sample
 	
 	for(i = 0; i < SAMPLE_LENGTH - 1; i++) {
@@ -148,6 +150,33 @@ int main() {
 			printf("Z: %d\n", pass_z);
 		}
 	} 
+	 
+	 */
+	
+	
+	
+	//Todd's Section
+	
+	//Find slopes in selection window
+	calculateSlopes(pre_xSlope, post_xSlope, START, START + SAMPLE_LENGTH);
+	calculateSlopes(pre_ySlope, post_ySlope, START, START + SAMPLE_LENGTH);
+	calculateSlopes(pre_zSlope, post_zSlope, START, START + SAMPLE_LENGTH);
+	
+	//Find slopes for data to compare
+	calculateSlopes(<#int [] preValues#>, <#int [] postValues#>, <#int start#>, <#int end#>);
+	calculateSlopes(<#int [] preValues#>, <#int [] postValues#>, <#int start#>, <#int end#>);
+	calculateSlopes(<#int [] preValues#>, <#int [] postValues#>, <#int start#>, <#int end#>);
+	
+	//Compare Slopes
+	
 	
 	return 0;
+}
+
+void calculateSlopes(int preValues[], int postValues[], int start, int end){
+	int i;
+	int j = 0;
+	for (i = start; i < end; i++) {
+		postValues[j] = preValues[i];
+	}
 }
