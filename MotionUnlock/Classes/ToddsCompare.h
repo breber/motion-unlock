@@ -8,3 +8,5 @@
  */
 
 int compare(double preSlope[], double postSlope[], int start, int end);
+
+void calculateSlopes(int preValues[], int postValues[], int start, int end);
