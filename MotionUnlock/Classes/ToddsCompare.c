@@ -51,6 +51,8 @@ int compareCaller(double[] x_data, double[] y_data, double[] z_data, double[] x_
 		printf("%d, %d, %d \n", x_pass, y_pass, z_pass);
 	}
 	
+	return 0;
+	
 }
 
 void calculateSlopes(double preValues[], double postValues[], int start, int end){
