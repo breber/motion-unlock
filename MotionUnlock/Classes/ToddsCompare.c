@@ -8,6 +8,8 @@
  */
 
 #include "ToddsCompare.h"
+#include "math.h"
+#include "stdio.h"
 
 #define DATA_NUM 3000
 //length is the length of the incoming data, passed in
@@ -18,16 +20,16 @@
 #define ARRAY_TOLERANCE 10
 #define START 10
 
-int compareCaller(double[] x_data, double[] y_data, double[] z_data, double[] x_compare, double[] y_compare, double[] z_compare){
+int compareCaller(double x_data[], double y_data[], double z_data[], double x_compare[], double y_compare[], double z_compare[]){
 	int i =0;
 	
-	double[DATA_NUM] data_x_slopes;
-	double[DATA_NUM] data_y_slopes;
-	double[DATA_NUM] data_z_slopes;
+	double data_x_slopes[DATA_NUM];
+	double data_y_slopes[DATA_NUM];
+	double data_z_slopes[DATA_NUM];
 	
-	double[SAMPLE_LENGTH] compare_x_slopes;
-	double[SAMPLE_LENGTH] compare_y_slopes;
-	double[SAMPLE_LENGTH] compare_z_slopes;
+	double compare_x_slopes[SAMPLE_LENGTH];
+	double compare_y_slopes[SAMPLE_LENGTH];
+	double compare_z_slopes[SAMPLE_LENGTH];
 	
 	
 	
@@ -81,4 +83,5 @@ int compare(double preSlope[], double postSlope[], int start, int end) {
 	}
 	
 	if(j == SAMPLE_LENGTH - 1) return 1;
+	else return 0;
 }
