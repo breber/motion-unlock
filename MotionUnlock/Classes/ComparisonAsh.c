@@ -20,7 +20,7 @@
 #define ARRAY_TOLERANCE 10
 #define START 10
 
-int compare(double pre_x[], double pre_y[], double pre_z[], double post_x[], double post_y[], double post_z[]) {
+int compare(int preLength, double pre_x[], double pre_y[], double pre_z[], int postLength, double post_x[], double post_y[], double post_z[]) {
 //int main() {
 //	int pre_t[DATA_NUM], post_t[DATA_NUM];
 //	double pre_x[DATA_NUM], pre_y[DATA_NUM], pre_z[DATA_NUM], post_x[DATA_NUM], post_y[DATA_NUM], post_z[DATA_NUM];
@@ -101,27 +101,27 @@ int compare(double pre_x[], double pre_y[], double pre_z[], double post_x[], dou
 	
 	// Fills arrays of slopes from stored movement sample
 	
-	for(i = 0; i < DATA_NUM - 1; i++) {
+	for(i = 0; i < preLength - 1; i++) {
 		pre_xSlope[i] = pre_x[i + 1] - pre_x[i];
 	}
 	
-	for(i = 0; i < DATA_NUM - 1; i++) {
+	for(i = 0; i < preLength - 1; i++) {
 		pre_ySlope[i] = pre_y[i + 1] - pre_y[i];
 	}
 	
-	for(i = 0; i < DATA_NUM - 1; i++) {
+	for(i = 0; i < preLength - 1; i++) {
 		pre_zSlope[i] = pre_z[i + 1] - pre_z[i];
 	}
 	
-	for(i = 0; i < DATA_NUM - 1; i++) {
+	for(i = 0; i < postLength - 1; i++) {
 		post_xSlope[i] = post_x[i + 1] - post_x[i];
 	}
 	
-	for(i = 0; i < DATA_NUM - 1; i++) {
+	for(i = 0; i < postLength - 1; i++) {
 		post_ySlope[i] = post_y[i + 1] - post_y[i];
 	}
 	
-	for(i = 0; i < DATA_NUM - 1; i++) {
+	for(i = 0; i < postLength  - 1; i++) {
 		post_zSlope[i] = post_z[i + 1] - post_z[i];
 	}
 	

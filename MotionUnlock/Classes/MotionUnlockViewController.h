@@ -29,7 +29,10 @@
 	
 	bool collectData;
 	
-	int index;
+	int tempIndex;
+	
+	int dataIndex;
+	int dataIndexFinal;
 	NSMutableArray *data;
 	
 	double xData[ARRAY_CAPACITY];

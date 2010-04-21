@@ -30,7 +30,7 @@
 	//We don't want to collect data right off the bat
 	collectData = NO;
 	
-	index = 0;
+	tempIndex = 0;
 	data = [[NSMutableArray alloc] initWithCapacity: ARRAY_CAPACITY];
 	
 	startingData = YES;
@@ -68,21 +68,23 @@
 		[zVal retain];
 		
 		if (startingData) {
-			xData[index] = acceleration.x;
-			yData[index] = acceleration.y;
-			zData[index] = acceleration.z;
+			xData[tempIndex] = acceleration.x;
+			yData[tempIndex] = acceleration.y;
+			zData[tempIndex] = acceleration.z;
+			dataIndex = tempIndex;
 		} else {
-			xDataFinal[index] = acceleration.x;
-			yDataFinal[index] = acceleration.y;
-			zDataFinal[index] = acceleration.z;
+			xDataFinal[tempIndex] = acceleration.x;
+			yDataFinal[tempIndex] = acceleration.y;
+			zDataFinal[tempIndex] = acceleration.z;
+			dataIndexFinal = tempIndex;
 		}
 
 		//Insert a string of our acceleration data into our NSArray
-		[data insertObject:[NSString stringWithFormat:@"%@,%@,%@", xVal, yVal,zVal] atIndex:index];
-		index++;
+		[data insertObject:[NSString stringWithFormat:@"%@,%@,%@", xVal, yVal,zVal] atIndex:tempIndex];
+		tempIndex++;
 		
 		//We don't want to overflow the NSArray
-		if (index == ARRAY_CAPACITY)
+		if (tempIndex == ARRAY_CAPACITY)
 			[self startStop:self];
 		
 		//Set the value of the textfields
@@ -143,7 +145,7 @@
 		//We may change this when we start comparing data
 		data = nil;
 		data = [[NSMutableArray alloc] initWithCapacity:ARRAY_CAPACITY];
-		index = 0;
+		tempIndex = 0;
 		
 		[status setText:@"Collecting Data"];
 		[toggle setTitle:@"Stop" forState:UIControlStateNormal];
@@ -155,7 +157,7 @@
 
 	bool passed = NO;
 	
-	if (compare(xData, yData, zData, xDataFinal, yDataFinal, zDataFinal) == 1)
+	if (compare(dataIndex, xData, yData, zData, dataIndexFinal, xDataFinal, yDataFinal, zDataFinal) == 1)
 		passed = YES;
 	
 	UIAlertView *alert = [[UIAlertView alloc]
