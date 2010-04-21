@@ -39,15 +39,6 @@
 	self.accelerometer = [UIAccelerometer sharedAccelerometer];
 	self.accelerometer.updateInterval = .1;
 	self.accelerometer.delegate = self;
-	
-	UIAlertView *alert = [[UIAlertView alloc]
-						  initWithTitle:[[NSString alloc] initWithString:@"Test!"] 
-						  message:@"Test1"
-						  delegate:self
-						  cancelButtonTitle:@"OK"
-						  otherButtonTitles:nil];
-	
-	[alert show];
 }
 
 
@@ -155,10 +146,8 @@
 
 - (void) compareData:(id)sender {
 
-	bool passed = NO;
-	
-	if (compareCaller(xData, yData, zData, xDataFinal, yDataFinal, zDataFinal) == 1)
-		passed = YES;
+	int temp = compareCaller(xData, yData, zData, xDataFinal, yDataFinal, zDataFinal);
+	bool passed = (temp == 1);
 	
 	UIAlertView *alert = [[UIAlertView alloc]
 						  initWithTitle:[[NSString alloc] initWithString:@"Did we pass!?!"] 
@@ -166,12 +155,6 @@
 						  delegate:self
 						  cancelButtonTitle:@"OK"
 						  otherButtonTitles:nil];
-//	UIAlertView *alert = [[UIAlertView alloc]
-//						  initWithTitle:[[NSString alloc] initWithString:@"Did we pass!?!"] 
-//						  message:[[NSString alloc] initWithFormat:@"%d", [data count]]
-//						  delegate:self
-//						  cancelButtonTitle:@"OK"
-//						  otherButtonTitles:nil];
 	
 	[alert show];
 	
