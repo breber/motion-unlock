@@ -15,7 +15,7 @@
 		28AD733F0D9D9553002E5188 /* MainWindow.xib in Resources */ = {isa = PBXBuildFile; fileRef = 28AD733E0D9D9553002E5188 /* MainWindow.xib */; };
 		28D7ACF80DDB3853001CB0EB /* MotionUnlockViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 28D7ACF70DDB3853001CB0EB /* MotionUnlockViewController.m */; };
 		DE539E4611481F4600AD3BC9 /* icon.png in Resources */ = {isa = PBXBuildFile; fileRef = DE539E4511481F4600AD3BC9 /* icon.png */; };
-		DEFEC1E1117F785600C0CDDD /* ComparisonAsh.c in Sources */ = {isa = PBXBuildFile; fileRef = DEC8703B117643EB0074FBA4 /* ComparisonAsh.c */; };
+		DEFEC25F117F823D00C0CDDD /* ToddsCompare.c in Sources */ = {isa = PBXBuildFile; fileRef = DEFEC1C1117F74E700C0CDDD /* ToddsCompare.c */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -177,7 +177,7 @@
 				1D60589B0D05DD56006BFB54 /* main.m in Sources */,
 				1D3623260D0F684500981E51 /* MotionUnlockAppDelegate.m in Sources */,
 				28D7ACF80DDB3853001CB0EB /* MotionUnlockViewController.m in Sources */,
-				DEFEC1E1117F785600C0CDDD /* ComparisonAsh.c in Sources */,
+				DEFEC25F117F823D00C0CDDD /* ToddsCompare.c in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

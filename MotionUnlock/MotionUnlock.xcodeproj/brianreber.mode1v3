@@ -229,6 +229,8 @@
 			<key>Layout</key>
 			<array>
 				<dict>
+					<key>BecomeActive</key>
+					<true/>
 					<key>ContentConfiguration</key>
 					<dict>
 						<key>PBXBottomSmartGroupGIDs</key>
@@ -272,7 +274,7 @@
 							<key>PBXSmartGroupTreeModuleOutlineStateSelectionKey</key>
 							<array>
 								<array>
-									<integer>10</integer>
+									<integer>2</integer>
 									<integer>1</integer>
 									<integer>0</integer>
 								</array>
@@ -308,14 +310,12 @@
 					<key>Dock</key>
 					<array>
 						<dict>
-							<key>BecomeActive</key>
-							<true/>
 							<key>ContentConfiguration</key>
 							<dict>
 								<key>PBXProjectModuleGUID</key>
 								<string>1CE0B20306471E060097A5F4</string>
 								<key>PBXProjectModuleLabel</key>
-								<string>ComparisonAsh.c</string>
+								<string>ToddsCompare.c</string>
 								<key>PBXSplitModuleInNavigatorKey</key>
 								<dict>
 									<key>Split0</key>
@@ -323,11 +323,11 @@
 										<key>PBXProjectModuleGUID</key>
 										<string>1CE0B20406471E060097A5F4</string>
 										<key>PBXProjectModuleLabel</key>
-										<string>ComparisonAsh.c</string>
+										<string>ToddsCompare.c</string>
 										<key>_historyCapacity</key>
 										<integer>0</integer>
 										<key>bookmark</key>
-										<string>DEFEC23A117F7E3900C0CDDD</string>
+										<string>DEFEC36F117F863D00C0CDDD</string>
 										<key>history</key>
 										<array>
 											<string>DECEAA7D1135FEBC00F80C09</string>
@@ -335,15 +335,15 @@
 											<string>DE1D4D4811487E0500420901</string>
 											<string>DE1051C41148801C006E4CFD</string>
 											<string>DE2EB94C117633C100F0D475</string>
-											<string>DEFEC1B8117F74D300C0CDDD</string>
-											<string>DEFEC1B9117F74D300C0CDDD</string>
-											<string>DEFEC1C5117F754D00C0CDDD</string>
-											<string>DEFEC1F9117F795F00C0CDDD</string>
 											<string>DEFEC20B117F79FB00C0CDDD</string>
-											<string>DEFEC237117F7E3900C0CDDD</string>
-											<string>DEFEC238117F7E3900C0CDDD</string>
-											<string>DEFEC239117F7E3900C0CDDD</string>
-											<string>DEFEC231117F7DD200C0CDDD</string>
+											<string>DEFEC367117F863D00C0CDDD</string>
+											<string>DEFEC368117F863D00C0CDDD</string>
+											<string>DEFEC369117F863D00C0CDDD</string>
+											<string>DEFEC36A117F863D00C0CDDD</string>
+											<string>DEFEC36B117F863D00C0CDDD</string>
+											<string>DEFEC36C117F863D00C0CDDD</string>
+											<string>DEFEC36D117F863D00C0CDDD</string>
+											<string>DEFEC36E117F863D00C0CDDD</string>
 										</array>
 									</dict>
 									<key>SplitCount</key>
@@ -355,14 +355,14 @@
 							<key>GeometryConfiguration</key>
 							<dict>
 								<key>Frame</key>
-								<string>{{0, 0}, {1072, 471}}</string>
+								<string>{{0, 0}, {1072, 577}}</string>
 								<key>RubberWindowFrame</key>
 								<string>0 59 1280 719 0 0 1280 778 </string>
 							</dict>
 							<key>Module</key>
 							<string>PBXNavigatorGroup</string>
 							<key>Proportion</key>
-							<string>471pt</string>
+							<string>577pt</string>
 						</dict>
 						<dict>
 							<key>ContentConfiguration</key>
@@ -375,14 +375,14 @@
 							<key>GeometryConfiguration</key>
 							<dict>
 								<key>Frame</key>
-								<string>{{0, 476}, {1072, 202}}</string>
+								<string>{{0, 582}, {1072, 96}}</string>
 								<key>RubberWindowFrame</key>
 								<string>0 59 1280 719 0 0 1280 778 </string>
 							</dict>
 							<key>Module</key>
 							<string>XCDetailModule</string>
 							<key>Proportion</key>
-							<string>202pt</string>
+							<string>96pt</string>
 						</dict>
 					</array>
 					<key>Proportion</key>

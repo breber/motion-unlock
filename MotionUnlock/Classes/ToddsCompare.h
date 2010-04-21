@@ -7,7 +7,7 @@
  *
  */
 
-int compareCaller(double[] x_data, double[] y_data, double[] z_data, double[] x_compare, double[] y_compare, double[] z_compare);
+int compareCaller(double x_data[], double y_data[], double z_data[], double x_compare[], double y_compare[], double z_compare[]);
 
 int compare(double preSlope[], double postSlope[], int start, int end);
 

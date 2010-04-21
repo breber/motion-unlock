@@ -7,7 +7,7 @@
 //
 
 #import "MotionUnlockViewController.h"
-#import "ComparisonAsh.h"
+#import "ToddsCompare.h"
 
 @implementation MotionUnlockViewController
 
@@ -157,7 +157,7 @@
 
 	bool passed = NO;
 	
-	if (compare(dataIndex, xData, yData, zData, dataIndexFinal, xDataFinal, yDataFinal, zDataFinal) == 1)
+	if (compareCaller(xData, yData, zData, xDataFinal, yDataFinal, zDataFinal) == 1)
 		passed = YES;
 	
 	UIAlertView *alert = [[UIAlertView alloc]
@@ -166,6 +166,12 @@
 						  delegate:self
 						  cancelButtonTitle:@"OK"
 						  otherButtonTitles:nil];
+//	UIAlertView *alert = [[UIAlertView alloc]
+//						  initWithTitle:[[NSString alloc] initWithString:@"Did we pass!?!"] 
+//						  message:[[NSString alloc] initWithFormat:@"%d", [data count]]
+//						  delegate:self
+//						  cancelButtonTitle:@"OK"
+//						  otherButtonTitles:nil];
 	
 	[alert show];
 	
