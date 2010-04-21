@@ -11,7 +11,6 @@
 
 #include <stdio.h>
 #include <stdlib.h>
-#include <string.h>
 
 #define DATA_NUM 3000
 #define LENGTH 10
@@ -21,7 +20,13 @@
 #define ARRAY_TOLERANCE 10
 #define START 10
 
-int compare() {
+int compare(int pre_x[], int pre_y[], int pre_z[], int post_x[], int post_y[], int post_z[]) {
+//int main() {
+//	int pre_t[DATA_NUM], post_t[DATA_NUM];
+//	double pre_x[DATA_NUM], pre_y[DATA_NUM], pre_z[DATA_NUM], post_x[DATA_NUM], post_y[DATA_NUM], post_z[DATA_NUM];
+//	FILE *inp;
+//	char *status;
+
 	int pre_t[DATA_NUM], post_t[DATA_NUM];
 	double pre_x[DATA_NUM], pre_y[DATA_NUM], pre_z[DATA_NUM], post_x[DATA_NUM], post_y[DATA_NUM], post_z[DATA_NUM], temp[DATA_NUM];
 	FILE *inp;
@@ -38,61 +43,61 @@ int compare() {
 	int l = 0;
 	int m = 0;
 	int n = 0;
-	inp = fopen("pre_t.txt", "r");
-	
-	// Fills arrays with stored movement and random movement components
-	for (i = 0; !feof(inp) && i < DATA_NUM; i++) {
-		fscanf(inp, "%d", &pre_t[i]);
-	}
-	
-	i = 0;
-	inp = fopen("pre_x.txt", "r");
-	
-	for (i = 0; !feof(inp) && i < DATA_NUM; i++) {
-		fscanf(inp, "%lf", &pre_x[i]);
-	}
-	
-	i = 0;
-	inp = fopen("pre_y.txt", "r");
-	
-	for (i = 0; !feof(inp) && i < DATA_NUM; i++) {
-		fscanf(inp, "%lf", &pre_y[i]);
-	}
-	
-	i = 0;
-	inp = fopen("pre_z.txt", "r");
-	
-	for (i = 0; !feof(inp) && i < DATA_NUM; i++) {
-		fscanf(inp, "%lf", &pre_z[i]);
-	}
-	
-	i = 0;
-	inp = fopen("post_t.txt", "r");
-	
-	for (i = 0; !feof(inp) && i < DATA_NUM; i++) {
-		fscanf(inp, "%d", &post_t[i]);
-	}
-	
-	i = 0;
-	inp = fopen("post_x.txt", "r");
-	
-	for (i = 0; !feof(inp) && i < DATA_NUM; i++) {
-		fscanf(inp, "%lf", &post_x[i]);
-	}
-	
-	i = 0;
-	inp = fopen("post_y.txt", "r");
-	
-	for (i = 0; !feof(inp) && i < DATA_NUM; i++) {
-		fscanf(inp, "%lf", &post_y[i]);
-	}
-	
-	i = 0;
-	inp = fopen("post_z.txt", "r");
-	
-	for (i = 0; !feof(inp) && i < DATA_NUM; i++) {
-		fscanf(inp, "%lf", &post_z[i]);
-	} 
+//	inp = fopen("pre_t.txt", "r");
+//	
+//	// Fills arrays with stored movement and random movement components
+//	for (i = 0; !feof(inp) && i < DATA_NUM; i++) {
+//		fscanf(inp, "%d", &pre_t[i]);
+//	}
+//	
+//	i = 0;
+//	inp = fopen("pre_x.txt", "r");
+//	
+//	for (i = 0; !feof(inp) && i < DATA_NUM; i++) {
+//		fscanf(inp, "%lf", &pre_x[i]);
+//	}
+//	
+//	i = 0;
+//	inp = fopen("pre_y.txt", "r");
+//	
+//	for (i = 0; !feof(inp) && i < DATA_NUM; i++) {
+//		fscanf(inp, "%lf", &pre_y[i]);
+//	}
+//	
+//	i = 0;
+//	inp = fopen("pre_z.txt", "r");
+//	
+//	for (i = 0; !feof(inp) && i < DATA_NUM; i++) {
+//		fscanf(inp, "%lf", &pre_z[i]);
+//	}
+//	
+//	i = 0;
+//	inp = fopen("post_t.txt", "r");
+//	
+//	for (i = 0; !feof(inp) && i < DATA_NUM; i++) {
+//		fscanf(inp, "%d", &post_t[i]);
+//	}
+//	
+//	i = 0;
+//	inp = fopen("post_x.txt", "r");
+//	
+//	for (i = 0; !feof(inp) && i < DATA_NUM; i++) {
+//		fscanf(inp, "%lf", &post_x[i]);
+//	}
+//	
+//	i = 0;
+//	inp = fopen("post_y.txt", "r");
+//	
+//	for (i = 0; !feof(inp) && i < DATA_NUM; i++) {
+//		fscanf(inp, "%lf", &post_y[i]);
+//	}
+//	
+//	i = 0;
+//	inp = fopen("post_z.txt", "r");
+//	
+//	for (i = 0; !feof(inp) && i < DATA_NUM; i++) {
+//		fscanf(inp, "%lf", &post_z[i]);
+//	} 
 	
 	// Fills arrays of slopes from stored movement sample
 	
@@ -122,7 +127,7 @@ int compare() {
 	
 	// Compare slopes to see if they are within range
 	
-	/*
+	
 	for(i = 0; i < DATA_NUM - SAMPLE_LENGTH - 1 && pass_z != TRUE && pass_y != TRUE && pass_x != TRUE; i++) {
 		if(abs(post_xSlope[START] - pre_xSlope[i]) <= TOLERANCE) {
 			for(j = i + 1; j < SAMPLE_LENGTH - 1 && difference <= TOLERANCE; j++) {
@@ -155,7 +160,7 @@ int compare() {
 				} 
 			}
 		}
-	 */
+	 
 	
 	int x_argument = DATA_NUM - SAMPLE_LENGTH - 1
 	pass_x = compare(pre_xSlope, post_xSlope, 0, DATA_NUM - SAMPLE_LENGTH - 1 && 
@@ -194,17 +199,17 @@ int compare() {
 	return 0;
 }
 
-int compare(double preSlope[], double postSlope[], int start, int end) {
-	
-	int difference = 0;
-	
-	for(int i = start; i <= end; i++) {
-		if(abs(postSlope[START] - preSlope[i]) <= TOLERANCE) {
-			for(int j = i + 1; j < SAMPLE_LENGTH - 1 && difference <= TOLERANCE; j++) {
-				difference = abs(postSlope[j] - preSlope[j]);
-			}
-		}
-	}
-	
-	if(j == SAMPLE_LENGTH - 1) return 1;
-}
+//int compare(double preSlope[], double postSlope[], int start, int end) {
+//	
+//	int difference = 0;
+//	
+//	for(int i = start; i <= end; i++) {
+//		if(abs(postSlope[START] - preSlope[i]) <= TOLERANCE) {
+//			for(int j = i + 1; j < SAMPLE_LENGTH - 1 && difference <= TOLERANCE; j++) {
+//				difference = abs(postSlope[j] - preSlope[j]);
+//			}
+//		}
+//	}
+//	
+//	if(j == SAMPLE_LENGTH - 1) return 1;
+//}
