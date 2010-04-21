@@ -38,11 +38,6 @@
 	self.accelerometer.updateInterval = .1;
 	self.accelerometer.delegate = self;
 	
-	// We call into our c code for a proof of concept. The test Function returns double the parameter
-	// And then we just show a popup with that.
-	srand(time(0));
-	int tempNum = rand() % 10;
-	NSString *num = [[NSString alloc] initWithFormat:@"%ld", factorial(tempNum)];
 	UIAlertView *alert = [[UIAlertView alloc]
 						  initWithTitle:[[NSString alloc] initWithFormat:@"%d!", tempNum] 
 						  message:num
