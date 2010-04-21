@@ -7,14 +7,14 @@
 //
 
 #import "MotionUnlockViewController.h"
-#import "test.h"
+#import "ComparisonAsh.h"
 
 @implementation MotionUnlockViewController
 
 @synthesize accelerometer;
 
 //The default size of our NSArray
-#define ARRAY_CAPACITY 1000
+//#define ARRAY_CAPACITY 1000
 
 /*
  // Implement loadView to create a view hierarchy programmatically, without using a nib.
@@ -33,14 +33,16 @@
 	index = 0;
 	data = [[NSMutableArray alloc] initWithCapacity: ARRAY_CAPACITY];
 	
+	startingData = YES;
+	
 	//Set up the accelerometer
 	self.accelerometer = [UIAccelerometer sharedAccelerometer];
 	self.accelerometer.updateInterval = .1;
 	self.accelerometer.delegate = self;
 	
 	UIAlertView *alert = [[UIAlertView alloc]
-						  initWithTitle:[[NSString alloc] initWithFormat:@"%d!", tempNum] 
-						  message:num
+						  initWithTitle:[[NSString alloc] initWithString:@"Test!"] 
+						  message:@"Test1"
 						  delegate:self
 						  cancelButtonTitle:@"OK"
 						  otherButtonTitles:nil];
@@ -65,6 +67,16 @@
 		[yVal retain];
 		[zVal retain];
 		
+		if (startingData) {
+			xData[index] = acceleration.x;
+			yData[index] = acceleration.y;
+			zData[index] = acceleration.z;
+		} else {
+			xDataFinal[index] = acceleration.x;
+			yDataFinal[index] = acceleration.y;
+			zDataFinal[index] = acceleration.z;
+		}
+
 		//Insert a string of our acceleration data into our NSArray
 		[data insertObject:[NSString stringWithFormat:@"%@,%@,%@", xVal, yVal,zVal] atIndex:index];
 		index++;
@@ -83,6 +95,11 @@
 		[ySlide setValue:acceleration.y];
 		[zSlide setValue:acceleration.z];
 	}
+}
+
+- (void) startingData:(id)sender {
+	startingData = !startingData;
+	[self startStop:self];
 }
 
 - (void)didReceiveMemoryWarning {
@@ -132,6 +149,24 @@
 		[toggle setTitle:@"Stop" forState:UIControlStateNormal];
 		[running startAnimating];
 	}
+}
+
+- (void) compareData:(id)sender {
+
+	bool passed = NO;
+	
+	if (compare(xData, yData, zData, xDataFinal, yDataFinal, zDataFinal) == 1)
+		passed = YES;
+	
+	UIAlertView *alert = [[UIAlertView alloc]
+						  initWithTitle:[[NSString alloc] initWithString:@"Did we pass!?!"] 
+						  message:passed ? @"We passed!":@"We failed..."
+						  delegate:self
+						  cancelButtonTitle:@"OK"
+						  otherButtonTitles:nil];
+	
+	[alert show];
+	
 }
 
 

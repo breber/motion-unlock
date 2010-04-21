@@ -12,7 +12,7 @@
 #include <stdio.h>
 #include <stdlib.h>
 
-#define DATA_NUM 3000
+#define DATA_NUM 500
 #define LENGTH 10
 #define SAMPLE_LENGTH 10
 #define TOLERANCE 0.1
@@ -20,17 +20,17 @@
 #define ARRAY_TOLERANCE 10
 #define START 10
 
-int compare(int pre_x[], int pre_y[], int pre_z[], int post_x[], int post_y[], int post_z[]) {
+int compare(double pre_x[], double pre_y[], double pre_z[], double post_x[], double post_y[], double post_z[]) {
 //int main() {
 //	int pre_t[DATA_NUM], post_t[DATA_NUM];
 //	double pre_x[DATA_NUM], pre_y[DATA_NUM], pre_z[DATA_NUM], post_x[DATA_NUM], post_y[DATA_NUM], post_z[DATA_NUM];
 //	FILE *inp;
 //	char *status;
 
-	int pre_t[DATA_NUM], post_t[DATA_NUM];
-	double pre_x[DATA_NUM], pre_y[DATA_NUM], pre_z[DATA_NUM], post_x[DATA_NUM], post_y[DATA_NUM], post_z[DATA_NUM], temp[DATA_NUM];
-	FILE *inp;
-	char *status;
+//	int pre_t[DATA_NUM], post_t[DATA_NUM];
+//	double pre_x[DATA_NUM], pre_y[DATA_NUM], pre_z[DATA_NUM], post_x[DATA_NUM], post_y[DATA_NUM], post_z[DATA_NUM], temp[DATA_NUM];
+//	FILE *inp;
+//	char *status;
 	double pre_xSlope[SAMPLE_LENGTH - 1], pre_ySlope[SAMPLE_LENGTH - 1], pre_zSlope[SAMPLE_LENGTH - 1], post_xSlope[SAMPLE_LENGTH - 1], post_ySlope[SAMPLE_LENGTH - 1], post_zSlope[SAMPLE_LENGTH - 1];
 	double difference = 0;
 	
@@ -161,11 +161,11 @@ int compare(int pre_x[], int pre_y[], int pre_z[], int post_x[], int post_y[], i
 			}
 		}
 	 
-	
-	int x_argument = DATA_NUM - SAMPLE_LENGTH - 1
-	pass_x = compare(pre_xSlope, post_xSlope, 0, DATA_NUM - SAMPLE_LENGTH - 1 && 
-	
 	}
+//	int x_argument = DATA_NUM - SAMPLE_LENGTH - 1
+//	pass_x = compare(pre_xSlope, post_xSlope, 0, DATA_NUM - SAMPLE_LENGTH - 1 && 
+	
+
 	
 	/*	if(j == SAMPLE_LENGTH - 1) {
 	 pass_x = TRUE;
@@ -196,7 +196,7 @@ int compare(int pre_x[], int pre_y[], int pre_z[], int post_x[], int post_y[], i
 	 }
 	 } */
 	
-	return 0;
+	return (pass_x == pass_y) && (pass_y == pass_z);
 }
 
 //int compare(double preSlope[], double postSlope[], int start, int end) {
