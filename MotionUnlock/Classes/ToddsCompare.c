@@ -51,6 +51,9 @@ int compareCaller(double x_data[], double y_data[], double z_data[], double x_co
 		y_pass = compare(compare_y_slopes, data_y_slopes, i, i + SAMPLE_LENGTH);
 		z_pass = compare(compare_z_slopes, data_z_slopes, i, i + SAMPLE_LENGTH);
 		printf("%d, %d, %d \n", x_pass, y_pass, z_pass);
+		if (x_pass && y_pass && z_pass) {
+			return 1;
+		}
 	}
 	
 	return 0;
