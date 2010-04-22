@@ -189,7 +189,7 @@
 								<int key="NSfFlags">16</int>
 							</object>
 							<int key="IBUIButtonType">1</int>
-							<string key="IBUINormalTitle">Collect Te Data</string>
+							<string key="IBUINormalTitle">Original Data</string>
 							<object class="NSColor" key="IBUIHighlightedTitleColor" id="104565330">
 								<int key="NSColorSpace">3</int>
 								<bytes key="NSWhite">MQA</bytes>
@@ -358,7 +358,7 @@
 							<int key="IBUIContentVerticalAlignment">0</int>
 							<reference key="IBUIFont" ref="588465591"/>
 							<int key="IBUIButtonType">1</int>
-							<string key="IBUINormalTitle">Collect Fin Data</string>
+							<string key="IBUINormalTitle">Final Data</string>
 							<reference key="IBUIHighlightedTitleColor" ref="104565330"/>
 							<object class="NSColor" key="IBUINormalTitleColor">
 								<int key="NSColorSpace">1</int>
@@ -473,28 +473,11 @@
 				</object>
 				<object class="IBConnectionRecord">
 					<object class="IBCocoaTouchOutletConnection" key="connection">
-						<string key="label">toggle</string>
-						<reference key="source" ref="943309135"/>
-						<reference key="destination" ref="984268654"/>
-					</object>
-					<int key="connectionID">49</int>
-				</object>
-				<object class="IBConnectionRecord">
-					<object class="IBCocoaTouchOutletConnection" key="connection">
 						<string key="label">status</string>
 						<reference key="source" ref="943309135"/>
 						<reference key="destination" ref="637462944"/>
 					</object>
 					<int key="connectionID">54</int>
-				</object>
-				<object class="IBConnectionRecord">
-					<object class="IBCocoaTouchEventConnection" key="connection">
-						<string key="label">startStop:</string>
-						<reference key="source" ref="984268654"/>
-						<reference key="destination" ref="943309135"/>
-						<int key="IBEventType">7</int>
-					</object>
-					<int key="connectionID">55</int>
 				</object>
 				<object class="IBConnectionRecord">
 					<object class="IBCocoaTouchEventConnection" key="connection">
@@ -539,21 +522,46 @@
 				</object>
 				<object class="IBConnectionRecord">
 					<object class="IBCocoaTouchEventConnection" key="connection">
-						<string key="label">startingData:</string>
-						<reference key="source" ref="217833106"/>
-						<reference key="destination" ref="943309135"/>
-						<int key="IBEventType">7</int>
-					</object>
-					<int key="connectionID">74</int>
-				</object>
-				<object class="IBConnectionRecord">
-					<object class="IBCocoaTouchEventConnection" key="connection">
 						<string key="label">compareData:</string>
 						<reference key="source" ref="1069447067"/>
 						<reference key="destination" ref="943309135"/>
 						<int key="IBEventType">7</int>
 					</object>
 					<int key="connectionID">79</int>
+				</object>
+				<object class="IBConnectionRecord">
+					<object class="IBCocoaTouchOutletConnection" key="connection">
+						<string key="label">finalButton</string>
+						<reference key="source" ref="943309135"/>
+						<reference key="destination" ref="217833106"/>
+					</object>
+					<int key="connectionID">80</int>
+				</object>
+				<object class="IBConnectionRecord">
+					<object class="IBCocoaTouchOutletConnection" key="connection">
+						<string key="label">originalButton</string>
+						<reference key="source" ref="943309135"/>
+						<reference key="destination" ref="984268654"/>
+					</object>
+					<int key="connectionID">82</int>
+				</object>
+				<object class="IBConnectionRecord">
+					<object class="IBCocoaTouchEventConnection" key="connection">
+						<string key="label">startStop:</string>
+						<reference key="source" ref="984268654"/>
+						<reference key="destination" ref="943309135"/>
+						<int key="IBEventType">7</int>
+					</object>
+					<int key="connectionID">83</int>
+				</object>
+				<object class="IBConnectionRecord">
+					<object class="IBCocoaTouchEventConnection" key="connection">
+						<string key="label">finalData:</string>
+						<reference key="source" ref="217833106"/>
+						<reference key="destination" ref="943309135"/>
+						<int key="IBEventType">7</int>
+					</object>
+					<int key="connectionID">84</int>
 				</object>
 			</object>
 			<object class="IBMutableOrderedSet" key="objectRecords">
@@ -601,7 +609,6 @@
 						<reference key="object" ref="276302701"/>
 						<object class="NSMutableArray" key="children">
 							<bool key="EncodedWithXMLCoder">YES</bool>
-							<reference ref="217833106"/>
 							<reference ref="924310250"/>
 							<reference ref="746534658"/>
 							<reference ref="66796699"/>
@@ -619,6 +626,7 @@
 							<reference ref="151663975"/>
 							<reference ref="357007363"/>
 							<reference ref="1069447067"/>
+							<reference ref="217833106"/>
 						</object>
 						<reference key="parent" ref="943309135"/>
 					</object>
@@ -795,7 +803,7 @@
 				</object>
 			</object>
 			<nil key="sourceID"/>
-			<int key="maxID">79</int>
+			<int key="maxID">84</int>
 		</object>
 		<object class="IBClassDescriber" key="IBDocument.Classes">
 			<object class="NSMutableArray" key="referencedPartialClassDescriptions">
@@ -838,8 +846,8 @@
 							<bool key="EncodedWithXMLCoder">YES</bool>
 							<string>compareData:</string>
 							<string>emailData:</string>
+							<string>finalData:</string>
 							<string>startStop:</string>
-							<string>startingData:</string>
 						</object>
 						<object class="NSMutableArray" key="dict.values">
 							<bool key="EncodedWithXMLCoder">YES</bool>
@@ -853,9 +861,10 @@
 						<bool key="EncodedWithXMLCoder">YES</bool>
 						<object class="NSArray" key="dict.sortedKeys">
 							<bool key="EncodedWithXMLCoder">YES</bool>
+							<string>finalButton</string>
+							<string>originalButton</string>
 							<string>running</string>
 							<string>status</string>
-							<string>toggle</string>
 							<string>x</string>
 							<string>xSlide</string>
 							<string>y</string>
@@ -865,9 +874,10 @@
 						</object>
 						<object class="NSMutableArray" key="dict.values">
 							<bool key="EncodedWithXMLCoder">YES</bool>
+							<string>UIButton</string>
+							<string>UIButton</string>
 							<string>UIActivityIndicatorView</string>
 							<string>UILabel</string>
-							<string>UIButton</string>
 							<string>UITextField</string>
 							<string>UISlider</string>
 							<string>UITextField</string>

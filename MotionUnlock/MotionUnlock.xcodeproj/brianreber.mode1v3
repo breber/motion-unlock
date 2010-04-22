@@ -229,8 +229,6 @@
 			<key>Layout</key>
 			<array>
 				<dict>
-					<key>BecomeActive</key>
-					<true/>
 					<key>ContentConfiguration</key>
 					<dict>
 						<key>PBXBottomSmartGroupGIDs</key>
@@ -310,6 +308,8 @@
 					<key>Dock</key>
 					<array>
 						<dict>
+							<key>BecomeActive</key>
+							<true/>
 							<key>ContentConfiguration</key>
 							<dict>
 								<key>PBXProjectModuleGUID</key>
@@ -327,7 +327,7 @@
 										<key>_historyCapacity</key>
 										<integer>0</integer>
 										<key>bookmark</key>
-										<string>DE64436B117FA03600214BF1</string>
+										<string>DE6443C9117FCD3500214BF1</string>
 										<key>history</key>
 										<array>
 											<string>DECEAA7D1135FEBC00F80C09</string>
@@ -335,15 +335,15 @@
 											<string>DE1D4D4811487E0500420901</string>
 											<string>DE1051C41148801C006E4CFD</string>
 											<string>DE2EB94C117633C100F0D475</string>
-											<string>DEFEC20B117F79FB00C0CDDD</string>
 											<string>DEFEC367117F863D00C0CDDD</string>
-											<string>DEFEC368117F863D00C0CDDD</string>
-											<string>DEFEC369117F863D00C0CDDD</string>
-											<string>DEFEC36B117F863D00C0CDDD</string>
 											<string>DEFEC36C117F863D00C0CDDD</string>
-											<string>DEFEC36D117F863D00C0CDDD</string>
-											<string>DEFEC374117F898400C0CDDD</string>
-											<string>DEFEC376117F898400C0CDDD</string>
+											<string>DE64438C117FC81000214BF1</string>
+											<string>DE64438D117FC81000214BF1</string>
+											<string>DE64438F117FC81000214BF1</string>
+											<string>DE6443BD117FCBB500214BF1</string>
+											<string>DE6443C7117FCD3500214BF1</string>
+											<string>DE6443C8117FCD3500214BF1</string>
+											<string>DE6443A8117FCA9100214BF1</string>
 										</array>
 									</dict>
 									<key>SplitCount</key>
@@ -541,8 +541,12 @@
 	<integer>5</integer>
 	<key>WindowOrderList</key>
 	<array>
+		<string>DE644387117FC80800214BF1</string>
+		<string>DE644392117FC81000214BF1</string>
+		<string>DE644393117FC81000214BF1</string>
 		<string>1CD10A99069EF8BA00B06720</string>
 		<string>DECEAA3F1135F95400F80C09</string>
+		<string>1C78EAAD065D492600B07095</string>
 		<string>/Users/brianreber/MotionUnlock/MotionUnlock/MotionUnlock.xcodeproj</string>
 	</array>
 	<key>WindowString</key>
@@ -567,7 +571,7 @@
 								<key>PBXProjectModuleGUID</key>
 								<string>1CD0528F0623707200166675</string>
 								<key>PBXProjectModuleLabel</key>
-								<string></string>
+								<string>MotionUnlockViewController.m</string>
 								<key>StatusBarVisibility</key>
 								<true/>
 							</dict>
@@ -584,6 +588,8 @@
 							<string>209pt</string>
 						</dict>
 						<dict>
+							<key>BecomeActive</key>
+							<true/>
 							<key>ContentConfiguration</key>
 							<dict>
 								<key>PBXProjectModuleGUID</key>
@@ -878,6 +884,8 @@
 					<key>Dock</key>
 					<array>
 						<dict>
+							<key>BecomeActive</key>
+							<true/>
 							<key>ContentConfiguration</key>
 							<dict>
 								<key>PBXProjectModuleGUID</key>
@@ -890,7 +898,7 @@
 								<key>Frame</key>
 								<string>{{0, 0}, {769, 430}}</string>
 								<key>RubberWindowFrame</key>
-								<string>473 122 769 471 0 0 1280 778 </string>
+								<string>2095 -116 769 471 1280 -250 1680 1050 </string>
 							</dict>
 							<key>Module</key>
 							<string>PBXDebugCLIModule</string>
@@ -913,17 +921,17 @@
 			<key>TableOfContents</key>
 			<array>
 				<string>1C78EAAD065D492600B07095</string>
-				<string>DEFEC1BE117F74D300C0CDDD</string>
+				<string>DE644386117FC80800214BF1</string>
 				<string>1C78EAAC065D492600B07095</string>
 			</array>
 			<key>ToolbarConfiguration</key>
 			<string>xcode.toolbar.config.consoleV3</string>
 			<key>WindowString</key>
-			<string>473 122 769 471 0 0 1280 778 </string>
+			<string>2095 -116 769 471 1280 -250 1680 1050 </string>
 			<key>WindowToolGUID</key>
 			<string>1C78EAAD065D492600B07095</string>
 			<key>WindowToolIsVisible</key>
-			<false/>
+			<true/>
 		</dict>
 		<dict>
 			<key>FirstTimeWindowDisplayed</key>
@@ -1200,8 +1208,8 @@
 			<true/>
 			<key>TableOfContents</key>
 			<array>
-				<string>DEFEC22C117F7D2000C0CDDD</string>
-				<string>DEFEC22D117F7D2000C0CDDD</string>
+				<string>DE644387117FC80800214BF1</string>
+				<string>DE644388117FC80800214BF1</string>
 				<string>1CE0B1FE06471DED0097A5F4</string>
 				<string>1CA1AED706398EBD00589147</string>
 			</array>
@@ -1210,7 +1218,7 @@
 			<key>WindowString</key>
 			<string>21 346 744 409 0 0 1280 778 </string>
 			<key>WindowToolGUID</key>
-			<string>DEFEC22C117F7D2000C0CDDD</string>
+			<string>DE644387117FC80800214BF1</string>
 			<key>WindowToolIsVisible</key>
 			<false/>
 		</dict>

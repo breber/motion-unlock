@@ -14,7 +14,8 @@
 
 	UIAccelerometer *accelerometer;
 	
-	IBOutlet UIButton *toggle;
+	IBOutlet UIButton *originalButton;
+	IBOutlet UIButton *finalButton;
 	IBOutlet UIActivityIndicatorView *running;
 	
 	IBOutlet UITextField *x;
@@ -43,7 +44,7 @@
 	double yDataFinal[ARRAY_CAPACITY];
 	double zDataFinal[ARRAY_CAPACITY];
 	
-	bool startingData;
+	bool finalData;
 	
 }
 
@@ -53,7 +54,7 @@
 - (void) emailData:(id)sender;
 - (void) mailTo:(NSString *)to withBody:(NSString *)body;
 
-- (void) startingData:(id)sender;
+- (void) finalData:(id)sender;
 - (void) compareData:(id)sender;
 
 @end

@@ -33,7 +33,7 @@
 	tempIndex = 0;
 	data = [[NSMutableArray alloc] initWithCapacity: ARRAY_CAPACITY];
 	
-	startingData = YES;
+	finalData = NO;
 	
 	//Set up the accelerometer
 	self.accelerometer = [UIAccelerometer sharedAccelerometer];
@@ -58,7 +58,7 @@
 		[yVal retain];
 		[zVal retain];
 		
-		if (startingData) {
+		if (!finalData) {
 			xData[tempIndex] = acceleration.x;
 			yData[tempIndex] = acceleration.y;
 			zData[tempIndex] = acceleration.z;
@@ -90,8 +90,8 @@
 	}
 }
 
-- (void) startingData:(id)sender {
-	startingData = !startingData;
+- (void) finalData:(id)sender {
+	finalData = YES;
 	[self startStop:self];
 }
 
@@ -117,7 +117,9 @@
 	{
 		collectData = NO;
 		[status setText:@"Stopped"];
-		[toggle setTitle:@"Collect Data" forState:UIControlStateNormal];
+		
+		[originalButton setTitle:@"Original Data" forState:UIControlStateNormal];
+		[finalButton setTitle:@"Final Data" forState:UIControlStateNormal];
 		
 		//Clear the output text fields
 		[x setText: @""];
@@ -139,7 +141,11 @@
 		tempIndex = 0;
 		
 		[status setText:@"Collecting Data"];
-		[toggle setTitle:@"Stop" forState:UIControlStateNormal];
+		if (finalData) {
+			[finalButton setTitle:@"Stop" forState:UIControlStateNormal];
+		} else {
+			[originalButton setTitle:@"Stop" forState:UIControlStateNormal];
+		}
 		[running startAnimating];
 	}
 }
