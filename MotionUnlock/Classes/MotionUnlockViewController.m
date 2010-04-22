@@ -24,6 +24,8 @@
 	
 	finalData = NO;
 	
+	buttonPressCount = 0;
+	
 	//Set up the accelerometer
 	self.accelerometer = [UIAccelerometer sharedAccelerometer];
 	self.accelerometer.updateInterval = .1;
@@ -76,6 +78,34 @@
 		[ySlide setValue:acceleration.y];
 		[zSlide setValue:acceleration.z];
 	}
+}
+
+- (void) buttonPressed:(id)sender {
+	switch (buttonPressCount) {
+		case 0:
+			[self originalData:self];
+			buttonPressCount++;
+			break;
+		case 1:
+			[self originalData:self];
+			buttonPressCount++;
+			break;
+		case 2:
+			[self finalData:self];
+			buttonPressCount++;
+			break;
+		case 3:
+			[self finalData:self];
+			[self compareData:self];
+			buttonPressCount++;
+			break;
+		case 4:
+			buttonPressCount = 0;
+			break;
+		default:
+			break;
+	}
+	
 }
 
 - (void) originalData:(id)sender {

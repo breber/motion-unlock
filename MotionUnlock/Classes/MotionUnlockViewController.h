@@ -46,6 +46,7 @@
 	
 	bool finalData;
 	
+	int buttonPressCount;
 }
 
 @property (nonatomic, retain) UIAccelerometer *accelerometer;
@@ -54,6 +55,8 @@
 - (void) originalData:(id)sender;
 - (void) finalData:(id)sender;
 - (void) compareData:(id)sender;
+
+- (void) buttonPressed:(id)sender;
 
 @end
 
