@@ -7,7 +7,7 @@
 //
 
 #import "MotionUnlockViewController.h"
-#import "ToddsCompare.h"
+#import "Compare.h"
 
 @implementation MotionUnlockViewController
 
@@ -21,7 +21,6 @@
 	collectData = NO;
 	
 	tempIndex = 0;
-//	data = [[NSMutableArray alloc] initWithCapacity: ARRAY_CAPACITY];
 	
 	finalData = NO;
 	
@@ -44,9 +43,6 @@
 	NSString *zVal = [NSString stringWithFormat:@"%f", acceleration.z];
 	
 	if (collectData){
-//		[xVal retain];
-//		[yVal retain];
-//		[zVal retain];
 		
 		if (!finalData) {
 			xData[tempIndex] = acceleration.x;
@@ -59,9 +55,6 @@
 			zDataFinal[tempIndex] = acceleration.z;
 			dataIndexFinal = tempIndex;
 		}
-
-		//Insert a string of our acceleration data into our NSArray
-//		[data insertObject:[NSString stringWithFormat:@"%@,%@,%@", xVal, yVal,zVal] atIndex:tempIndex];
 		tempIndex++;
 		
 		//We don't want to overflow the NSArray
@@ -129,10 +122,6 @@
 	} else {
 		collectData = YES;
 		
-		//Reset the array
-		//We may change this when we start comparing data
-//		data = nil;
-//		data = [[NSMutableArray alloc] initWithCapacity:ARRAY_CAPACITY];
 		tempIndex = 0;
 		
 		[status setText:@"Collecting Data"];
@@ -164,28 +153,6 @@
 
 - (void)dealloc {
     [super dealloc];
-}
-
-/*
- Called when you click on the "email" button
- */
--(void) emailData:(id)sender
-{
-//	NSArray *arr = [[NSArray alloc] initWithArray:data];
-//	if ([arr count] != 0)
-//		[self mailTo:@"reber.brian@gmail.com" withBody:[arr componentsJoinedByString:@"\n"]];
-}
-
-/*
- Formulates an email with the given address and body
- */
-- (void)mailTo:(NSString *)to withBody:(NSString *)body
-{
-	NSString *message = [NSString stringWithFormat:@"mailto:?to=%@&subject=MotionUnlockOutputData&body=%@",
-						 [to stringByAddingPercentEscapesUsingEncoding:NSASCIIStringEncoding],
-						 [body stringByAddingPercentEscapesUsingEncoding:NSASCIIStringEncoding]];
-	
-	[[UIApplication sharedApplication] openURL:[NSURL URLWithString: message]];
 }
 
 @end
