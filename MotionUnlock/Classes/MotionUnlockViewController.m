@@ -13,16 +13,6 @@
 
 @synthesize accelerometer;
 
-//The default size of our NSArray
-//#define ARRAY_CAPACITY 1000
-
-/*
- // Implement loadView to create a view hierarchy programmatically, without using a nib.
- - (void)loadView {
- }
- */
-
-
 // Implement viewDidLoad to do additional setup after loading the view, typically from a nib.
 - (void)viewDidLoad {
     [super viewDidLoad];
@@ -31,7 +21,7 @@
 	collectData = NO;
 	
 	tempIndex = 0;
-	data = [[NSMutableArray alloc] initWithCapacity: ARRAY_CAPACITY];
+//	data = [[NSMutableArray alloc] initWithCapacity: ARRAY_CAPACITY];
 	
 	finalData = NO;
 	
@@ -54,9 +44,9 @@
 	NSString *zVal = [NSString stringWithFormat:@"%f", acceleration.z];
 	
 	if (collectData){
-		[xVal retain];
-		[yVal retain];
-		[zVal retain];
+//		[xVal retain];
+//		[yVal retain];
+//		[zVal retain];
 		
 		if (!finalData) {
 			xData[tempIndex] = acceleration.x;
@@ -71,7 +61,7 @@
 		}
 
 		//Insert a string of our acceleration data into our NSArray
-		[data insertObject:[NSString stringWithFormat:@"%@,%@,%@", xVal, yVal,zVal] atIndex:tempIndex];
+//		[data insertObject:[NSString stringWithFormat:@"%@,%@,%@", xVal, yVal,zVal] atIndex:tempIndex];
 		tempIndex++;
 		
 		//We don't want to overflow the NSArray
@@ -112,11 +102,6 @@
 	// Release any cached data, images, etc that aren't in use.
 }
 
-- (void)viewDidUnload {
-	// Release any retained subviews of the main view.
-	// e.g. self.myOutlet = nil;
-}
-
 /*
  Called when the user presses the button.  We switch the button label, and set the collectData bool
  value to the opposite of what it was.
@@ -146,8 +131,8 @@
 		
 		//Reset the array
 		//We may change this when we start comparing data
-		data = nil;
-		data = [[NSMutableArray alloc] initWithCapacity:ARRAY_CAPACITY];
+//		data = nil;
+//		data = [[NSMutableArray alloc] initWithCapacity:ARRAY_CAPACITY];
 		tempIndex = 0;
 		
 		[status setText:@"Collecting Data"];
@@ -186,9 +171,9 @@
  */
 -(void) emailData:(id)sender
 {
-	NSArray *arr = [[NSArray alloc] initWithArray:data];
-	if ([arr count] != 0)
-		[self mailTo:@"reber.brian@gmail.com" withBody:[arr componentsJoinedByString:@"\n"]];
+//	NSArray *arr = [[NSArray alloc] initWithArray:data];
+//	if ([arr count] != 0)
+//		[self mailTo:@"reber.brian@gmail.com" withBody:[arr componentsJoinedByString:@"\n"]];
 }
 
 /*
