@@ -84,23 +84,28 @@
 	switch (buttonPressCount) {
 		case 0:
 			[self originalData:self];
+			[status setText:@"Press the lock to complete your baseline movement."]; 
 			buttonPressCount++;
 			break;
 		case 1:
 			[self originalData:self];
+			[status setText:@"Press the lock to attempt to unlock the device."]; 
 			buttonPressCount++;
 			break;
 		case 2:
 			[self finalData:self];
+			[status setText:@"Press the lock to complete your attempt."]; 
 			buttonPressCount++;
 			break;
 		case 3:
 			[self finalData:self];
 			[self compareData:self];
+			[status setText:@"Press the lock to reset the data."]; 
 			buttonPressCount++;
 			break;
 		case 4:
 			buttonPressCount = 0;
+			[status setText:@"Press the lock to record your baseline movement"]; 
 			break;
 		default:
 			break;

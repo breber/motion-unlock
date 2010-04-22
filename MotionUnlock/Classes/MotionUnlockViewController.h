@@ -34,7 +34,6 @@
 	
 	int dataIndex;
 	int dataIndexFinal;
-//	NSMutableArray *data;
 	
 	double xData[ARRAY_CAPACITY];
 	double yData[ARRAY_CAPACITY];

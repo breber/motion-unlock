@@ -421,7 +421,7 @@
 					<object class="IBUIButton" id="989918903">
 						<reference key="NSNextResponder" ref="606792"/>
 						<int key="NSvFlags">292</int>
-						<string key="NSFrame">{{20, 35}, {280, 405}}</string>
+						<string key="NSFrame">{{20, 35}, {280, 378}}</string>
 						<reference key="NSSuperview" ref="606792"/>
 						<bool key="IBUIOpaque">NO</bool>
 						<string key="targetRuntimeIdentifier">IBCocoaTouchFramework</string>
@@ -443,11 +443,29 @@
 					<object class="IBUIActivityIndicatorView" id="498745927">
 						<reference key="NSNextResponder" ref="606792"/>
 						<int key="NSvFlags">-2147483356</int>
-						<string key="NSFrame">{{150, 390}, {20, 20}}</string>
+						<string key="NSFrame">{{150, 374}, {20, 20}}</string>
 						<reference key="NSSuperview" ref="606792"/>
 						<bool key="IBUIOpaque">NO</bool>
 						<string key="targetRuntimeIdentifier">IBCocoaTouchFramework</string>
 						<int key="IBUIStyle">2</int>
+					</object>
+					<object class="IBUILabel" id="67528302">
+						<reference key="NSNextResponder" ref="606792"/>
+						<int key="NSvFlags">292</int>
+						<string key="NSFrame">{{20, 419}, {280, 41}}</string>
+						<reference key="NSSuperview" ref="606792"/>
+						<bool key="IBUIOpaque">NO</bool>
+						<bool key="IBUIClipsSubviews">YES</bool>
+						<int key="IBUIContentMode">7</int>
+						<bool key="IBUIUserInteractionEnabled">NO</bool>
+						<string key="targetRuntimeIdentifier">IBCocoaTouchFramework</string>
+						<string key="IBUIText">Press the lock to record your baseline movement.</string>
+						<reference key="IBUITextColor" ref="189055920"/>
+						<nil key="IBUIHighlightedColor"/>
+						<int key="IBUIBaselineAdjustment">1</int>
+						<float key="IBUIMinimumFontSize">10</float>
+						<int key="IBUINumberOfLines">2</int>
+						<int key="IBUITextAlignment">1</int>
 					</object>
 				</object>
 				<string key="NSFrameSize">{320, 460}</string>
@@ -541,14 +559,6 @@
 				</object>
 				<object class="IBConnectionRecord">
 					<object class="IBCocoaTouchOutletConnection" key="connection">
-						<string key="label">status</string>
-						<reference key="source" ref="943309135"/>
-						<reference key="destination" ref="486476440"/>
-					</object>
-					<int key="connectionID">114</int>
-				</object>
-				<object class="IBConnectionRecord">
-					<object class="IBCocoaTouchOutletConnection" key="connection">
 						<string key="label">xSlide</string>
 						<reference key="source" ref="943309135"/>
 						<reference key="destination" ref="209866414"/>
@@ -611,6 +621,14 @@
 						<reference key="destination" ref="606792"/>
 					</object>
 					<int key="connectionID">135</int>
+				</object>
+				<object class="IBConnectionRecord">
+					<object class="IBCocoaTouchOutletConnection" key="connection">
+						<string key="label">status</string>
+						<reference key="source" ref="943309135"/>
+						<reference key="destination" ref="67528302"/>
+					</object>
+					<int key="connectionID">137</int>
 				</object>
 			</object>
 			<object class="IBMutableOrderedSet" key="objectRecords">
@@ -779,6 +797,7 @@
 							<bool key="EncodedWithXMLCoder">YES</bool>
 							<reference ref="989918903"/>
 							<reference ref="498745927"/>
+							<reference ref="67528302"/>
 						</object>
 						<reference key="parent" ref="0"/>
 						<string key="objectName">UserView</string>
@@ -791,6 +810,11 @@
 					<object class="IBObjectRecord">
 						<int key="objectID">131</int>
 						<reference key="object" ref="498745927"/>
+						<reference key="parent" ref="606792"/>
+					</object>
+					<object class="IBObjectRecord">
+						<int key="objectID">136</int>
+						<reference key="object" ref="67528302"/>
 						<reference key="parent" ref="606792"/>
 					</object>
 				</object>
@@ -817,6 +841,7 @@
 					<string>120.IBPluginDependency</string>
 					<string>121.IBPluginDependency</string>
 					<string>131.IBPluginDependency</string>
+					<string>136.IBPluginDependency</string>
 					<string>3.CustomClassName</string>
 					<string>3.IBPluginDependency</string>
 					<string>86.IBEditorWindowLastContentRect</string>
@@ -853,6 +878,7 @@
 					<string>com.apple.InterfaceBuilder.IBCocoaTouchPlugin</string>
 					<string>com.apple.InterfaceBuilder.IBCocoaTouchPlugin</string>
 					<string>com.apple.InterfaceBuilder.IBCocoaTouchPlugin</string>
+					<string>com.apple.InterfaceBuilder.IBCocoaTouchPlugin</string>
 					<string>MotionUnlockAppDelegate</string>
 					<string>com.apple.InterfaceBuilder.IBCocoaTouchPlugin</string>
 					<string>{{323, 271}, {320, 460}}</string>
@@ -886,7 +912,7 @@
 				</object>
 			</object>
 			<nil key="sourceID"/>
-			<int key="maxID">135</int>
+			<int key="maxID">137</int>
 		</object>
 		<object class="IBClassDescriber" key="IBDocument.Classes">
 			<object class="NSMutableArray" key="referencedPartialClassDescriptions">
