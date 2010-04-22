@@ -15,7 +15,8 @@
 		28AD733F0D9D9553002E5188 /* MainWindow.xib in Resources */ = {isa = PBXBuildFile; fileRef = 28AD733E0D9D9553002E5188 /* MainWindow.xib */; };
 		28D7ACF80DDB3853001CB0EB /* MotionUnlockViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 28D7ACF70DDB3853001CB0EB /* MotionUnlockViewController.m */; };
 		DE539E4611481F4600AD3BC9 /* icon.png in Resources */ = {isa = PBXBuildFile; fileRef = DE539E4511481F4600AD3BC9 /* icon.png */; };
-		DEFEC25F117F823D00C0CDDD /* ToddsCompare.c in Sources */ = {isa = PBXBuildFile; fileRef = DEFEC1C1117F74E700C0CDDD /* ToddsCompare.c */; };
+		DE644490117FF31100214BF1 /* FinalView.xib in Resources */ = {isa = PBXBuildFile; fileRef = DE64448F117FF31100214BF1 /* FinalView.xib */; };
+		DEFEC25F117F823D00C0CDDD /* Compare.c in Sources */ = {isa = PBXBuildFile; fileRef = DEFEC1C1117F74E700C0CDDD /* Compare.c */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -30,14 +31,11 @@
 		28D7ACF70DDB3853001CB0EB /* MotionUnlockViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MotionUnlockViewController.m; sourceTree = "<group>"; };
 		29B97316FDCFA39411CA2CEA /* main.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		32CA4F630368D1EE00C91783 /* MotionUnlock_Prefix.pch */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MotionUnlock_Prefix.pch; sourceTree = "<group>"; };
-		34A31E50114866A7005C82BE /* GestureMatch.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = GestureMatch.c; sourceTree = "<group>"; };
 		8D1107310486CEB800E47090 /* MotionUnlock-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "MotionUnlock-Info.plist"; plistStructureDefinitionIdentifier = "com.apple.xcode.plist.structure-definition.iphone.info-plist"; sourceTree = "<group>"; };
-		DE2EB91011762ED400F0D475 /* zeprogram.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = zeprogram.c; sourceTree = "<group>"; };
 		DE539E4511481F4600AD3BC9 /* icon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = icon.png; sourceTree = "<group>"; };
-		DEC8703B117643EB0074FBA4 /* ComparisonAsh.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = ComparisonAsh.c; sourceTree = "<group>"; };
-		DEC8703C117643EB0074FBA4 /* ComparisonAsh.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ComparisonAsh.h; sourceTree = "<group>"; };
-		DEFEC1C1117F74E700C0CDDD /* ToddsCompare.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = ToddsCompare.c; sourceTree = "<group>"; };
-		DEFEC1C2117F74E700C0CDDD /* ToddsCompare.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ToddsCompare.h; sourceTree = "<group>"; };
+		DE64448F117FF31100214BF1 /* FinalView.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = FinalView.xib; sourceTree = "<group>"; };
+		DEFEC1C1117F74E700C0CDDD /* Compare.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = Compare.c; sourceTree = "<group>"; };
+		DEFEC1C2117F74E700C0CDDD /* Compare.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Compare.h; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -57,16 +55,12 @@
 		080E96DDFE201D6D7F000001 /* Classes */ = {
 			isa = PBXGroup;
 			children = (
-				DEFEC1C1117F74E700C0CDDD /* ToddsCompare.c */,
-				DEFEC1C2117F74E700C0CDDD /* ToddsCompare.h */,
-				DE2EB91011762ED400F0D475 /* zeprogram.c */,
-				34A31E50114866A7005C82BE /* GestureMatch.c */,
+				DEFEC1C1117F74E700C0CDDD /* Compare.c */,
+				DEFEC1C2117F74E700C0CDDD /* Compare.h */,
 				1D3623240D0F684500981E51 /* MotionUnlockAppDelegate.h */,
 				1D3623250D0F684500981E51 /* MotionUnlockAppDelegate.m */,
 				28D7ACF60DDB3853001CB0EB /* MotionUnlockViewController.h */,
 				28D7ACF70DDB3853001CB0EB /* MotionUnlockViewController.m */,
-				DEC8703B117643EB0074FBA4 /* ComparisonAsh.c */,
-				DEC8703C117643EB0074FBA4 /* ComparisonAsh.h */,
 			);
 			path = Classes;
 			sourceTree = "<group>";
@@ -106,6 +100,7 @@
 				DE539E4511481F4600AD3BC9 /* icon.png */,
 				28AD733E0D9D9553002E5188 /* MainWindow.xib */,
 				8D1107310486CEB800E47090 /* MotionUnlock-Info.plist */,
+				DE64448F117FF31100214BF1 /* FinalView.xib */,
 			);
 			name = Resources;
 			sourceTree = "<group>";
@@ -164,6 +159,7 @@
 			files = (
 				28AD733F0D9D9553002E5188 /* MainWindow.xib in Resources */,
 				DE539E4611481F4600AD3BC9 /* icon.png in Resources */,
+				DE644490117FF31100214BF1 /* FinalView.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -177,7 +173,7 @@
 				1D60589B0D05DD56006BFB54 /* main.m in Sources */,
 				1D3623260D0F684500981E51 /* MotionUnlockAppDelegate.m in Sources */,
 				28D7ACF80DDB3853001CB0EB /* MotionUnlockViewController.m in Sources */,
-				DEFEC25F117F823D00C0CDDD /* ToddsCompare.c in Sources */,
+				DEFEC25F117F823D00C0CDDD /* Compare.c in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

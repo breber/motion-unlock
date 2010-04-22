@@ -1,21 +1,17 @@
-/*
- *  ToddsCompare.c
- *  MotionUnlock
- *
- *  Created by Todd Lyon on 4/21/10.
- *  Copyright 2010 __MyCompanyName__. All rights reserved.
- *
- */
+//
+//  MotionUnlockViewController.m
+//  MotionUnlock
+//
+//  Created by Brian Reber, Todd Lyon, Ashley Nelson on 4/21/10.
+//  Copyright 2010. All rights reserved.
+//
 
-#include "ToddsCompare.h"
-#include "math.h"
-#include "stdio.h"
+#include "Compare.h"
 #include "stdlib.h"
 
 #define DATA_NUM 3000
-//length is the length of the incoming data, passed in
 #define LENGTH 100
-#define SAMPLE_LENGTH 10
+#define SAMPLE_LENGTH 25
 #define TOLERANCE 0.15
 #define TRUE 1
 #define START 0
@@ -39,8 +35,8 @@ int compareCaller(double x_data[], double y_data[], double z_data[], double x_co
 	
 	for (i = 0; i < LENGTH; i++) {
 		compare_x_slopes[i] = 5000;
-		compare_x_slopes[i] = 5000;
-		compare_x_slopes[i] = 5000;
+		compare_y_slopes[i] = 5000;
+		compare_z_slopes[i] = 5000;
 	}
 	
 	
@@ -61,7 +57,7 @@ int compareCaller(double x_data[], double y_data[], double z_data[], double x_co
 		x_pass = compare(compare_x_slopes, data_x_slopes, i, i + SAMPLE_LENGTH);
 		y_pass = compare(compare_y_slopes, data_y_slopes, i, i + SAMPLE_LENGTH);
 		z_pass = compare(compare_z_slopes, data_z_slopes, i, i + SAMPLE_LENGTH);
-		printf("Pass? %d, %d, %d \n", x_pass, y_pass, z_pass);
+//		printf("Pass? %d, %d, %d \n", x_pass, y_pass, z_pass);
 		if (x_pass && y_pass && z_pass) {
 			return 1;
 		}
@@ -88,11 +84,15 @@ int compare(double preSlope[], double postSlope[], int start, int end) {
 	int i = 0, j = 0; 
 	
 	for(i = start; i < end && j < SAMPLE_LENGTH - 1; i++) {
+		if (postSlope[i] == 5000 || preSlope[i] == 5000)
+			break;
 		double postMinusPre = postSlope[START] - preSlope[i];
 		if (postMinusPre < 0)
 			postMinusPre *= -1;
 		if(postMinusPre <= TOLERANCE) {
 			for(j = i + 1; j < SAMPLE_LENGTH - 1 && difference <= TOLERANCE; j++) {
+				if (postSlope[j] == 5000 || preSlope[j] == 5000)
+					break;
 				double postSlopePreSlope = postSlope[j] - preSlope[j];
 				if (postSlopePreSlope < 0)
 					postSlopePreSlope *= -1;
