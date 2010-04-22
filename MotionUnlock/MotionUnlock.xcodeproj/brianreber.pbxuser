@@ -24,14 +24,14 @@
 		uiCtxt = {
 			sepNavIntBoundsRect = "{{0, 0}, {1011, 806}}";
 			sepNavSelRange = "{648, 0}";
-			sepNavVisRange = "{0, 849}";
+			sepNavVisRange = "{191, 873}";
 		};
 	};
 	28D7ACF70DDB3853001CB0EB /* MotionUnlockViewController.m */ = {
 		uiCtxt = {
-			sepNavIntBoundsRect = "{{0, 0}, {1011, 2561}}";
-			sepNavSelRange = "{2668, 0}";
-			sepNavVisRange = "{0, 1175}";
+			sepNavIntBoundsRect = "{{0, 0}, {761, 2470}}";
+			sepNavSelRange = "{4325, 25}";
+			sepNavVisRange = "{4440, 465}";
 			sepNavWindowFrame = "{{15, 4}, {1043, 774}}";
 		};
 	};
@@ -44,14 +44,17 @@
 			1D6058900D05DD3D006BFB54 /* MotionUnlock */,
 		);
 		breakpoints = (
-			DEFEC228117F7D1E00C0CDDD /* ComparisonAsh.c:37 */,
-			DEFEC230117F7DD200C0CDDD /* ComparisonAsh.c:131 */,
+			DE64443B117FE7BB00214BF1 /* ToddsCompare.c:86 */,
+			DE644447117FE8E100214BF1 /* ToddsCompare.c:104 */,
 		);
 		codeSenseManager = DECEAA421135F95400F80C09 /* Code sense */;
 		executables = (
 			DECEAA2E1135F93800F80C09 /* MotionUnlock */,
 		);
 		expressions = (
+			"abs(postSlope[j] - preSlope[j])",
+			"postSlope[j]",
+			"postSlope[j] - preSlope[j]",
 		);
 		perUserDictionary = {
 			"PBXConfiguration.PBXBreakpointsDataSource.v1:1CA1AED706398EBD00589147" = {
@@ -223,6 +226,10 @@
 			DE6443F9117FD97400214BF1 /* PBXTextBookmark */ = DE6443F9117FD97400214BF1 /* PBXTextBookmark */;
 			DE6443FA117FD97400214BF1 /* PBXTextBookmark */ = DE6443FA117FD97400214BF1 /* PBXTextBookmark */;
 			DE644400117FD9A700214BF1 /* PBXTextBookmark */ = DE644400117FD9A700214BF1 /* PBXTextBookmark */;
+			DE644403117FDA3300214BF1 /* PBXTextBookmark */ = DE644403117FDA3300214BF1 /* PBXTextBookmark */;
+			DE644404117FDCCD00214BF1 /* PBXTextBookmark */ = DE644404117FDCCD00214BF1 /* PBXTextBookmark */;
+			DE644423117FE52B00214BF1 /* PBXTextBookmark */ = DE644423117FE52B00214BF1 /* PBXTextBookmark */;
+			DE644428117FE5DA00214BF1 /* PBXTextBookmark */ = DE644428117FE5DA00214BF1 /* PBXTextBookmark */;
 			DECEAA7D1135FEBC00F80C09 = DECEAA7D1135FEBC00F80C09 /* PBXTextBookmark */;
 			DECEAA7F1135FEBC00F80C09 = DECEAA7F1135FEBC00F80C09 /* PBXTextBookmark */;
 			DEFEC20B117F79FB00C0CDDD = DEFEC20B117F79FB00C0CDDD /* PBXTextBookmark */;
@@ -304,7 +311,7 @@
 		fRef = DEFEC1C1117F74E700C0CDDD /* ToddsCompare.c */;
 		name = "ToddsCompare.c: 21";
 		rLen = 0;
-		rLoc = 411;
+		rLoc = 404;
 		rType = 0;
 		vrLen = 1141;
 		vrLoc = 0;
@@ -314,7 +321,7 @@
 		fRef = DEFEC1C1117F74E700C0CDDD /* ToddsCompare.c */;
 		name = "ToddsCompare.c: 90";
 		rLen = 0;
-		rLoc = 2329;
+		rLoc = 2775;
 		rType = 0;
 		vrLen = 1152;
 		vrLoc = 1052;
@@ -381,7 +388,7 @@
 		fRef = DEFEC1C1117F74E700C0CDDD /* ToddsCompare.c */;
 		name = "ToddsCompare.c: 24";
 		rLen = 11;
-		rLoc = 543;
+		rLoc = 536;
 		rType = 0;
 		vrLen = 1448;
 		vrLoc = 232;
@@ -391,7 +398,7 @@
 		fRef = DEFEC1C1117F74E700C0CDDD /* ToddsCompare.c */;
 		name = "ToddsCompare.c: 28";
 		rLen = 0;
-		rLoc = 654;
+		rLoc = 647;
 		rType = 0;
 		vrLen = 1452;
 		vrLoc = 232;
@@ -401,7 +408,7 @@
 		fRef = DEFEC1C1117F74E700C0CDDD /* ToddsCompare.c */;
 		name = "ToddsCompare.c: 50";
 		rLen = 150;
-		rLoc = 1429;
+		rLoc = 1667;
 		rType = 0;
 		vrLen = 1192;
 		vrLoc = 739;
@@ -411,7 +418,7 @@
 		fRef = DEFEC1C1117F74E700C0CDDD /* ToddsCompare.c */;
 		name = "ToddsCompare.c: 55";
 		rLen = 0;
-		rLoc = 1685;
+		rLoc = 1923;
 		rType = 0;
 		vrLen = 1193;
 		vrLoc = 739;
@@ -421,7 +428,7 @@
 		fRef = DEFEC1C1117F74E700C0CDDD /* ToddsCompare.c */;
 		name = "ToddsCompare.c: 55";
 		rLen = 0;
-		rLoc = 1685;
+		rLoc = 1923;
 		rType = 0;
 		vrLen = 1193;
 		vrLoc = 739;
@@ -520,7 +527,7 @@
 		fRef = DEFEC1C1117F74E700C0CDDD /* ToddsCompare.c */;
 		name = "ToddsCompare.c: 44";
 		rLen = 0;
-		rLoc = 1227;
+		rLoc = 1465;
 		rType = 0;
 		vrLen = 1193;
 		vrLoc = 739;
@@ -589,7 +596,7 @@
 		fRef = DEFEC1C1117F74E700C0CDDD /* ToddsCompare.c */;
 		name = "ToddsCompare.c: 48";
 		rLen = 0;
-		rLoc = 1306;
+		rLoc = 1544;
 		rType = 0;
 		vrLen = 1022;
 		vrLoc = 1307;
@@ -712,11 +719,87 @@
 		vrLen = 1175;
 		vrLoc = 0;
 	};
+	DE644403117FDA3300214BF1 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 28D7ACF70DDB3853001CB0EB /* MotionUnlockViewController.m */;
+		name = "MotionUnlockViewController.m: 23";
+		rLen = 0;
+		rLoc = 519;
+		rType = 0;
+		vrLen = 1175;
+		vrLoc = 0;
+	};
+	DE644404117FDCCD00214BF1 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 28D7ACF70DDB3853001CB0EB /* MotionUnlockViewController.m */;
+		name = "MotionUnlockViewController.m: 175";
+		rLen = 25;
+		rLoc = 4325;
+		rType = 0;
+		vrLen = 364;
+		vrLoc = 4524;
+	};
+	DE644423117FE52B00214BF1 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 28D7ACF70DDB3853001CB0EB /* MotionUnlockViewController.m */;
+		name = "MotionUnlockViewController.m: 175";
+		rLen = 25;
+		rLoc = 4325;
+		rType = 0;
+		vrLen = 462;
+		vrLoc = 4440;
+	};
+	DE644428117FE5DA00214BF1 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 28D7ACF70DDB3853001CB0EB /* MotionUnlockViewController.m */;
+		name = "MotionUnlockViewController.m: 175";
+		rLen = 25;
+		rLoc = 4325;
+		rType = 0;
+		vrLen = 465;
+		vrLoc = 4440;
+	};
+	DE64443B117FE7BB00214BF1 /* ToddsCompare.c:86 */ = {
+		isa = PBXFileBreakpoint;
+		actions = (
+		);
+		breakpointStyle = 0;
+		continueAfterActions = 0;
+		countType = 0;
+		delayBeforeContinue = 0;
+		fileReference = DEFEC1C1117F74E700C0CDDD /* ToddsCompare.c */;
+		functionName = "compare()";
+		hitCount = 2;
+		ignoreCount = 0;
+		lineNumber = 86;
+		location = MotionUnlock;
+		modificationTime = 293595826.381146;
+		originalNumberOfMultipleMatches = 1;
+		state = 1;
+	};
+	DE644447117FE8E100214BF1 /* ToddsCompare.c:104 */ = {
+		isa = PBXFileBreakpoint;
+		actions = (
+		);
+		breakpointStyle = 0;
+		continueAfterActions = 0;
+		countType = 0;
+		delayBeforeContinue = 0;
+		fileReference = DEFEC1C1117F74E700C0CDDD /* ToddsCompare.c */;
+		functionName = "compare()";
+		hitCount = 1;
+		ignoreCount = 0;
+		lineNumber = 104;
+		location = MotionUnlock;
+		modificationTime = 293595817.568796;
+		originalNumberOfMultipleMatches = 1;
+		state = 1;
+	};
 	DEC8703B117643EB0074FBA4 /* ComparisonAsh.c */ = {
 		uiCtxt = {
-			sepNavIntBoundsRect = "{{0, 0}, {1405, 2730}}";
+			sepNavIntBoundsRect = "{{0, 0}, {1411, 2795}}";
 			sepNavSelRange = "{265, 0}";
-			sepNavVisRange = "{27, 1308}";
+			sepNavVisRange = "{0, 1864}";
 			sepNavWindowFrame = "{{15, 4}, {1043, 774}}";
 		};
 	};
@@ -757,6 +840,22 @@
 		sourceDirectories = (
 		);
 		variableFormatDictionary = {
+			$lr = 1;
+			$pc = 1;
+			$r0 = 1;
+			$r1 = 1;
+			$r10 = 1;
+			$r11 = 1;
+			$r12 = 1;
+			$r2 = 1;
+			$r3 = 1;
+			$r4 = 1;
+			$r5 = 1;
+			$r6 = 1;
+			$r7 = 1;
+			$r8 = 1;
+			$r9 = 1;
+			$sp = 1;
 		};
 	};
 	DECEAA411135F95400F80C09 /* Source Control */ = {
@@ -795,15 +894,15 @@
 	};
 	DEFEC1C1117F74E700C0CDDD /* ToddsCompare.c */ = {
 		uiCtxt = {
-			sepNavIntBoundsRect = "{{0, 0}, {1011, 1170}}";
-			sepNavSelRange = "{1306, 0}";
-			sepNavVisRange = "{1307, 1022}";
+			sepNavIntBoundsRect = "{{0, 0}, {1411, 1300}}";
+			sepNavSelRange = "{1948, 0}";
+			sepNavVisRange = "{862, 1698}";
 			sepNavWindowFrame = "{{15, 4}, {1043, 774}}";
 		};
 	};
 	DEFEC1C2117F74E700C0CDDD /* ToddsCompare.h */ = {
 		uiCtxt = {
-			sepNavIntBoundsRect = "{{0, 0}, {1011, 542}}";
+			sepNavIntBoundsRect = "{{0, 0}, {1411, 818}}";
 			sepNavSelRange = "{432, 0}";
 			sepNavVisRange = "{0, 432}";
 			sepNavWindowFrame = "{{15, 4}, {1043, 774}}";
@@ -818,40 +917,6 @@
 		rType = 0;
 		vrLen = 650;
 		vrLoc = 0;
-	};
-	DEFEC228117F7D1E00C0CDDD /* ComparisonAsh.c:37 */ = {
-		isa = PBXFileBreakpoint;
-		actions = (
-		);
-		breakpointStyle = 0;
-		continueAfterActions = 0;
-		countType = 0;
-		delayBeforeContinue = 0;
-		fileReference = DEC8703B117643EB0074FBA4 /* ComparisonAsh.c */;
-		functionName = "compare()";
-		hitCount = 0;
-		ignoreCount = 0;
-		lineNumber = 37;
-		modificationTime = 293587075.054229;
-		originalNumberOfMultipleMatches = 1;
-		state = 1;
-	};
-	DEFEC230117F7DD200C0CDDD /* ComparisonAsh.c:131 */ = {
-		isa = PBXFileBreakpoint;
-		actions = (
-		);
-		breakpointStyle = 0;
-		continueAfterActions = 0;
-		countType = 0;
-		delayBeforeContinue = 0;
-		fileReference = DEC8703B117643EB0074FBA4 /* ComparisonAsh.c */;
-		functionName = "compare()";
-		hitCount = 0;
-		ignoreCount = 0;
-		lineNumber = 131;
-		modificationTime = 293587075.055001;
-		originalNumberOfMultipleMatches = 1;
-		state = 1;
 	};
 	DEFEC367117F863D00C0CDDD /* PBXTextBookmark */ = {
 		isa = PBXTextBookmark;
@@ -928,7 +993,7 @@
 		fRef = DEFEC1C1117F74E700C0CDDD /* ToddsCompare.c */;
 		name = "ToddsCompare.c: 21";
 		rLen = 0;
-		rLoc = 411;
+		rLoc = 404;
 		rType = 0;
 		vrLen = 1054;
 		vrLoc = 0;
@@ -938,7 +1003,7 @@
 		fRef = DEFEC1C1117F74E700C0CDDD /* ToddsCompare.c */;
 		name = "ToddsCompare.c: 21";
 		rLen = 0;
-		rLoc = 411;
+		rLoc = 404;
 		rType = 0;
 		vrLen = 1054;
 		vrLoc = 0;

@@ -271,9 +271,7 @@
 							<key>PBXSmartGroupTreeModuleOutlineStateSelectionKey</key>
 							<array>
 								<array>
-									<integer>9</integer>
-									<integer>1</integer>
-									<integer>0</integer>
+									<integer>23</integer>
 								</array>
 							</array>
 							<key>PBXSmartGroupTreeModuleOutlineStateVisibleRectKey</key>
@@ -326,7 +324,7 @@
 										<key>_historyCapacity</key>
 										<integer>0</integer>
 										<key>bookmark</key>
-										<string>DE644400117FD9A700214BF1</string>
+										<string>DE644403117FDA3300214BF1</string>
 										<key>history</key>
 										<array>
 											<string>DECEAA7D1135FEBC00F80C09</string>

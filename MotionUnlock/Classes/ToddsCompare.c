@@ -10,15 +10,15 @@
 #include "ToddsCompare.h"
 #include "math.h"
 #include "stdio.h"
+#include "stdlib.h"
 
 #define DATA_NUM 3000
 //length is the length of the incoming data, passed in
 #define LENGTH 100
 #define SAMPLE_LENGTH 10
-#define TOLERANCE 0.1
+#define TOLERANCE 0.15
 #define TRUE 1
-#define ARRAY_TOLERANCE 10
-#define START 10
+#define START 0
 
 int compareCaller(double x_data[], double y_data[], double z_data[], double x_compare[], double y_compare[], double z_compare[]){
 	int i =0;
@@ -31,6 +31,17 @@ int compareCaller(double x_data[], double y_data[], double z_data[], double x_co
 	double compare_y_slopes[SAMPLE_LENGTH];
 	double compare_z_slopes[SAMPLE_LENGTH];
 	
+	for (i = 0; i < DATA_NUM; i++) {
+		data_x_slopes[i] = 5000;
+		data_y_slopes[i] = 5000;
+		data_z_slopes[i] = 5000;
+	}
+	
+	for (i = 0; i < LENGTH; i++) {
+		compare_x_slopes[i] = 5000;
+		compare_x_slopes[i] = 5000;
+		compare_x_slopes[i] = 5000;
+	}
 	
 	
 	//Find slopes in selection window
@@ -62,25 +73,30 @@ int compareCaller(double x_data[], double y_data[], double z_data[], double x_co
 
 void calculateSlopes(double preValues[], double postValues[], int start, int end){
 	int i;
-	int j = 0;
 	for (i = start; i < end; i++) {
 		
 		double slope = (preValues[i+1]-preValues[i]);
 		
-		postValues[j] = slope;
+		postValues[i] = slope;
 	}
 }
 
 int compare(double preSlope[], double postSlope[], int start, int end) {
 	
-	int difference = 0;
+	double difference = 0;
 	
-	int i , j; 
+	int i = 0, j = 0; 
 	
-	for(i = start; i <= end; i++) {
-		if(abs(postSlope[START] - preSlope[i]) <= TOLERANCE) {
+	for(i = start; i < end && j < SAMPLE_LENGTH - 1; i++) {
+		double postMinusPre = postSlope[START] - preSlope[i];
+		if (postMinusPre < 0)
+			postMinusPre *= -1;
+		if(postMinusPre <= TOLERANCE) {
 			for(j = i + 1; j < SAMPLE_LENGTH - 1 && difference <= TOLERANCE; j++) {
-				difference = abs(postSlope[j] - preSlope[j]);
+				double postSlopePreSlope = postSlope[j] - preSlope[j];
+				if (postSlopePreSlope < 0)
+					postSlopePreSlope *= -1;
+				difference = postSlopePreSlope;
 			}
 		}
 	}
