@@ -75,8 +75,13 @@
 		tempIndex++;
 		
 		//We don't want to overflow the NSArray
-		if (tempIndex == ARRAY_CAPACITY)
-			[self startStop:self];
+		if (tempIndex == ARRAY_CAPACITY) {
+			if (finalData) {
+				[self finalData:self];
+			} else {
+				[self originalData:self];
+			}
+		}
 		
 		//Set the value of the textfields
 		[x setText: xVal];
@@ -90,9 +95,14 @@
 	}
 }
 
+- (void) originalData:(id)sender {
+	finalData = NO;
+	[self startStop];
+}
+
 - (void) finalData:(id)sender {
 	finalData = YES;
-	[self startStop:self];
+	[self startStop];
 }
 
 - (void)didReceiveMemoryWarning {
@@ -111,7 +121,7 @@
  Called when the user presses the button.  We switch the button label, and set the collectData bool
  value to the opposite of what it was.
  */
-- (void) startStop:(id)sender
+- (void) startStop
 {	
 	if (collectData)
 	{

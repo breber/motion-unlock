@@ -229,6 +229,8 @@
 			<key>Layout</key>
 			<array>
 				<dict>
+					<key>BecomeActive</key>
+					<true/>
 					<key>ContentConfiguration</key>
 					<dict>
 						<key>PBXBottomSmartGroupGIDs</key>
@@ -266,14 +268,13 @@
 								<string>29B97314FDCFA39411CA2CEA</string>
 								<string>080E96DDFE201D6D7F000001</string>
 								<string>29B97317FDCFA39411CA2CEA</string>
-								<string>29B97323FDCFA39411CA2CEA</string>
 								<string>1C37FABC05509CD000000102</string>
 							</array>
 							<key>PBXSmartGroupTreeModuleOutlineStateSelectionKey</key>
 							<array>
 								<array>
-									<integer>2</integer>
-									<integer>1</integer>
+									<integer>15</integer>
+									<integer>13</integer>
 									<integer>0</integer>
 								</array>
 							</array>
@@ -308,14 +309,12 @@
 					<key>Dock</key>
 					<array>
 						<dict>
-							<key>BecomeActive</key>
-							<true/>
 							<key>ContentConfiguration</key>
 							<dict>
 								<key>PBXProjectModuleGUID</key>
 								<string>1CE0B20306471E060097A5F4</string>
 								<key>PBXProjectModuleLabel</key>
-								<string>ToddsCompare.c</string>
+								<string>MotionUnlockViewController.m</string>
 								<key>PBXSplitModuleInNavigatorKey</key>
 								<dict>
 									<key>Split0</key>
@@ -323,11 +322,11 @@
 										<key>PBXProjectModuleGUID</key>
 										<string>1CE0B20406471E060097A5F4</string>
 										<key>PBXProjectModuleLabel</key>
-										<string>ToddsCompare.c</string>
+										<string>MotionUnlockViewController.m</string>
 										<key>_historyCapacity</key>
 										<integer>0</integer>
 										<key>bookmark</key>
-										<string>DE6443C9117FCD3500214BF1</string>
+										<string>DE6443DA117FD49400214BF1</string>
 										<key>history</key>
 										<array>
 											<string>DECEAA7D1135FEBC00F80C09</string>
@@ -336,14 +335,14 @@
 											<string>DE1051C41148801C006E4CFD</string>
 											<string>DE2EB94C117633C100F0D475</string>
 											<string>DEFEC367117F863D00C0CDDD</string>
-											<string>DEFEC36C117F863D00C0CDDD</string>
-											<string>DE64438C117FC81000214BF1</string>
-											<string>DE64438D117FC81000214BF1</string>
-											<string>DE64438F117FC81000214BF1</string>
 											<string>DE6443BD117FCBB500214BF1</string>
-											<string>DE6443C7117FCD3500214BF1</string>
-											<string>DE6443C8117FCD3500214BF1</string>
-											<string>DE6443A8117FCA9100214BF1</string>
+											<string>DE6443D3117FD49400214BF1</string>
+											<string>DE6443D4117FD49400214BF1</string>
+											<string>DE6443D5117FD49400214BF1</string>
+											<string>DE6443D6117FD49400214BF1</string>
+											<string>DE6443D7117FD49400214BF1</string>
+											<string>DE6443D8117FD49400214BF1</string>
+											<string>DE6443D9117FD49400214BF1</string>
 										</array>
 									</dict>
 									<key>SplitCount</key>
@@ -566,6 +565,8 @@
 					<key>Dock</key>
 					<array>
 						<dict>
+							<key>BecomeActive</key>
+							<true/>
 							<key>ContentConfiguration</key>
 							<dict>
 								<key>PBXProjectModuleGUID</key>
@@ -588,8 +589,6 @@
 							<string>209pt</string>
 						</dict>
 						<dict>
-							<key>BecomeActive</key>
-							<true/>
 							<key>ContentConfiguration</key>
 							<dict>
 								<key>PBXProjectModuleGUID</key>

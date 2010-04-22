@@ -50,10 +50,11 @@
 
 @property (nonatomic, retain) UIAccelerometer *accelerometer;
 
-- (void) startStop:(id)sender;
+- (void) startStop;
 - (void) emailData:(id)sender;
 - (void) mailTo:(NSString *)to withBody:(NSString *)body;
 
+- (void) originalData:(id)sender;
 - (void) finalData:(id)sender;
 - (void) compareData:(id)sender;
 
