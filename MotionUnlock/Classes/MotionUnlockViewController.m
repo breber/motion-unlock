@@ -105,6 +105,7 @@
 			break;
 		case 4:
 			buttonPressCount = 0;
+			[bigButton setBackgroundImage:[UIImage imageNamed:@"MotionUnlockImage.jpg"] forState:UIControlStateNormal];
 			[status setText:@"Press the lock to record your baseline movement"]; 
 			break;
 		default:
@@ -172,11 +173,19 @@
 - (void) compareData:(id)sender {
 
 	int temp = compareCaller(xData, yData, zData, xDataFinal, yDataFinal, zDataFinal);
-	bool passed = (temp == 1);
+	BOOL passed = (temp == 1);
 	
+	NSLog(@"%d", temp);
+	
+	if (passed) {
+		[bigButton setBackgroundImage:[UIImage imageNamed:@"MotionUnlockOpen.jpg"] forState:UIControlStateNormal];
+	} else {
+		[bigButton setBackgroundImage:[UIImage imageNamed:@"MotionUnlockFail.jpg"] forState:UIControlStateNormal];
+	}
+
 	UIAlertView *alert = [[UIAlertView alloc]
-						  initWithTitle:[[NSString alloc] initWithString:@"Did we pass!?!"] 
-						  message:passed ? @"We passed!":@"We failed..."
+						  initWithTitle:nil
+						  message:passed ? @"Welcome!":@"Access Denied."
 						  delegate:self
 						  cancelButtonTitle:@"OK"
 						  otherButtonTitles:nil];

@@ -9,7 +9,7 @@
 	};
 	1D3623250D0F684500981E51 /* MotionUnlockAppDelegate.m */ = {
 		uiCtxt = {
-			sepNavIntBoundsRect = "{{0, 0}, {1411, 818}}";
+			sepNavIntBoundsRect = "{{0, 0}, {1352, 741}}";
 			sepNavSelRange = "{545, 0}";
 			sepNavVisRange = "{0, 650}";
 		};
@@ -22,16 +22,16 @@
 	};
 	28D7ACF60DDB3853001CB0EB /* MotionUnlockViewController.h */ = {
 		uiCtxt = {
-			sepNavIntBoundsRect = "{{0, 0}, {1352, 806}}";
-			sepNavSelRange = "{727, 0}";
-			sepNavVisRange = "{36, 1167}";
+			sepNavIntBoundsRect = "{{0, 0}, {1352, 832}}";
+			sepNavSelRange = "{590, 0}";
+			sepNavVisRange = "{3, 1227}";
 		};
 	};
 	28D7ACF70DDB3853001CB0EB /* MotionUnlockViewController.m */ = {
 		uiCtxt = {
-			sepNavIntBoundsRect = "{{0, 0}, {1352, 2522}}";
-			sepNavSelRange = "{1919, 0}";
-			sepNavVisRange = "{3338, 1223}";
+			sepNavIntBoundsRect = "{{0, 0}, {1352, 2782}}";
+			sepNavSelRange = "{4369, 0}";
+			sepNavVisRange = "{3547, 1494}";
 			sepNavWindowFrame = "{{15, 4}, {1043, 774}}";
 		};
 	};
@@ -341,7 +341,7 @@
 		fRef = 28D7ACF60DDB3853001CB0EB /* MotionUnlockViewController.h */;
 		name = "MotionUnlockViewController.h: 37";
 		rLen = 0;
-		rLoc = 727;
+		rLoc = 760;
 		rType = 0;
 		vrLen = 1167;
 		vrLoc = 36;
@@ -368,9 +368,9 @@
 	};
 	DEFEC1C1117F74E700C0CDDD /* Compare.c */ = {
 		uiCtxt = {
-			sepNavIntBoundsRect = "{{0, 0}, {952, 1365}}";
+			sepNavIntBoundsRect = "{{0, 0}, {1352, 1378}}";
 			sepNavSelRange = "{1467, 0}";
-			sepNavVisRange = "{571, 1282}";
+			sepNavVisRange = "{1302, 1524}";
 			sepNavWindowFrame = "{{15, 4}, {1043, 774}}";
 		};
 	};

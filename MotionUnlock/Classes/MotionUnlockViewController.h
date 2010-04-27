@@ -28,6 +28,8 @@
 	
 	IBOutlet UILabel *status;
 	
+	IBOutlet UIButton *bigButton;
+	
 	bool collectData;
 	
 	int tempIndex;
