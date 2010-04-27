@@ -22,16 +22,16 @@
 	};
 	28D7ACF60DDB3853001CB0EB /* MotionUnlockViewController.h */ = {
 		uiCtxt = {
-			sepNavIntBoundsRect = "{{0, 0}, {952, 793}}";
-			sepNavSelRange = "{590, 0}";
-			sepNavVisRange = "{453, 732}";
+			sepNavIntBoundsRect = "{{0, 0}, {1352, 806}}";
+			sepNavSelRange = "{727, 0}";
+			sepNavVisRange = "{36, 1167}";
 		};
 	};
 	28D7ACF70DDB3853001CB0EB /* MotionUnlockViewController.m */ = {
 		uiCtxt = {
-			sepNavIntBoundsRect = "{{0, 0}, {952, 2470}}";
-			sepNavSelRange = "{2509, 0}";
-			sepNavVisRange = "{744, 1134}";
+			sepNavIntBoundsRect = "{{0, 0}, {1352, 2522}}";
+			sepNavSelRange = "{1919, 0}";
+			sepNavVisRange = "{3338, 1223}";
 			sepNavWindowFrame = "{{15, 4}, {1043, 774}}";
 		};
 	};
@@ -112,7 +112,7 @@
 				PBXFileTableDataSourceColumnSortingKey = PBXFileDataSource_Filename_ColumnID;
 				PBXFileTableDataSourceColumnWidthsKey = (
 					20,
-					774,
+					1174,
 					20,
 					48,
 					43,
@@ -175,19 +175,19 @@
 					PBXFileDataSource_Warnings_ColumnID,
 				);
 			};
-			PBXPerProjectTemplateStateSaveDate = 293659641;
-			PBXWorkspaceStateSaveDate = 293659641;
+			PBXPerProjectTemplateStateSaveDate = 294035125;
+			PBXWorkspaceStateSaveDate = 294035125;
 		};
 		perUserProjectItems = {
 			DE644468117FEE6500214BF1 = DE644468117FEE6500214BF1 /* PBXTextBookmark */;
 			DE64446C117FEE6500214BF1 = DE64446C117FEE6500214BF1 /* PBXTextBookmark */;
 			DE74F50B1180128C0029A03D = DE74F50B1180128C0029A03D /* PBXTextBookmark */;
 			DE74F50C1180128C0029A03D = DE74F50C1180128C0029A03D /* PlistBookmark */;
-			DE74F50D1180128C0029A03D = DE74F50D1180128C0029A03D /* PBXTextBookmark */;
-			DE74F50E1180128C0029A03D = DE74F50E1180128C0029A03D /* PBXTextBookmark */;
-			DE74F50F1180128C0029A03D = DE74F50F1180128C0029A03D /* PBXTextBookmark */;
 			DECEAA7D1135FEBC00F80C09 = DECEAA7D1135FEBC00F80C09 /* PBXTextBookmark */;
 			DECEAA7F1135FEBC00F80C09 = DECEAA7F1135FEBC00F80C09 /* PBXTextBookmark */;
+			DEE8C9711180E79F00A283C0 = DEE8C9711180E79F00A283C0 /* PBXTextBookmark */;
+			DEE8C9721180E79F00A283C0 = DEE8C9721180E79F00A283C0 /* PBXTextBookmark */;
+			DEE8C9731180E79F00A283C0 = DEE8C9731180E79F00A283C0 /* PBXTextBookmark */;
 		};
 		sourceControlManager = DECEAA411135F95400F80C09 /* Source Control */;
 		userBuildSettings = {
@@ -253,36 +253,6 @@
 		name = "/Users/brianreber/MotionUnlock/MotionUnlock/MotionUnlock-Info.plist";
 		rLen = 0;
 		rLoc = 9223372036854775808;
-	};
-	DE74F50D1180128C0029A03D /* PBXTextBookmark */ = {
-		isa = PBXTextBookmark;
-		fRef = 28D7ACF70DDB3853001CB0EB /* MotionUnlockViewController.m */;
-		name = "MotionUnlockViewController.m: 109";
-		rLen = 0;
-		rLoc = 2509;
-		rType = 0;
-		vrLen = 598;
-		vrLoc = 2057;
-	};
-	DE74F50E1180128C0029A03D /* PBXTextBookmark */ = {
-		isa = PBXTextBookmark;
-		fRef = 28D7ACF60DDB3853001CB0EB /* MotionUnlockViewController.h */;
-		name = "MotionUnlockViewController.h: 51";
-		rLen = 0;
-		rLoc = 976;
-		rType = 0;
-		vrLen = 732;
-		vrLoc = 453;
-	};
-	DE74F50F1180128C0029A03D /* PBXTextBookmark */ = {
-		isa = PBXTextBookmark;
-		fRef = 28D7ACF60DDB3853001CB0EB /* MotionUnlockViewController.h */;
-		name = "MotionUnlockViewController.h: 26";
-		rLen = 0;
-		rLoc = 590;
-		rType = 0;
-		vrLen = 733;
-		vrLoc = 453;
 	};
 	DECEAA2E1135F93800F80C09 /* MotionUnlock */ = {
 		isa = PBXExecutable;
@@ -365,6 +335,36 @@
 		rType = 0;
 		vrLen = 373;
 		vrLoc = 0;
+	};
+	DEE8C9711180E79F00A283C0 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 28D7ACF60DDB3853001CB0EB /* MotionUnlockViewController.h */;
+		name = "MotionUnlockViewController.h: 37";
+		rLen = 0;
+		rLoc = 727;
+		rType = 0;
+		vrLen = 1167;
+		vrLoc = 36;
+	};
+	DEE8C9721180E79F00A283C0 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 28D7ACF70DDB3853001CB0EB /* MotionUnlockViewController.m */;
+		name = "MotionUnlockViewController.m: 87";
+		rLen = 0;
+		rLoc = 2242;
+		rType = 0;
+		vrLen = 1052;
+		vrLoc = 1545;
+	};
+	DEE8C9731180E79F00A283C0 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 28D7ACF70DDB3853001CB0EB /* MotionUnlockViewController.m */;
+		name = "MotionUnlockViewController.m: 74";
+		rLen = 0;
+		rLoc = 1919;
+		rType = 0;
+		vrLen = 1223;
+		vrLoc = 3338;
 	};
 	DEFEC1C1117F74E700C0CDDD /* Compare.c */ = {
 		uiCtxt = {
