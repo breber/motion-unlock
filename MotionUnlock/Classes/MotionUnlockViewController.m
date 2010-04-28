@@ -26,19 +26,19 @@
 	
 	buttonPressCount = 0;
 	
-	for (int i = 0; i < ARRAY_CAPACITY; i++)
-	{
-		xData[i] = 5000;
-		yData[i] = 5000;
-		zData[i] = 5000;
-		xDataFinal[i] = 5000;
-		yDataFinal[i] = 5000;
-		zDataFinal[i] = 5000;
-	}
-	
+//	for (int i = 0; i < ARRAY_CAPACITY; i++)
+//	{
+//		xData[i] = 5000;
+//		yData[i] = 5000;
+//		zData[i] = 5000;
+//		xDataFinal[i] = 5000;
+//		yDataFinal[i] = 5000;
+//		zDataFinal[i] = 5000;
+//	}
+//	
 	//Set up the accelerometer
 	self.accelerometer = [UIAccelerometer sharedAccelerometer];
-	self.accelerometer.updateInterval = .1;
+	self.accelerometer.updateInterval = .01;
 	self.accelerometer.delegate = self;
 }
 
@@ -116,15 +116,15 @@
 		case 4:
 			buttonPressCount = 0;
 			[bigButton setBackgroundImage:[UIImage imageNamed:@"MotionUnlockImage.jpg"] forState:UIControlStateNormal];
-			for (int i = 0; i < ARRAY_CAPACITY; i++)
-			{
-				xData[i] = 5000;
-				yData[i] = 5000;
-				zData[i] = 5000;
-				xDataFinal[i] = 5000;
-				yDataFinal[i] = 5000;
-				zDataFinal[i] = 5000;
-			}
+//			for (int i = 0; i < ARRAY_CAPACITY; i++)
+//			{
+//				xData[i] = 5000;
+//				yData[i] = 5000;
+//				zData[i] = 5000;
+//				xDataFinal[i] = 5000;
+//				yDataFinal[i] = 5000;
+//				zDataFinal[i] = 5000;
+//			}
 			[status setText:@"Press the lock to record your baseline movement"]; 
 			break;
 		default:

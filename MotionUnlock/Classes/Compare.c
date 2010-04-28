@@ -10,16 +10,16 @@
 #include "stdlib.h"
 
 #define DATA_NUM 3000
-//#define LENGTH 100
+#define LENGTH 100
 #define SAMPLE_LENGTH 25
-#define TOLERANCE 0.15
+#define TOLERANCE 0.1
 #define TRUE 1
 #define START 0
 
 int compareCaller(double x_data[], double y_data[], double z_data[], double x_compare[], double y_compare[], double z_compare[]){
 	int i =0;
 	
-	int LENGTH = 100;
+//	int LENGTH = 100;
 	
 	double data_x_slopes[DATA_NUM];
 	double data_y_slopes[DATA_NUM];
@@ -29,25 +29,25 @@ int compareCaller(double x_data[], double y_data[], double z_data[], double x_co
 	double compare_y_slopes[SAMPLE_LENGTH];
 	double compare_z_slopes[SAMPLE_LENGTH];
 	
-	while (x_data[i] != 5000 && x_compare[i] != 5000) {
-		i++;
-	}
-	
-	if (i < LENGTH) {
-		LENGTH = i;
-	}
-	
-	for (i = 0; i < DATA_NUM; i++) {
-		data_x_slopes[i] = 5000;
-		data_y_slopes[i] = 5000;
-		data_z_slopes[i] = 5000;
-	}
-	
-	for (i = 0; i < LENGTH; i++) {
-		compare_x_slopes[i] = 5000;
-		compare_y_slopes[i] = 5000;
-		compare_z_slopes[i] = 5000;
-	}
+//	while (x_data[i] != 5000 && x_compare[i] != 5000) {
+//		i++;
+//	}
+//	
+//	if (i < LENGTH) {
+//		LENGTH = i;
+//	}
+//	
+//	for (i = 0; i < DATA_NUM; i++) {
+//		data_x_slopes[i] = 5000;
+//		data_y_slopes[i] = 5000;
+//		data_z_slopes[i] = 5000;
+//	}
+//	
+//	for (i = 0; i < LENGTH; i++) {
+//		compare_x_slopes[i] = 5000;
+//		compare_y_slopes[i] = 5000;
+//		compare_z_slopes[i] = 5000;
+//	}
 	
 	
 	//Find slopes in selection window
