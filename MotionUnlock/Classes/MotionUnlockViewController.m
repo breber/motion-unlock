@@ -54,14 +54,17 @@
 	NSString *yVal = [NSString stringWithFormat:@"%f", acceleration.y];
 	NSString *zVal = [NSString stringWithFormat:@"%f", acceleration.z];
 	
+	//If we want to record data, collectData will be true
 	if (collectData){
 		
+		//If this is our baseline motion, we record the values into our baseline arrays
 		if (!finalData) {
 			xData[tempIndex] = acceleration.x;
 			yData[tempIndex] = acceleration.y;
 			zData[tempIndex] = acceleration.z;
 			dataIndex = tempIndex;
 		} else {
+			//Otherwise, we load the data into our final arrays
 			xDataFinal[tempIndex] = acceleration.x;
 			yDataFinal[tempIndex] = acceleration.y;
 			zDataFinal[tempIndex] = acceleration.z;
@@ -69,7 +72,7 @@
 		}
 		tempIndex++;
 		
-		//We don't want to overflow the NSArray
+		//We don't want to overflow the array
 		if (tempIndex == ARRAY_CAPACITY) {
 			if (finalData) {
 				[self finalData:self];
@@ -79,6 +82,7 @@
 		}
 		
 		//Set the value of the textfields
+		//(Only applies when using the correct view)
 		[x setText: xVal];
 		[y setText: yVal];
 		[z setText: zVal];
@@ -90,6 +94,11 @@
 	}
 }
 
+/* Called when the user presses on the big lock button.
+ * We keep track of what stage we are at in the process, and
+ * update the label with instructions.  We also start and stop the data
+ * collection.
+ */
 - (void) buttonPressed:(id)sender {
 	switch (buttonPressCount) {
 		case 0:
@@ -133,11 +142,17 @@
 	
 }
 
+/* Gets called when we are on our baseline reading. This function calls into the startStop
+ * function.
+ */
 - (void) originalData:(id)sender {
 	finalData = NO;
 	[self startStop];
 }
 
+/* Gets called when we are on our comparison reading. This function calls into the startStop
+ * function.
+ */
 - (void) finalData:(id)sender {
 	finalData = YES;
 	[self startStop];
@@ -152,7 +167,7 @@
 
 /*
  Called when the user presses the button.  We switch the button label, and set the collectData bool
- value to the opposite of what it was.
+ value to the opposite of what it was. We reset the arrays, and reset the UI.
  */
 - (void) startStop
 {	
@@ -189,6 +204,10 @@
 	}
 }
 
+/* Call into our C code to compare the data.  Once compared, we will update the UI
+ * with the correct image, and show a popup with a notification letting the user
+ * know their status.
+ */
 - (void) compareData:(id)sender {
 
 	int temp = compareCaller(xData, yData, zData, xDataFinal, yDataFinal, zDataFinal);
